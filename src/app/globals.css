@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/space-grotesk-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/space-grotesk-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/space-grotesk-700.woff2") format("woff2");
+}
+
+:root {
+  --page-bg: #f3efe7;
+  --surface: rgba(255, 252, 247, 0.78);
+  --surface-strong: rgba(255, 254, 251, 0.94);
+  --surface-muted: rgba(243, 237, 228, 0.72);
+  --ink: #171411;
+  --ink-soft: rgba(23, 20, 17, 0.74);
+  --ink-muted: rgba(23, 20, 17, 0.44);
+  --line: rgba(23, 20, 17, 0.09);
+  --accent: #9c6b3a;
+  --accent-strong: #6d4824;
+  --accent-soft: rgba(156, 107, 58, 0.12);
+  --shadow-lg: 0 32px 80px -44px rgba(42, 30, 16, 0.28);
+  --shadow-md: 0 18px 42px -28px rgba(42, 30, 16, 0.18);
+}
+
+@theme inline {
+  --font-sans: "Space Grotesk", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  color: var(--ink);
+  background: var(--page-bg);
+  overflow-x: hidden;
+  background-image:
+    radial-gradient(circle at top left, rgba(232, 214, 190, 0.7), transparent 26%),
+    radial-gradient(circle at top right, rgba(216, 226, 238, 0.62), transparent 28%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.54), rgba(243, 239, 231, 0.96));
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.background-container {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.52;
+}
+
+@keyframes float-dreamy {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+    opacity: 0.28;
+  }
+  50% {
+    transform: translate(72px, -42px) rotate(8deg);
+    opacity: 0.4;
+  }
+  100% {
+    transform: translate(-40px, 84px) rotate(-6deg);
+    opacity: 0.24;
+  }
+}
+
+.background-shape {
+  position: absolute;
+  border-radius: 999px;
+  filter: blur(140px);
+  animation: float-dreamy 40s infinite ease-in-out alternate;
+}
+
+.shape1 {
+  top: -12%;
+  left: -10%;
+  width: 52rem;
+  height: 52rem;
+  background: radial-gradient(circle, rgba(236, 214, 184, 0.86) 0%, rgba(236, 214, 184, 0) 72%);
+}
+
+.shape2 {
+  right: -12%;
+  bottom: -10%;
+  width: 44rem;
+  height: 44rem;
+  background: radial-gradient(circle, rgba(208, 220, 236, 0.86) 0%, rgba(208, 220, 236, 0) 72%);
+  animation-delay: -8s;
+}
+
+.shape3 {
+  top: 42%;
+  left: 40%;
+  width: 28rem;
+  height: 28rem;
+  background: radial-gradient(circle, rgba(232, 205, 182, 0.6) 0%, rgba(232, 205, 182, 0) 72%);
+  animation-delay: -16s;
+}
+
+::selection {
+  background: rgba(156, 107, 58, 0.22);
+  color: var(--ink);
+}
+
+.prose-link {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: rgba(23, 20, 17, 0.18);
+  text-underline-offset: 4px;
+}
+
+.glass-panel {
+  backdrop-filter: blur(18px);
+  background: linear-gradient(180deg, rgba(255, 254, 251, 0.82), rgba(255, 251, 246, 0.66));
+}

@@ -1,0 +1,48 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="40" x2="1480" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8FB"/>
+      <stop offset="1" stop-color="#F3F7FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="176" cy="164" r="126" fill="#FCE7F3"/>
+  <circle cx="1428" cy="730" r="180" fill="#E0E7FF"/>
+
+  <text x="96" y="96" fill="#171217" font-family="Space Grotesk, sans-serif" font-size="56" font-weight="700">CryptoWill Flow</text>
+  <text x="96" y="142" fill="#6F6570" font-family="Space Grotesk, sans-serif" font-size="24">A role-based and time-based execution path for inherited assets</text>
+
+  <line x1="180" y1="430" x2="1420" y2="430" stroke="#171217" stroke-width="5" stroke-linecap="round"/>
+
+  <g font-family="Space Grotesk, sans-serif">
+    <circle cx="240" cy="430" r="22" fill="#C75685"/>
+    <text x="166" y="332" fill="#171217" font-size="28" font-weight="700">Configure</text>
+    <text x="146" y="366" fill="#6F6570" font-size="20">Owner sets inactivity and grace windows</text>
+
+    <circle cx="520" cy="430" r="22" fill="#C75685"/>
+    <text x="464" y="332" fill="#171217" font-size="28" font-weight="700">Sign plan</text>
+    <text x="420" y="366" fill="#6F6570" font-size="20">WillPlan is signed off-chain by the owner</text>
+
+    <circle cx="800" cy="430" r="22" fill="#5566DA"/>
+    <text x="726" y="332" fill="#171217" font-size="28" font-weight="700">Trustee check</text>
+    <text x="686" y="366" fill="#6F6570" font-size="20">Optional endorsement when the plan requires it</text>
+
+    <circle cx="1080" cy="430" r="22" fill="#5566DA"/>
+    <text x="1016" y="332" fill="#171217" font-size="28" font-weight="700">Execute</text>
+    <text x="958" y="366" fill="#6F6570" font-size="20">Any executor can call after the window closes</text>
+
+    <circle cx="1360" cy="430" r="22" fill="#1D9C63"/>
+    <text x="1282" y="332" fill="#171217" font-size="28" font-weight="700">Beneficiary claim</text>
+    <text x="1242" y="366" fill="#6F6570" font-size="20">ERC-20 claims and NFT transfers complete the flow</text>
+  </g>
+
+  <rect x="278" y="564" rx="38" width="1044" height="176" fill="#171217"/>
+  <text x="338" y="626" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="20" font-weight="700">GUARDRAILS</text>
+  <rect x="338" y="652" rx="18" width="214" height="38" fill="#2A2430"/>
+  <rect x="568" y="652" rx="18" width="286" height="38" fill="#2A2430"/>
+  <rect x="870" y="652" rx="18" width="272" height="38" fill="#2A2430"/>
+  <text x="368" y="677" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="700">Single-use planId</text>
+  <text x="600" y="677" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="700">Heartbeat + grace period timing</text>
+  <text x="904" y="677" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="700">Optional trustee signature</text>
+  <text x="338" y="722" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="30" font-weight="700">The design spreads trust across time, roles, and explicit execution rules</text>
+</svg>

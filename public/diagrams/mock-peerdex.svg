@@ -1,0 +1,18 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" fill="#FCFAFB"/>
+  <rect x="36" y="36" width="1128" height="648" rx="36" fill="#FFFFFF" stroke="#F1E6EC"/>
+  <rect x="72" y="72" width="160" height="576" rx="24" fill="#FDF2F8"/>
+  <rect x="268" y="72" width="420" height="300" rx="28" fill="#170C12"/>
+  <text x="312" y="130" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="30" font-weight="700">PeerDex</text>
+  <text x="312" y="170" fill="#FFFFFF" opacity="0.7" font-family="Space Grotesk, sans-serif" font-size="18">Wallet-native order book</text>
+  <polyline points="312,310 390,250 480,280 560,190 650,230" stroke="#F9A8D4" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="728" y="72" width="400" height="300" rx="28" fill="#FFF7ED"/>
+  <text x="770" y="130" fill="#170C12" font-family="Space Grotesk, sans-serif" font-size="28" font-weight="700">Order Panel</text>
+  <rect x="770" y="170" width="316" height="56" rx="16" fill="#FFFFFF"/>
+  <rect x="770" y="242" width="316" height="56" rx="16" fill="#FFFFFF"/>
+  <rect x="770" y="314" width="180" height="40" rx="20" fill="#170C12"/>
+  <rect x="268" y="400" width="860" height="248" rx="28" fill="#EEF2FF"/>
+  <text x="312" y="462" fill="#170C12" font-family="Space Grotesk, sans-serif" font-size="28" font-weight="700">Installed in Account OS</text>
+  <rect x="312" y="506" width="360" height="92" rx="22" fill="#FFFFFF"/>
+  <rect x="696" y="506" width="388" height="92" rx="22" fill="#FFFFFF"/>
+</svg>

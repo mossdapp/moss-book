@@ -1,0 +1,17 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" fill="#FCFAFB"/>
+  <rect x="40" y="40" width="1120" height="640" rx="36" fill="#FFFFFF" stroke="#E7EAF4"/>
+  <rect x="76" y="76" width="1048" height="120" rx="28" fill="#EEF2FF"/>
+  <text x="120" y="138" fill="#170C12" font-family="Space Grotesk, sans-serif" font-size="30" font-weight="700">CloseSky</text>
+  <text x="120" y="174" fill="#5C6473" font-family="Space Grotesk, sans-serif" font-size="18">NFT ↔ Token matching with dual permit rails</text>
+  <rect x="76" y="232" width="480" height="404" rx="28" fill="#FFF7ED"/>
+  <text x="118" y="288" fill="#170C12" font-family="Space Grotesk, sans-serif" font-size="26" font-weight="700">NFT Side</text>
+  <rect x="118" y="328" width="396" height="120" rx="22" fill="#FFFFFF"/>
+  <rect x="118" y="470" width="180" height="126" rx="22" fill="#FFFFFF"/>
+  <rect x="334" y="470" width="180" height="126" rx="22" fill="#FFFFFF"/>
+  <rect x="604" y="232" width="520" height="404" rx="28" fill="#FDF2F8"/>
+  <text x="646" y="288" fill="#170C12" font-family="Space Grotesk, sans-serif" font-size="26" font-weight="700">Settlement Layer</text>
+  <rect x="646" y="328" width="436" height="72" rx="18" fill="#FFFFFF"/>
+  <rect x="646" y="418" width="436" height="72" rx="18" fill="#FFFFFF"/>
+  <rect x="646" y="508" width="220" height="44" rx="22" fill="#170C12"/>
+</svg>

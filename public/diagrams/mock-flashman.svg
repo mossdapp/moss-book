@@ -1,0 +1,15 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" fill="#FCFAFB"/>
+  <rect x="44" y="44" width="1112" height="632" rx="36" fill="#FFFFFF" stroke="#EDE7F4"/>
+  <rect x="82" y="82" width="1036" height="178" rx="30" fill="#170C12"/>
+  <text x="126" y="146" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="30" font-weight="700">Flashman</text>
+  <text x="126" y="186" fill="#FFFFFF" opacity="0.72" font-family="Space Grotesk, sans-serif" font-size="18">Turn wallet balances into a configurable flash-loan pool</text>
+  <rect x="126" y="210" width="250" height="12" rx="6" fill="#F9A8D4"/>
+  <rect x="82" y="300" width="320" height="330" rx="28" fill="#EEF2FF"/>
+  <text x="120" y="358" fill="#170C12" font-family="Space Grotesk, sans-serif" font-size="26" font-weight="700">Pool Liquidity</text>
+  <rect x="120" y="398" width="244" height="160" rx="24" fill="#FFFFFF"/>
+  <rect x="442" y="300" width="676" height="330" rx="28" fill="#FFF7ED"/>
+  <text x="482" y="358" fill="#170C12" font-family="Space Grotesk, sans-serif" font-size="26" font-weight="700">Fee + Borrow Config</text>
+  <rect x="482" y="404" width="596" height="70" rx="18" fill="#FFFFFF"/>
+  <rect x="482" y="492" width="596" height="70" rx="18" fill="#FFFFFF"/>
+</svg>

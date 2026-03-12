@@ -1,0 +1,56 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="40" x2="1480" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8FB"/>
+      <stop offset="1" stop-color="#F3F7FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="170" cy="160" r="130" fill="#FCE7F3"/>
+  <circle cx="1430" cy="734" r="182" fill="#E0E7FF"/>
+
+  <text x="96" y="96" fill="#171217" font-family="Space Grotesk, sans-serif" font-size="56" font-weight="700">Moss Onboarding</text>
+  <text x="96" y="142" fill="#6F6570" font-family="Space Grotesk, sans-serif" font-size="24">A five-step path from first visit to account-native app use</text>
+
+  <g font-family="Space Grotesk, sans-serif">
+    <rect x="92" y="250" rx="30" width="252" height="174" fill="#FFFFFF" stroke="#F2C8DD" stroke-width="2"/>
+    <text x="124" y="304" fill="#C75685" font-size="18" font-weight="700">STEP 01</text>
+    <text x="124" y="356" fill="#171217" font-size="32" font-weight="700">Connect wallet</text>
+    <text x="124" y="396" fill="#6F6570" font-size="20">Start with any wallet you already use</text>
+
+    <rect x="382" y="250" rx="30" width="252" height="174" fill="#FFFFFF" stroke="#CDD7FF" stroke-width="2"/>
+    <text x="414" y="304" fill="#5566DA" font-size="18" font-weight="700">STEP 02</text>
+    <text x="414" y="356" fill="#171217" font-size="32" font-weight="700">Create account</text>
+    <text x="414" y="396" fill="#6F6570" font-size="20">Moss Wallet becomes your workspace</text>
+
+    <rect x="672" y="250" rx="30" width="252" height="174" fill="#FFFFFF" stroke="#F2D6A3" stroke-width="2"/>
+    <text x="704" y="304" fill="#B7791F" font-size="18" font-weight="700">STEP 03</text>
+    <text x="704" y="356" fill="#171217" font-size="32" font-weight="700">Prepare assets</text>
+    <text x="704" y="396" fill="#6F6570" font-size="20">Gas, test funds, and starter NFTs</text>
+
+    <rect x="962" y="250" rx="30" width="252" height="174" fill="#FFFFFF" stroke="#CDD7FF" stroke-width="2"/>
+    <text x="994" y="304" fill="#5566DA" font-size="18" font-weight="700">STEP 04</text>
+    <text x="994" y="356" fill="#171217" font-size="32" font-weight="700">Install in Store</text>
+    <text x="994" y="396" fill="#6F6570" font-size="20">Mint an App NFT for the app you want</text>
+
+    <rect x="1252" y="250" rx="30" width="252" height="174" fill="#FFFFFF" stroke="#D8EBD9" stroke-width="2"/>
+    <text x="1284" y="304" fill="#1D9C63" font-size="18" font-weight="700">STEP 05</text>
+    <text x="1284" y="356" fill="#171217" font-size="32" font-weight="700">Open in OS</text>
+    <text x="1284" y="396" fill="#6F6570" font-size="20">Use the app inside the account surface</text>
+  </g>
+
+  <path d="M344 336H368" stroke="#171217" stroke-width="5" stroke-linecap="round"/>
+  <path d="M634 336H658" stroke="#171217" stroke-width="5" stroke-linecap="round"/>
+  <path d="M924 336H948" stroke="#171217" stroke-width="5" stroke-linecap="round"/>
+  <path d="M1214 336H1238" stroke="#171217" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="260" y="560" rx="40" width="1080" height="188" fill="#171217"/>
+  <text x="322" y="626" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="20" font-weight="700">OUTCOME</text>
+  <text x="322" y="676" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="38" font-weight="700">The account becomes the place where apps appear, persist, and execute</text>
+  <rect x="322" y="700" rx="18" width="182" height="34" fill="#2A2430"/>
+  <rect x="518" y="700" rx="18" width="208" height="34" fill="#2A2430"/>
+  <rect x="740" y="700" rx="18" width="196" height="34" fill="#2A2430"/>
+  <text x="356" y="723" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="700">Account created</text>
+  <text x="550" y="723" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="700">Capability installed</text>
+  <text x="782" y="723" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="700">Ready to use</text>
+</svg>

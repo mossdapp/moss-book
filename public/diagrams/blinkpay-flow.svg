@@ -1,0 +1,50 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="40" x2="1480" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8FB"/>
+      <stop offset="1" stop-color="#F3F7FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="176" cy="158" r="126" fill="#FCE7F3"/>
+  <circle cx="1436" cy="734" r="180" fill="#E0E7FF"/>
+
+  <text x="96" y="96" fill="#171217" font-family="Space Grotesk, sans-serif" font-size="56" font-weight="700">BlinkPay Flow</text>
+  <text x="96" y="142" fill="#6F6570" font-family="Space Grotesk, sans-serif" font-size="24">One authorization, repeated low-friction payments</text>
+
+  <g font-family="Space Grotesk, sans-serif">
+    <rect x="104" y="244" rx="30" width="300" height="176" fill="#FFFFFF" stroke="#F2C8DD" stroke-width="2"/>
+    <text x="138" y="298" fill="#C75685" font-size="18" font-weight="700">01</text>
+    <text x="138" y="352" fill="#171217" font-size="32" font-weight="700">Grant session</text>
+    <text x="138" y="392" fill="#6F6570" font-size="20">The owner defines who can charge and within what scope</text>
+
+    <rect x="448" y="244" rx="30" width="300" height="176" fill="#FFFFFF" stroke="#CDD7FF" stroke-width="2"/>
+    <text x="482" y="298" fill="#5566DA" font-size="18" font-weight="700">02</text>
+    <text x="482" y="352" fill="#171217" font-size="32" font-weight="700">Request charge</text>
+    <text x="482" y="392" fill="#6F6570" font-size="20">An agent, API, or service triggers a payment request</text>
+
+    <rect x="792" y="244" rx="30" width="300" height="176" fill="#FFFFFF" stroke="#CDD7FF" stroke-width="2"/>
+    <text x="826" y="298" fill="#5566DA" font-size="18" font-weight="700">03</text>
+    <text x="826" y="352" fill="#171217" font-size="32" font-weight="700">Check + sign</text>
+    <text x="826" y="392" fill="#6F6570" font-size="20">The wallet enforces session rules before payment is signed</text>
+
+    <rect x="1136" y="244" rx="30" width="300" height="176" fill="#FFFFFF" stroke="#D8EBD9" stroke-width="2"/>
+    <text x="1170" y="298" fill="#1D9C63" font-size="18" font-weight="700">04</text>
+    <text x="1170" y="352" fill="#171217" font-size="32" font-weight="700">Settle payment</text>
+    <text x="1170" y="392" fill="#6F6570" font-size="20">The charge lands with minimal friction for repeated use</text>
+  </g>
+
+  <path d="M404 330H432" stroke="#171217" stroke-width="5" stroke-linecap="round"/>
+  <path d="M748 330H776" stroke="#171217" stroke-width="5" stroke-linecap="round"/>
+  <path d="M1092 330H1120" stroke="#171217" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="256" y="542" rx="40" width="1088" height="194" fill="#171217"/>
+  <text x="318" y="608" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="20" font-weight="700">WHY IT MATTERS</text>
+  <text x="318" y="660" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="38" font-weight="700">BlinkPay turns the account into a payment surface that software can actually use</text>
+  <rect x="318" y="686" rx="18" width="112" height="36" fill="#2A2430"/>
+  <rect x="444" y="686" rx="18" width="132" height="36" fill="#2A2430"/>
+  <rect x="590" y="686" rx="18" width="172" height="36" fill="#2A2430"/>
+  <text x="350" y="710" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="700">APIs</text>
+  <text x="479" y="710" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="700">Agents</text>
+  <text x="624" y="710" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="700">Subscriptions</text>
+</svg>
