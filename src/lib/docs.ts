@@ -355,21 +355,23 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
       slug: "overview",
       group: "start",
       title: "平台总览",
-      summary: "先建立对 Moss 的整体认知：它不是单一 dApp，而是一组围绕账户、商店和模块化执行展开的产品。",
+      summary: "先建立对 Moss 的整体认知：它不是单一 dApp，而是一个围绕智能账户、安装分发和统一运行环境展开的产品系统。",
       eyebrow: "Moss Book",
-      hero: "Moss 把智能账户、应用商店和可插拔逻辑合并成同一条用户路径。",
+      hero: "Moss 把 owner、智能合约钱包、Moss OS 和应用安装分发整合成同一条用户路径。",
       sections: [
         {
           id: "what-is-moss",
           title: "Moss 是什么",
           paragraphs: [
-            "从产品结构看，Moss 的核心不是一个孤立页面，而是一套由智能账户操作系统、应用商店和实验场组成的账户型产品体系。",
-            "这些部分不是几组互不相干的站点，而是围绕同一个账户上下文协作: OS 负责承接，Store 负责安装分发，Labs 负责探索未来形态。"
+            "从产品结构看，Moss 的核心不是一个孤立页面，而是一套由智能账户操作系统、应用商店组成的产品体系。",
+            "这些部分不是几组互不相干的站点，而是围绕同一个账户上下文协作：OS 负责承接，Store 负责安装分发。",
+            "在 Moss 里，底层有两层身份。第一层是 owner，今天通常是 EOA 账户，它负责连接钱包、控制和签名。第二层是 Moss 智能合约钱包。Moss OS 是运行在这个智能合约钱包里的系统，让这个钱包不只是存资产，还能安装应用、管理权限、完成支付和执行逻辑。",
+            "传统钱包里，通常只有余额、转账、收款功能，钱包里的 app 只是网页标签入口；但在 Moss 里，是一个用户桌面操作系统，app 是运行在操作系统上的应用。",
+            "这两者差别很大。前者只是“连过去”，后者是“装进来”。为什么这件事重要？因为 Web3 真正缺的，不是再多一个入口，而是一个统一的用户运行环境。"
           ],
           cards: [
-            { title: "Account OS", description: "账户工作台，也是资产、权限与应用被统一组织的地方。" },
-            { title: "Store", description: "负责应用发现、安装分发，以及 App NFT 相关状态。" },
-            { title: "Labs", description: "负责概念验证和未来形态展示，不等同于正式工作流。" }
+            { title: "OS", description: "账户工作台，也是资产、权限与应用被统一组织的地方。" },
+            { title: "Store", description: "负责应用发现、安装分发，以及 App NFT 相关状态。" }
           ]
         },
         {
@@ -383,7 +385,7 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           ],
           callout: {
             title: "一个关键判断",
-            body: "Moss 不是“做很多网站”，而是在做一个可安装、可授权、可组合的钱包级操作系统。",
+            body: "Moss 不是把很多网页入口堆进钱包，而是在做一个可安装、可授权、可组合的账户运行环境。",
             tone: "accent"
           }
         },
@@ -1381,21 +1383,23 @@ factory.getAddress(owners, registry, nonce);`
       slug: "overview",
       group: "start",
       title: "Overview",
-      summary: "Build the right mental model first: Moss is not a single dApp, but a product system centered on accounts, distribution, and modular execution.",
+      summary: "Build the right mental model first: Moss is not a single dApp, but a product system centered on smart accounts, app installation, and a unified runtime environment.",
       eyebrow: "Moss Book",
-      hero: "Moss combines smart accounts, an app store, and pluggable logic into one user journey.",
+      hero: "Moss brings together the owner layer, the smart contract wallet, Moss OS, and app distribution in one user journey.",
       sections: [
         {
           id: "what-is-moss",
           title: "What Moss Is",
           paragraphs: [
-            "The product structure shows that Moss is not one isolated site. It is an account-centered system made of an account operating system, an app store, and an experimental surface.",
-            "These parts are not unrelated surfaces. They cooperate around one account context: OS hosts the account, Store distributes capabilities, and Labs explores future forms."
+            "From a product-structure perspective, Moss is not one isolated page. It is a product system composed of an account operating system and an app store.",
+            "These are not unrelated surfaces. They work around the same account context: OS hosts the workspace, and Store handles installation and distribution.",
+            "Underneath Moss, there are two identity layers. The first layer is the owner, which today is usually an EOA account responsible for wallet connection, control, and signing. The second layer is the Moss smart contract wallet. Moss OS runs inside that wallet, making it more than a place to hold assets. It can install apps, manage permissions, complete payments, and execute logic.",
+            "In a traditional wallet, the surface is usually limited to balance, send, and receive, and wallet apps are often just entry links to web pages. In Moss, the surface behaves like a user desktop operating system, and apps run on top of that operating system.",
+            "The difference is significant. The former only links outward. The latter installs inward. Why does that matter? Because what Web3 actually lacks is not one more entry point, but a unified user runtime environment."
           ],
           cards: [
-            { title: "Account OS", description: "The account workspace where assets, permissions, and apps are organized." },
-            { title: "Store", description: "The discovery and distribution layer for app installation and App NFT state." },
-            { title: "Labs", description: "The experimental surface for concepts and future-facing directions." }
+            { title: "OS", description: "The account workspace where assets, permissions, and apps are organized." },
+            { title: "Store", description: "The discovery and distribution layer for app installation and App NFT state." }
           ]
         },
         {
@@ -1409,7 +1413,7 @@ factory.getAddress(owners, registry, nonce);`
           ],
           callout: {
             title: "The key reading",
-            body: "Moss is not about launching many websites. It is about building a wallet-level operating system with installable and composable logic.",
+            body: "Moss is not about packing more web entry points into a wallet. It is about building an installable, permissioned, and composable account runtime.",
             tone: "accent"
           }
         },
