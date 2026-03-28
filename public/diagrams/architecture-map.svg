@@ -14,7 +14,7 @@
 
   <rect x="184" y="220" rx="36" width="430" height="206" fill="#FFFFFF" stroke="#CDD7FF" stroke-width="2"/>
   <text x="228" y="288" fill="#5566DA" font-family="Space Grotesk, sans-serif" font-size="18" font-weight="700">ACCOUNT</text>
-  <text x="228" y="344" fill="#171217" font-family="Space Grotesk, sans-serif" font-size="38" font-weight="700">Account OS</text>
+  <text x="228" y="344" fill="#171217" font-family="Space Grotesk, sans-serif" font-size="38" font-weight="700">Runtime</text>
   <text x="228" y="382" fill="#6F6570" font-family="Space Grotesk, sans-serif" font-size="21">Assets, permissions, apps,</text>
   <text x="228" y="408" fill="#6F6570" font-family="Space Grotesk, sans-serif" font-size="21">and settings in one workspace</text>
 
@@ -36,5 +36,5 @@
 
   <rect x="250" y="548" rx="40" width="1100" height="176" fill="#171217"/>
   <text x="312" y="612" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="20" font-weight="700">ON-CHAIN EXECUTION</text>
-  <text x="312" y="664" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="38" font-weight="700">Factory, Registry, system apps, and app logic</text>
+  <text x="312" y="664" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="38" font-weight="700">Factory, Registry, wallet core, and app logic</text>
 </svg>

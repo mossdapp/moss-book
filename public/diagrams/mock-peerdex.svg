@@ -12,7 +12,7 @@
   <rect x="770" y="242" width="316" height="56" rx="16" fill="#FFFFFF"/>
   <rect x="770" y="314" width="180" height="40" rx="20" fill="#170C12"/>
   <rect x="268" y="400" width="860" height="248" rx="28" fill="#EEF2FF"/>
-  <text x="312" y="462" fill="#170C12" font-family="Space Grotesk, sans-serif" font-size="28" font-weight="700">Installed in Account OS</text>
+  <text x="312" y="462" fill="#170C12" font-family="Space Grotesk, sans-serif" font-size="28" font-weight="700">Installed in Runtime</text>
   <rect x="312" y="506" width="360" height="92" rx="22" fill="#FFFFFF"/>
   <rect x="696" y="506" width="388" height="92" rx="22" fill="#FFFFFF"/>
 </svg>

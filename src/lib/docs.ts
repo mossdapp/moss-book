@@ -142,7 +142,7 @@ export const showcaseCards: Record<
     {
       title: "CloseSky",
       category: "NFT + Token",
-      description: "用一页说明 NFTManage 与 TokenManage 如何同时进入结算路径。",
+      description: "展示一个账户如何同时处理 NFT 和 Token 的复杂交易与结算。",
       icon: "/apps/closesky.svg",
       image: "/diagrams/mock-closesky.svg",
       href: "/zh/docs/app-closesky",
@@ -184,7 +184,7 @@ export const showcaseCards: Record<
     {
       title: "CloseSky",
       category: "NFT + Token",
-      description: "A strong page for showing how NFTManage and TokenManage enter one settlement path together.",
+      description: "A good page for showing how one account handles complex NFT and token settlement together.",
       icon: "/apps/closesky.svg",
       image: "/diagrams/mock-closesky.svg",
       href: "/en/docs/app-closesky",
@@ -221,26 +221,26 @@ export const siteCopy: Record<Locale, SiteCopy> = {
     homeEyebrow: "Moss Documentation",
     homeTitle: "MOSS\nBOOK",
     homeIntro:
-      "一个围绕 Account OS、Store、系统模块与应用生态整理出的官方文档站，重点解释 Moss 的产品结构、体验路径与接入方式。",
+      "这套文档优先帮助普通用户理解 Moss：它是什么、怎么开始、应用如何安装，以及为什么应用会回到 Runtime 里使用。",
     homeCta: "开始阅读",
-    homeSecondaryCta: "打开 OS",
+    homeSecondaryCta: "打开 Runtime",
     homeStoreCta: "打开 Store",
-    audienceTitle: "按角色进入",
+    audienceTitle: "按你现在的问题进入",
     audienceCards: [
       {
-        title: "给普通用户",
-        description: "先理解 Moss 是什么，再沿快速开始、Store 安装和应用使用路径进入。",
+        title: "Moss 到底是什么",
+        description: "先建立正确心智模型，理解钱包、Store 和应用之间到底是什么关系。",
+        href: "/zh/docs/overview",
+      },
+      {
+        title: "第一次怎么开始",
+        description: "沿着最短路径完成连接钱包、创建 Moss Wallet、安装应用和开始使用。",
         href: "/zh/docs/getting-started",
       },
       {
-        title: "给开发者",
-        description: "先看生态 App 开发和 Permit 接口，理解收益、分发和资产授权模型。",
-        href: "/zh/docs/contracts-and-deployment",
-      },
-      {
-        title: "给集成方",
-        description: "重点看前端与 SDK 接入，以及智能钱包上下文如何进入现有 dApp。",
-        href: "/zh/docs/frontend-and-sdk",
+        title: "Runtime 里能做什么",
+        description: "直接看当前代表性应用，理解交易、支付、自动化这些能力怎样进入 Runtime。",
+        href: "/zh/docs/ecosystem-apps",
       },
     ],
     globalSearchButton: "全站搜索",
@@ -254,24 +254,24 @@ export const siteCopy: Record<Locale, SiteCopy> = {
     generatedFrom: "当前产品草稿",
     solvesTitle: "这版文档先解决什么",
     solvesItems: [
-      "把分散的产品信息重新合并成一条清晰叙事。",
-      "明确系统应用、App NFT 应用和独立站之间的区别。",
-      "为开发者接入、部署和对外说明准备统一入口。",
+      "先用普通用户能读懂的方式解释 Moss，而不是先抛内部术语。",
+      "把过时的安装模型和偏内部实现的旧术语从核心路径里移走。",
+      "把钱包、Store、应用安装和实际使用串成一条连续体验路径。",
     ],
     readingMapEyebrow: "Reading Map",
-    readingMapTitle: "从总览到部署与 SDK",
+    readingMapTitle: "从认识 Moss 到第一次装应用",
     browseDocs: "浏览全部文档",
     docsEyebrow: "Docs",
     docsTitle: "Moss 文档总览",
-    docsIntro: "这是一版双语文档结构，先以代码内数据驱动为主，便于快速调整目录、双语文案和产品边界。",
+    docsIntro: "这套文档先服务普通用户理解 Moss，再承接开发和集成说明。当前仍以代码内数据驱动，方便快速调整叙事和结构。",
     navTitle: "Moss 文档目录",
     navSubtitle: "Navigation",
     navGroups: {
-      start: "开始",
-      platform: "平台",
-      ecosystem: "生态",
-      ecosystemDev: "生态开发",
-      integrator: "集成方",
+      start: "先理解",
+      platform: "核心机制",
+      ecosystem: "应用案例",
+      ecosystemDev: "进阶阅读",
+      integrator: "集成说明",
     },
     previous: "上一篇",
     next: "下一篇",
@@ -286,26 +286,26 @@ export const siteCopy: Record<Locale, SiteCopy> = {
     homeEyebrow: "Moss Documentation",
     homeTitle: "MOSS\nBOOK",
     homeIntro:
-      "An official documentation site organized around Account OS, Store, system modules, and the Moss app ecosystem, focused on product structure, user flow, and integration surfaces.",
+      "This documentation is written for ordinary users first: what Moss is, how to get started, how app installation works now, and why apps return to the Runtime.",
     homeCta: "Start Reading",
-    homeSecondaryCta: "Open OS",
+    homeSecondaryCta: "Open Runtime",
     homeStoreCta: "Open Store",
-    audienceTitle: "Start by Role",
+    audienceTitle: "Start from Your Question",
     audienceCards: [
       {
-        title: "For Users",
-        description: "Understand Moss first, then follow getting started, Store install, and app-usage flows.",
+        title: "What Moss Is",
+        description: "Build the right mental model for the wallet, the Store, and in-account apps before anything else.",
+        href: "/en/docs/overview",
+      },
+      {
+        title: "How to Start",
+        description: "Follow the shortest path from wallet connection to Moss Wallet creation, installation, and first use.",
         href: "/en/docs/getting-started",
       },
       {
-        title: "For Builders",
-        description: "Start from ecosystem app development and permit interfaces to understand distribution, monetization, and permissions.",
-        href: "/en/docs/contracts-and-deployment",
-      },
-      {
-        title: "For Integrators",
-        description: "Focus on frontend/SDK integration and how the smart-wallet context enters an existing dApp.",
-        href: "/en/docs/frontend-and-sdk",
+        title: "What Runtime Enables",
+        description: "See the current app set and understand how trading, payments, and automation enter the Runtime.",
+        href: "/en/docs/ecosystem-apps",
       },
     ],
     globalSearchButton: "Search",
@@ -319,24 +319,24 @@ export const siteCopy: Record<Locale, SiteCopy> = {
     generatedFrom: "Current product draft",
     solvesTitle: "What this draft solves first",
     solvesItems: [
-      "It merges scattered product information into one coherent narrative.",
-      "It clarifies the boundary between system apps, App NFT apps, and standalone app surfaces.",
-      "It gives builders one entry point for integration, deployment, and external explanation.",
+      "It explains Moss in language ordinary users can follow instead of starting from internal implementation terms.",
+      "It removes outdated installation framing and overly internal terminology from the core learning path.",
+      "It connects wallet, Store, app installation, and actual usage into one continuous journey.",
     ],
     readingMapEyebrow: "Reading Map",
-    readingMapTitle: "From overview to deployment and SDK",
+    readingMapTitle: "From understanding Moss to installing the first app",
     browseDocs: "Browse all docs",
     docsEyebrow: "Docs",
     docsTitle: "Moss Docs Index",
-    docsIntro: "This bilingual structure stays data-driven for now so we can iterate quickly on information architecture, copy, and content boundaries.",
+    docsIntro: "This documentation is designed to help ordinary users understand Moss first, then move into advanced builder and integration material. It stays data-driven for now so the structure can keep evolving quickly.",
     navTitle: "Moss Navigation",
     navSubtitle: "Navigation",
     navGroups: {
-      start: "Start",
-      platform: "Platform",
-      ecosystem: "Ecosystem",
-      ecosystemDev: "Ecosystem Dev",
-      integrator: "Integrators",
+      start: "Start Here",
+      platform: "Core Model",
+      ecosystem: "App Cases",
+      ecosystemDev: "Advanced",
+      integrator: "Integration",
     },
     previous: "Previous",
     next: "Next",
@@ -354,38 +354,37 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
     {
       slug: "overview",
       group: "start",
-      title: "平台总览",
-      summary: "先建立对 Moss 的整体认知：它不是单一 dApp，而是一个围绕智能账户、安装分发和统一运行环境展开的产品系统。",
+      title: "Moss 是什么",
+      summary: "先建立对 Moss 的整体认知：它不是一个孤立 dApp，而是一个把智能钱包、应用安装和账户内使用串起来的产品。",
       eyebrow: "Moss Book",
-      hero: "Moss 把 owner、智能合约钱包、Moss OS 和应用安装分发整合成同一条用户路径。",
+      hero: "Moss 先给用户一个 Runtime，再把应用装进这个运行环境里。",
       sections: [
         {
           id: "what-is-moss",
           title: "Moss 是什么",
           paragraphs: [
-            "从产品结构看，Moss 的核心不是一个孤立页面，而是一套由智能账户操作系统、应用商店组成的产品体系。",
-            "这些部分不是几组互不相干的站点，而是围绕同一个账户上下文协作：OS 负责承接，Store 负责安装分发。",
-            "在 Moss 里，底层有两层身份。第一层是 owner，今天通常是 EOA 账户，它负责连接钱包、控制和签名。第二层是 Moss 智能合约钱包。Moss OS 是运行在这个智能合约钱包里的系统，让这个钱包不只是存资产，还能安装应用、管理权限、完成支付和执行逻辑。",
-            "传统钱包里，通常只有余额、转账、收款功能，钱包里的 app 只是网页标签入口；但在 Moss 里，是一个用户桌面操作系统，app 是运行在操作系统上的应用。",
-            "这两者差别很大。前者只是“连过去”，后者是“装进来”。为什么这件事重要？因为 Web3 真正缺的，不是再多一个入口，而是一个统一的用户运行环境。"
+            "从用户视角看，Moss 不是让你在很多 dApp 之间来回跳转，而是先给你一个自己的 Moss Wallet，再让应用进入这个钱包环境里工作。",
+            "Moss 里最重要的不是某一个单独页面，而是 Runtime 本身。你连接自己的钱包、创建 Moss Wallet、在 Store 里安装应用，然后回到 Runtime 里继续使用它们。",
+            "这意味着应用不再只是外部站点入口，而会成为你账户能力的一部分。资产、授权、支付和应用入口都围绕同一个账户上下文展开。",
+            "这件事重要，是因为 Web3 长期缺少的不是更多入口，而是一个连续、统一、能积累状态的用户运行环境。"
           ],
           cards: [
-            { title: "OS", description: "账户工作台，也是资产、权限与应用被统一组织的地方。" },
-            { title: "Store", description: "负责应用发现、安装分发，以及 App NFT 相关状态。" }
+            { title: "Moss Runtime", description: "应用的运行环境。钱包、资产、应用和设置都从这里进入。" },
+            { title: "Store", description: "应用被发现、安装并带回钱包的地方。" }
           ]
         },
         {
           id: "loop",
           title: "产品闭环",
           steps: [
-            { title: "创建 Moss Wallet", description: "用户在 Account OS 中创建自己的智能钱包，账户由此成为后续所有能力的容器。" },
-            { title: "安装应用", description: "用户进入 Store mint App NFT，或直接启用系统应用。" },
-            { title: "回到账户", description: "安装后的能力回到账户工作台里，成为可继续使用的入口。" },
-            { title: "统一执行", description: "授权后的逻辑合约和系统模块在同一钱包上下文中协同运行。" }
+            { title: "连接钱包并创建 Moss Wallet", description: "先从你已有的钱包进入，再创建自己的 Moss Wallet 作为应用运行的环境。" },
+            { title: "在 Store 安装应用", description: "用户在 Store 里发现应用并完成安装，安装记录会与这个账户绑定。" },
+            { title: "回到 Runtime 里使用", description: "安装完成后，应用会重新出现在 Runtime 里，而不是停留在商店页。" },
+            { title: "持续复用同一个运行环境", description: "之后的资产、授权、支付和应用入口都围绕同一个 Moss Wallet 持续累积。" }
           ],
           callout: {
             title: "一个关键判断",
-            body: "Moss 不是把很多网页入口堆进钱包，而是在做一个可安装、可授权、可组合的账户运行环境。",
+            body: "Moss 不是把很多网页入口塞进钱包，而是在做一个可以安装应用、持续使用和逐渐长出能力的账户环境。",
             tone: "accent"
           }
         },
@@ -393,11 +392,11 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           id: "concepts",
           title: "关键概念",
           bullets: [
-            "Moss Wallet: 用户在 OS 中使用的智能钱包，也是所有模块和应用的执行主体。",
-            "Account OS: 围绕账户组织能力，而不是围绕单个 dApp 组织能力。",
-            "Store: 负责注册逻辑合约、发行 App NFT、收取 mint 费并分配收益。",
-            "System App: 钱包内置能力，如 TokenManage、NFTManage，不依赖额外 App NFT。",
-            "App NFT: 非系统应用的安装凭证，决定某个 dApp 能否在钱包环境中运行。"
+            "Moss Wallet: 你在 Moss 里真正使用的智能钱包，也是应用运行的账户边界。",
+            "Moss Runtime: 应用的运行环境。你不是先进某个 dApp，而是先进入应用运行所在的环境。",
+            "Store: 应用的发现和安装入口。",
+            "安装: 把某个应用和你的账户建立正式关系。",
+            "启用: 安装后让这个应用在当前钱包里可见、可用。"
           ]
         }
       ]
@@ -408,18 +407,18 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
       title: "快速开始",
       summary: "把当前账户引导路径整理成一套最短可执行步骤。",
       eyebrow: "Onboarding",
-      hero: "最短路径是：连接钱包 -> 创建 Moss Wallet -> 充值 gas -> 领取测试资产 -> 在 Store mint App NFT -> 回到 OS 使用应用。",
+      hero: "最短路径是：连接钱包 -> 创建 Moss Wallet -> 准备 gas 与测试资产 -> 在 Store 安装应用 -> 回到 Runtime 里使用。",
       sections: [
         {
           id: "journey",
           title: "首条体验路径",
           steps: [
-            { title: "连接任意 EOA 钱包", description: "用户先以普通钱包身份进入 Account OS，Moss 的设计目标是让任何账户都能进入。" },
+            { title: "连接任意 EOA 钱包", description: "先用你已有的钱包进入 Moss，普通钱包是进入 Moss 的起点。" },
             { title: "创建 Moss Wallet", description: "连接成功后，如果当前还没有 SCW，界面就会出现 “Create Moss Wallet” 入口。" },
             { title: "准备 Sepolia ETH", description: "当前演示路径默认围绕 Ethereum Sepolia，用户需要先准备 gas。" },
             { title: "领取测试资产", description: "通过 Faucet 获取 USDC、USDT、MOSS 以及测试 NFT，便于体验后续应用。" },
-            { title: "在 Store 安装应用", description: "以 PeerDex 为代表的钱包内 dApp，需要先在 Store 中 mint 对应 App NFT。" },
-            { title: "回到 OS 使用应用", description: "交易确认后刷新 OS，已安装应用会出现在账户工作台中。" }
+            { title: "在 Store 安装应用", description: "选择一个应用完成安装，Store 会把这次安装与当前账户绑定。" },
+            { title: "回到 Runtime 使用应用", description: "安装确认后刷新 Runtime，应用会出现在你的 Moss Wallet 里。" }
           ]
         },
         {
@@ -427,9 +426,9 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           title: "当前体验假设",
           bullets: [
             "默认演示网络是 Ethereum Sepolia。",
-            "系统应用默认可用，如 TokenManage、NFTManage、Red Packet。",
-            "钱包内应用与独立站应用并不是完全相同的产品表面。",
-            "App NFT 和链上授权状态共同决定应用是否可用。"
+            "账户里的基础资产能力是钱包原生能力，不需要通过 Store 单独安装。",
+            "部分应用既可能有独立站，也可能有钱包内入口，但真正连续的体验发生在 Runtime 里。",
+            "当前的应用安装模型是 Store 安装 + 钱包启用。"
           ]
         },
         {
@@ -438,10 +437,10 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           bullets: [
             "看不到 Create Moss Wallet: 多半是没有使用 Moss connector，或者当前网络不在 Sepolia。",
             "Faucet / mint 失败: 先确认新钱包内是否有足够 gas。",
-            "安装后应用未显示: 等待确认并刷新 OS，必要时再等 10 到 30 秒。"
+            "安装后应用未显示: 等待确认并刷新 Runtime，必要时再等 10 到 30 秒。"
           ],
           links: [
-            { label: "Account OS", href: externalLinks.os, external: true },
+            { label: "Moss Runtime", href: externalLinks.os, external: true },
             { label: "Moss Store", href: externalLinks.store, external: true },
             { label: "SDK Package", href: externalLinks.sdk, external: true }
           ]
@@ -449,56 +448,56 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
       ]
     },
     {
-      slug: "account-os",
+      slug: "runtime",
       group: "platform",
-      title: "Account OS",
-      summary: "理解 Account OS 的产品定位: 它不是登录后的钱包页面，而是账户能力被组织、授权和执行的地方。",
+      title: "Moss Runtime",
+      summary: "理解 Runtime 的产品定位：它不是登录后的钱包页面，而是应用在 Moss Wallet 里的运行环境。",
       eyebrow: "Platform",
-      hero: "在 Moss 里，账户不是登陆后的附属物，账户本身就是操作系统。",
+      hero: "在 Moss 里，Runtime 不是附属层，而是应用真正运行和持续被使用的环境。",
       sections: [
         {
           id: "role",
-          title: "OS 承担什么角色",
+          title: "Runtime 承担什么角色",
           paragraphs: [
-            "Account OS 是用户进入 Moss 后看到的主工作台，但它的职责不是只展示余额或地址，而是把账户本身变成一个可安装、可授权、可执行的界面。",
-            "用户不是先进入某个单独应用再连接钱包，而是先进入自己的账户空间，再从这个空间里调起资产能力、系统能力和已安装应用。"
+            "Moss Runtime 是应用在 Moss Wallet 里运行的环境。它的职责不是只展示余额或地址，而是承接应用执行、资产能力和安装后的入口。",
+            "用户不是先进入某个单独应用再连接钱包，而是先进入 Runtime，再从这个环境里调用资产能力、已安装应用和账户设置。"
           ],
           bullets: [
-            "它是账户的主工作台。",
+            "它是应用运行环境。",
             "它统一承接资产、身份、应用和设置。",
-            "它把权限检查和执行上下文收拢到账户层。",
-            "它让安装后的能力以“账户能力”而不是“外部站点”的方式出现。"
+            "它把权限检查和执行上下文收拢到同一个运行环境里。",
+            "它让安装后的能力直接在 Runtime 里出现，而不是停留在外部站点。"
           ]
         },
         {
           id: "account-first",
-          title: "为什么要做成账户优先",
+          title: "为什么需要 Runtime",
           paragraphs: [
-            "如果账户只是登录态，每个应用就都要自己处理资产、权限、授权状态和交互流程。Moss 反过来做: 先建立账户层，再让应用复用同一个账户上下文。",
-            "这样支付、Token、NFT、安装状态、自动化能力都可以沉淀到账户里，而不是被拆散在不同页面和不同产品入口里。"
+            "如果没有统一 Runtime，每个应用就都要自己处理资产、权限和交互流程。Moss 反过来做：先建立统一运行环境，再让应用复用同一个上下文。",
+            "这样支付、Token、NFT、安装状态和自动化能力都可以沉淀在同一个 Runtime 里，而不是被拆散在不同页面和不同入口里。"
           ],
           bullets: [
             "资产能力不必被每个应用重复实现。",
-            "权限和授权状态可以在账户层持续存在。",
-            "应用安装后会直接变成账户的一部分。",
-            "用户面对的是一个连续工作台，而不是一组断开的站点。"
+            "权限和安装状态可以在 Runtime 中持续存在。",
+            "应用安装后会直接变成 Runtime 的一部分。",
+            "用户面对的是一个连续环境，而不是一组断开的站点。"
           ],
           callout: {
             title: "设计判断",
-            body: "Account OS 的关键不是“把钱包做得更像 App”，而是“把账户做成所有能力的宿主层”。",
+            body: "Moss 的关键不是做一个更像 App 的钱包界面，而是提供一个让应用长期运行的 Runtime。",
             tone: "accent"
           }
         },
         {
           id: "workspace",
-          title: "账户里到底组织了什么",
+          title: "Runtime 里到底组织了什么",
           paragraphs: [
-            "一个成立的 Account OS，至少要把几类能力放进同一个账户界面里: 默认可用的系统能力、安装后出现的应用能力、账户自己的资产状态，以及安全与设置入口。",
-            "这样用户在使用 Moss 时，感知到的是“我的账户能做什么”，而不是“我现在跳到了哪个站点”。"
+            "一个成立的 Runtime，至少要把几类能力放进同一个运行环境里：钱包原生能力、安装后出现的应用能力、账户自己的资产状态，以及安全与设置入口。",
+            "这样用户在使用 Moss 时，感知到的是“这个 Runtime 现在能做什么”，而不是“我又跳到了哪个站点”。"
           ],
           bullets: [
-            "系统能力: 例如 Token 和 NFT 管理这类默认可用能力。",
-            "已安装应用: 通过 Store 安装后，出现在账户里的应用入口。",
+            "钱包原生能力：例如 Token 和 NFT 管理这类默认可用能力。",
+            "已安装应用: 通过 Store 安装后，出现在 Runtime 里的应用入口。",
             "账户状态: 地址、资产、授权、会话和可执行能力。",
             "设置与安全: 网络、恢复、权限管理等长期能力。"
           ]
@@ -506,99 +505,96 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
       ]
     },
     {
-      slug: "store-and-app-nft",
+      slug: "store-installation",
       group: "platform",
-      title: "Store 与 App NFT",
-      summary: "理解 Store 的中心化注册模型，以及 App NFT 在 Moss 分发体系中的意义。",
+      title: "Store 与应用安装",
+      summary: "理解 Store 在今天 Moss 里的作用：发现应用、完成安装，并把应用带回 Runtime 里使用。",
       eyebrow: "Distribution",
-      hero: "在 Moss 里，应用不是单纯跳转链接，而是通过 Registry 和 App NFT 被装进钱包能力系统。",
+      hero: "在今天的 Moss 里，Store 负责应用发现和安装入口，钱包负责把应用真正启用起来。",
       sections: [
         {
           id: "store-role",
           title: "Store 负责什么",
           paragraphs: [
-            "Store 的架构中心是 `LogicRegistry`。它负责管理 Logic 合约、创建 AppNFT、铸造 NFT 以及收益分配。",
-            "这让 Moss 的应用市场不是一个纯前端目录，而是一个链上注册与权限分发系统。"
+            "Store 的核心不是一个普通应用目录，而是和钱包运行时协同工作的安装入口。",
+            "当前模型里，`LogicRegistry` 负责应用注册与安装 entitlement，`installApp(wallet, logic)` 负责给某个账户授予安装记录，钱包侧的 `enableApp(app)` 负责把已安装应用真正启用起来。"
           ],
           bullets: [
-            "治理者创建或登记应用。",
-            "开发者设置 mint 费。",
-            "用户通过 mint App NFT 获得应用安装凭证。",
-            "收益在开发者与 Store 之间按规则分配。"
+            "应用先被注册到 Store。",
+            "用户从 Store 发起安装，而不是手动输入任意地址安装。",
+            "安装记录和钱包本地启用是两层状态。",
+            "当前模型里没有单独的 NFT-license 合约。"
           ]
         },
         {
           id: "economics",
-          title: "收益与治理",
+          title: "为什么安装要经过 Store",
           bullets: [
-            "当前约定里，开发者分成 70%，Store 分成 30%。",
-            "收益按应用维度独立管理。",
-            "开发者和治理者都可以主动提取收益。",
-            "集中式 Registry 让上架、监控和治理路径保持清晰。"
+            "普通用户不需要理解合约地址，直接从 Store 安装即可。",
+            "Store 决定哪些应用属于正常产品路径，降低任意地址安装的风险。",
+            "安装记录是链上可验证状态，而不是前端自己记一条“已安装”。",
+            "安装完成后，钱包仍然需要把应用启用，才能在 Runtime 里真正可见。"
           ],
           callout: {
-            title: "为什么 App NFT 很重要",
-            body: "App NFT 让安装关系变成链上状态，而不是只在前端数据库里记一条“已安装”。",
+            title: "现在该怎么理解安装",
+            body: "在今天的 Moss 里，发布、安装、启用是三件不同的事：Store 负责安装入口，钱包负责启用，真正的使用发生在 Runtime 里。",
             tone: "accent"
           }
         },
         {
           id: "contracts",
-          title: "核心接口",
+          title: "用户实际感受到的安装过程",
           bullets: [
-            "createApp(): 创建 App",
-            "mintNFT(): 购买单个 App NFT",
-            "batchMintNFT(): 批量购买",
-            "setAppMintFee(): 设置应用 mint 费用",
-            "withdrawDeveloperEarnings(): 开发者提取收益",
-            "withdrawGovernorEarnings(): 治理者提取收益"
+            "先在 Store 查看应用详情和安装价格。",
+            "点击安装后，Store 会为当前账户提交 `installApp`。",
+            "钱包随后执行 `enableApp`，让它变成 Runtime 里的可用入口。",
+            "之后用户回到 Runtime，就能继续使用这个应用。"
           ]
         }
       ]
     },
     {
-      slug: "system-modules",
+      slug: "wallet-native-capabilities",
       group: "platform",
-      title: "系统模块与授权模型",
-      summary: "Moss 的系统模块决定了钱包最底层的资产操作方式，也是很多应用可以成立的基础。",
+      title: "钱包原生能力",
+      summary: "理解 Moss 里哪些能力本来就属于钱包自己，而不是必须先安装一个应用才能拥有。",
       eyebrow: "Permissions",
-      hero: "先有系统模块，应用才能在统一的授权语义下复用资产能力。",
+      hero: "在今天的 Moss 里，基础资产能力越来越像钱包原生能力，而不是另外一层需要单独安装的特殊应用。",
       sections: [
         {
           id: "tokenmanage",
-          title: "TokenManage",
+          title: "Token 能力",
           paragraphs: [
-            "TokenManage 是 Moss 钱包内置的 System App，遵循 ERC-7204。",
-            "它提供统一的授权、批量授权和转账能力，让应用在不重复造轮子的前提下复用钱包资产控制逻辑。"
+            "Moss 把常见的 Token 操作理解为钱包自己的基础能力，而不是每个应用都重新实现一遍。",
+            "这意味着应用在进入账户上下文后，可以复用同一套 Token 授权、转账和签名语义。"
           ],
           bullets: [
-            "tokenApprove(): 给指定 spender 设置额度",
-            "tokenApproveForAll(): 面向整个钱包的批量授权",
-            "tokenTransfer(): 转账时自动校验和扣减额度",
-            "tokenAllowance() / tokenIsApproveForAll(): 查询授权状态"
+            "Token 授权不必由每个应用各自重复设计。",
+            "转账和批量授权可以共享同一套账户语义。",
+            "用户理解的是“我的钱包允许了什么”，而不是“某个应用内部怎么记状态”。"
           ]
         },
         {
           id: "nftmanage",
-          title: "NFTManage",
+          title: "NFT 能力",
           paragraphs: [
-            "NFTManage 还提供 Permit 能力，支持 `nftApproveWithSig` 等签名调用。",
-            "这表明 Moss 在 NFT 侧也在走“资产控制模块化”的路线，而不是把 NFT 操作散落到各个 dApp 中。"
+            "NFT 相关能力也是同样逻辑。Moss 不是让每个 NFT 应用各自拥有一套孤立资产层，而是尽量把能力收回到账户层。",
+            "这样像授权、挂单、代理执行这类行为，就能围绕同一个钱包上下文工作。"
           ],
           bullets: [
-            "支持 ERC-7564 Permit",
-            "前端可自动读取 nonce 和 ownerIndex",
-            "适合 NFT 市场、签名挂单和代理执行场景"
+            "适合 NFT 市场和签名挂单场景。",
+            "也适合代理执行和延迟执行这类账户能力。",
+            "用户看到的是连续的钱包体验，而不是每个 NFT 产品各讲一套规则。"
           ]
         },
         {
           id: "auth",
-          title: "授权模型",
+          title: "应用可用的前提",
           bullets: [
-            "System App 可以被默认信任或由 Registry 标记。",
-            "非系统逻辑必须通过 authorizeLogic() 等方式显式授权。",
-            "App NFT 与授权状态共同决定应用可用性。",
-            "用户可以通过 revokeLogic() 回收应用权限。"
+            "应用先要存在于 Store 的正常安装路径里。",
+            "账户需要先安装，再在钱包里启用。",
+            "具体操作仍然可能需要用户签名或权限确认。",
+            "用户也应该能够在之后关闭、停用或撤回某些能力。"
           ]
         }
       ]
@@ -627,7 +623,7 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           title: "这些应用说明了什么",
           bullets: [
             "Moss 不只想服务 DeFi，也在覆盖 NFT、支付、账户自动化和现实协作场景。",
-            "很多应用都复用钱包的系统模块，而不是各自维护一套资产控制层。",
+            "很多应用都共享同一个钱包和资产上下文，而不是各自重新造一个账户层。",
             "Store 里的应用列表本身就是 Moss 产品方向的路线图。"
           ]
         },
@@ -635,8 +631,8 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           id: "drill-down",
           title: "继续深入",
           cards: [
-            { title: "PeerDex 说明页", description: "产品定位、安装条件、TokenManage 依赖与地址。", href: "/zh/docs/app-peerdex" },
-            { title: "CloseSky 说明页", description: "NFT / Token 混合撮合和双 Permit 依赖。", href: "/zh/docs/app-closesky" },
+            { title: "PeerDex 说明页", description: "产品定位、安装条件和钱包内交易体验。", href: "/zh/docs/app-peerdex" },
+            { title: "CloseSky 说明页", description: "NFT / Token 混合撮合与多资产结算。", href: "/zh/docs/app-closesky" },
             { title: "Flashman 说明页", description: "闪电贷池模型、适用场景和部署地址。", href: "/zh/docs/app-flashman" },
             { title: "CryptoWill 说明页", description: "遗嘱计划、心跳窗口、执行费和外部执行模式。", href: "/zh/docs/app-cryptowill" },
             { title: "BlinkPay 说明页", description: "会话授权、x402 支付流和 Agent 场景。", href: "/zh/docs/app-blinkpay" }
@@ -647,37 +643,37 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
     {
       slug: "architecture",
       group: "platform",
-      title: "架构拆解",
-      summary: "把 Moss 的产品层、链上层和执行关系拆开，方便快速建立稳定心智模型。",
+      title: "Moss 如何协同工作",
+      summary: "把钱包、Store 和应用之间的关系拆开讲清楚，先建立稳定心智模型，再去理解更深的实现细节。",
       eyebrow: "Architecture",
-      hero: "先把产品层和链上边界说清楚，后面的部署、接入和调试才不会混乱。",
+      hero: "先把产品表面和安装关系讲清楚，用户就不会把 Moss 理解成几个彼此断开的站点。",
       sections: [
         {
           id: "product-map",
-          title: "产品层级",
+          title: "用户先看到的三层",
           cards: [
-            { title: "Account OS", description: "负责账户工作台、系统能力与已安装应用的承接。" },
-            { title: "Store", description: "负责应用发现、安装分发和 App NFT 相关状态。" },
-            { title: "Labs", description: "负责实验性表达和未来场景探索。" }
+            { title: "Moss Wallet / Runtime", description: "应用运行环境，是用户真正持续停留和使用的地方。" },
+            { title: "Store", description: "负责应用发现、安装和把能力带回钱包。" },
+            { title: "Apps", description: "交易、支付、自动化等能力最终都在账户上下文里被调用。" }
           ]
         },
         {
           id: "chain-layers",
-          title: "链上层次",
+          title: "底层如何配合",
           bullets: [
-            "MossAccountOS Factory / Implementation 负责钱包实例化。",
-            "LogicRegistry 负责 dApp 注册、AppNFT 铸造和系统逻辑管理。",
-            "System Apps 提供底层资产权限层。",
-            "普通 dApp Logic 在用户钱包获得授权后执行。"
+            "智能钱包保存资产、安装状态和账户执行上下文。",
+            "Store / Registry 决定哪些应用进入正常安装路径。",
+            "安装和启用分开，目的是让“被发现”和“在钱包里实际可用”成为两层状态。",
+            "应用真正运行时，仍然是在用户自己的钱包上下文里完成。"
           ]
         },
         {
           id: "ui-layers",
           title: "产品表面",
           bullets: [
-            "OS 是钱包工作台和主交互层。",
-            "Store 是应用安装与分发层。",
-            "Labs 是探索性表达，不一定直接承诺生产工作流。"
+            "Moss Runtime 是主交互层。",
+            "Store 是安装层。",
+            "应用页和具体流程页，是帮助用户理解“装完之后我能做什么”的能力说明。"
           ],
           visuals: [
             {
@@ -693,9 +689,9 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
       slug: "contracts-and-deployment",
       group: "ecosystem-dev",
       title: "生态 App 开发",
-      summary: "面向想在 Moss 里做生态应用的开发者，重点说明 Store 分发、收益结构和开发者得到的好处。",
+      summary: "面向想更深入理解 Moss 应用模型的读者，重点说明安装分发、收益结构和为什么应用会回到账户里。",
       eyebrow: "Ecosystem Dev",
-      hero: "在 Moss 里做应用，不只是部署一个 logic，而是把应用接入账户、分发和收益体系。",
+      hero: "在 Moss 里做应用，不只是部署一个 logic，而是把应用接入账户、安装分发和收益体系。",
       sections: [
         {
           id: "why-build",
@@ -707,7 +703,7 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           bullets: [
             "账户、资产和权限语义已经存在。",
             "系统模块可复用，减少重复造轮子。",
-            "应用可以通过 Store 被安装进账户工作台。",
+            "应用可以通过 Store 被安装进 Runtime。",
             "分发和收益关系有链上状态承接。"
           ]
         },
@@ -716,8 +712,8 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           title: "Store 给开发者什么",
           bullets: [
             "应用可以被注册、展示和安装，而不是只靠一个外部链接传播。",
-            "App NFT 让“用户已安装你的应用”变成链上事实。",
-            "用户安装后，应用能回到账户工作台，而不是停留在商店页。",
+            "安装记录让“某个账户已经安装你的应用”成为可验证状态。",
+            "用户安装后，应用能回到 Runtime，而不是停留在商店页。",
             "Store 也承担收益记录和分配，不只是一个应用目录。"
           ],
           callout: {
@@ -741,9 +737,9 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           title: "开发时要想清楚的事",
           bullets: [
             "你的应用是否真的适合账户内使用，而不是做成独立站更自然。",
-            "是否尽量复用了 TokenManage / NFTManage，而不是自建资产控制层。",
-            "你的应用需要系统能力、授权，还是 App NFT 安装三者的哪种组合。",
-            "用户安装后，应用在账户工作台里应该以什么入口和状态出现。"
+            "是否尽量复用了钱包原生资产能力，而不是自建资产控制层。",
+            "你的应用需要什么安装、启用和权限路径。",
+            "用户安装后，应用在 Runtime 里应该以什么入口和状态出现。"
           ]
         }
       ]
@@ -779,10 +775,10 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           id: "integration-path",
           title: "接入新应用的推荐路径",
           steps: [
-            { title: "准备链上地址", description: "先确认逻辑合约、App NFT、Registry 和系统模块地址。" },
+            { title: "准备链上地址", description: "先确认逻辑合约、Registry 和钱包相关地址。" },
             { title: "接入连接器", description: "让前端能识别并连接 Moss 智能钱包上下文。" },
-            { title: "读取安装与权限状态", description: "在进入应用前先检查 App NFT 和授权状态。" },
-            { title: "根据系统模块设计交互", description: "尽量复用 TokenManage / NFTManage，而不是重复设计资产控制层。" }
+            { title: "读取安装与启用状态", description: "在进入应用前先检查钱包是否已经安装并启用该应用。" },
+            { title: "根据钱包原生能力设计交互", description: "尽量复用钱包原生 Token / NFT 能力，而不是重复设计资产控制层。" }
           ],
           visuals: [
             {
@@ -873,12 +869,12 @@ const moss = createMossConnector({
             "`smartSignMessage(...)`: 返回 ERC-1271 包裹后的消息签名。",
             "`smartSignTypedData(...)`: 返回适合合约验证的 Typed Data 签名。",
             "`wrap1271Signature(...)`: 将外层 EIP-712 / ERC-1271 封装应用到签名上。",
-            "`getSystemApps()`: 从 Registry 分页读取系统逻辑。",
-            "`isLogicUsable({ smartWallet, logic })`: 检查逻辑是否被允许、是否为系统逻辑、是否持有 App NFT。"
+            "`getSystemApps()`: 读取 Registry 中的钱包原生能力或平台保留能力列表。",
+            "`isLogicUsable({ smartWallet, logic })`: 检查目标应用在当前钱包里是否满足安装、启用和可执行条件。"
           ],
           callout: {
             title: "一个容易忽略的点",
-            body: "`isLogicUsable` 不是只看 allowlist，它还会结合 Registry、system flag 和 App NFT 余额一起判断。",
+            body: "`isLogicUsable` 不是只看 allowlist，它还会结合 Registry 状态、安装 entitlement 和钱包本地启用状态一起判断。",
             tone: "accent"
           }
         },
@@ -886,7 +882,7 @@ const moss = createMossConnector({
           id: "next-reads",
           title: "搭配阅读",
           cards: [
-            { title: "前端与 SDK 接入", description: "从页面集成角度看 SDK 如何进入 OS。", href: "/zh/docs/frontend-and-sdk" },
+            { title: "前端与 SDK 接入", description: "从页面集成角度看 SDK 如何进入 Runtime。", href: "/zh/docs/frontend-and-sdk" },
             { title: "网络与地址矩阵", description: "查看当前 Sepolia 下的核心地址。", href: "/zh/docs/networks-and-addresses" }
           ]
         }
@@ -898,7 +894,7 @@ const moss = createMossConnector({
       title: "网络与地址矩阵",
       summary: "基于 `packages/deployments/sepolia.json` 与前端配置，整理当前文档站可确认的链上地址基线。",
       eyebrow: "Networks",
-      hero: "只要地址基线不清楚，前端、SDK、Store 和 OS 就很容易发生环境错配。",
+      hero: "只要地址基线不清楚，前端、SDK、Store 和 Runtime 就很容易发生环境错配。",
       sections: [
         {
           id: "network",
@@ -907,18 +903,16 @@ const moss = createMossConnector({
             "链名: Sepolia",
             "chainId: 11155111",
             "block explorer: https://sepolia.etherscan.io",
-            "OS 和 Store 当前文档里的默认体验流都围绕这条测试网展开。"
+            "Runtime 和 Store 当前文档里的默认体验流都围绕这条测试网展开。"
           ]
         },
         {
           id: "core-addresses",
-          title: "核心系统地址",
+          title: "核心地址",
           bullets: [
             "MossAccountOSFactory: 0xa3954a7688518acF3bB74BEC2330d5966e87960A",
             "MossAccountOSImplementation: 0x65C4340E65144e2Da93dECfAFcb16a116C75C0d8",
-            "LogicRegistry: 0xec2242300B40E3272Df9F65738465aeD9f7f4298",
-            "TokenManage: 0xC2d2c2b8fffb4BFA2E609180363D3e41b855784E",
-            "NftManage: 0x9334d17921768D95ca4062e7D4Bd1DEDD0d8281B"
+            "LogicRegistry: 0xec2242300B40E3272Df9F65738465aeD9f7f4298"
           ]
         },
         {
@@ -935,13 +929,13 @@ const moss = createMossConnector({
         },
         {
           id: "apps",
-          title: "应用逻辑与 App NFT",
+          title: "应用逻辑地址",
           bullets: [
-            "PeerDex: 0xe4C8B151ABbFC485CC31f7d6E5e26F280E9C2dF7 / AppNFT: 0x44ac3D37ed34f9c97cCcE84D1B1Dd53a5DcD16Ed",
-            "Closesky: 0x2E137ffe6c94F6688Bc89Ac6699708e609B9Fc6d / AppNFT: 0xFdADfb032C551ffb354786d054045bC1dBB8f200",
-            "Flashman: 0x5383dbE8E2A6a1dBC5f0E4edB78523fb13aC3d72 / AppNFT: 0x9b5cac28D3eC52d8C07285db366265934185E5e1",
-            "CryptoWill: 0xDb66ba171263198554aF0AE31C21c6282C52b9D0 / AppNFT: 0x7c1Ba50bE5Db1CD0C8b88978f6001f7Dc5659f69",
-            "BlinkPay: 0xBa313EEfD0CD713CB8f1e6AB1D49118a311014bb / AppNFT: 0x2514beCAa699DBEBea40f70d984Ec0D253B2b673"
+            "PeerDex: 0xe4C8B151ABbFC485CC31f7d6E5e26F280E9C2dF7",
+            "Closesky: 0x2E137ffe6c94F6688Bc89Ac6699708e609B9Fc6d",
+            "Flashman: 0x5383dbE8E2A6a1dBC5f0E4edB78523fb13aC3d72",
+            "CryptoWill: 0xDb66ba171263198554aF0AE31C21c6282C52b9D0",
+            "BlinkPay: 0xBa313EEfD0CD713CB8f1e6AB1D49118a311014bb"
           ]
         },
         {
@@ -950,7 +944,7 @@ const moss = createMossConnector({
           bullets: [
             "当前前端接入层都优先读取环境变量。",
             "未显式覆盖时，前端会退回 `@mossdapp/deployments` 的网络数据。",
-            "因此地址变更后，至少要同时检查部署包、OS 环境变量和 Store 环境变量。"
+            "因此地址变更后，至少要同时检查部署包、Runtime 环境变量和 Store 环境变量。"
           ],
           callout: {
             title: "推荐做法",
@@ -964,26 +958,26 @@ const moss = createMossConnector({
       slug: "app-peerdex",
       group: "ecosystem",
       title: "PeerDex",
-      summary: "PeerDex 是 Moss 当前最典型的钱包内交易应用，围绕订单簿、签名订单和 TokenManage 权限展开。",
+      summary: "PeerDex 是 Moss 当前最典型的钱包内交易应用，适合用来理解“安装后回到账户里交易”这件事。",
       eyebrow: "App",
-      hero: "PeerDex 展示了 Moss 钱包级 dApp 的核心范式：钱包上下文 + App NFT 安装 + 系统模块复用。",
+      hero: "PeerDex 展示了 Moss 钱包级应用的核心范式：钱包上下文 + Store 安装 + 账户内交易。",
       sections: [
         {
           id: "positioning",
           title: "产品定位",
           paragraphs: [
             "Store 数据将 PeerDex 定义为去中心化订单簿交易所，支持链上限价单和 ERC-7204 签名订单。",
-            "当前 onboarding 也把 PeerDex 作为用户理解“Store mint App NFT -> 回到 OS 使用 dApp”这条闭环的第一示例。"
+            "当前 onboarding 也把 PeerDex 作为用户理解“在 Store 安装应用 -> 回到账户里使用”这条闭环的第一示例。"
           ]
         },
         {
           id: "requirements",
           title: "安装与权限条件",
           bullets: [
-            "需要在 Store mint PeerDex App NFT。",
+            "需要先在 Store 安装，再在钱包里启用。",
             "需要钱包内拥有足够 gas 与测试资产。",
-            "需要逻辑处于可用状态，即未被 block，且满足授权 / 系统逻辑 / App NFT 条件。",
-            "交易和授权能力依赖 TokenManage。"
+            "需要应用处于正常可用状态，并通过钱包的安装与启用检查。",
+            "交易和授权能力依赖钱包原生 Token 能力。"
           ]
         },
       ]
@@ -994,7 +988,7 @@ const moss = createMossConnector({
       title: "CloseSky",
       summary: "CloseSky 主要处理 NFT 与 Token 的复杂撮合，也是 Moss 双 Permit 资产层的代表性应用。",
       eyebrow: "App",
-      hero: "CloseSky 不是简单 NFT 市场，而是把 TokenManage 和 NFTManage 同时拉入交易结算流程的应用形态。",
+      hero: "CloseSky 不是简单 NFT 市场，而是把 Token 和 NFT 同时放进一个账户结算流程的应用形态。",
       sections: [
         {
           id: "positioning",
@@ -1008,10 +1002,10 @@ const moss = createMossConnector({
           id: "requirements",
           title: "依赖关系",
           bullets: [
-            "需要对应 App NFT 才能作为钱包内应用使用。",
+            "需要先安装并在钱包里启用，才能作为钱包内应用使用。",
             "涉及 ERC-7204 与 ERC-7564 Permit。",
-            "同时依赖 TokenManage 与 NFTManage。",
-            "更适合在文档中强调“模块复用而非应用自带资产层”。"
+            "同时依赖钱包原生 Token 与 NFT 能力。",
+            "更适合用来说明“共享账户资产层”，而不是每个应用自带一套资产控制层。"
           ]
         },
       ]
@@ -1036,7 +1030,7 @@ const moss = createMossConnector({
           id: "requirements",
           title: "使用条件",
           bullets: [
-            "作为钱包内应用，需要对应 App NFT。",
+            "作为钱包内应用，需要先安装并启用。",
             "依赖钱包内已有可贷出的代币资产。",
             "前端和部署配置中还包含 `FlashmanTestBorrower` 用于测试场景。"
           ]
@@ -1092,7 +1086,7 @@ const moss = createMossConnector({
           title: "关键依赖",
           bullets: [
             "依赖钱包内的签名能力与会话授权。",
-            "和 TokenManage 支付能力、x402 路由存在明显关联。",
+            "和钱包原生支付能力、x402 路由存在明显关联。",
             "更适合作为开发者和 Agent 场景共同阅读的应用页。"
           ]
         },
@@ -1104,7 +1098,7 @@ const moss = createMossConnector({
       title: "Account Contract API",
       summary: "围绕 `MossAccountOS` 与 `MossAccountOSFactory` 的关键接口整理一页契约级参考。",
       eyebrow: "API",
-      hero: "如果你要理解 Moss 钱包的真实边界，必须先理解 Factory 如何创建账户，以及 Account 如何授权逻辑。",
+      hero: "如果你要理解 Moss 钱包的真实边界，必须先理解 Factory 如何创建账户，以及 Account 如何安装、启用和执行应用。",
       sections: [
         {
           id: "factory",
@@ -1125,11 +1119,11 @@ factory.getAddress(owners, registry, nonce);`
           id: "account",
           title: "Account 侧接口",
           bullets: [
-            "`authorizeLogic(address)`: 允许某个逻辑在钱包内运行。",
-            "`revokeLogic(address)`: 撤销某个逻辑的权限。",
-            "`isBlocked(address)`: 查询逻辑是否被 block。",
+            "`executeApp(address app, bytes data)`: 通过钱包上下文执行应用。",
+            "`enableApp(address app)`: 在钱包本地启用一个已安装应用。",
+            "`disableApp(address app)`: 在钱包本地停用一个应用。",
+            "`isAppEnabled(address app)`: 查询应用是否已在钱包中启用。",
             "`registry()`: 查询当前绑定的 Registry。",
-            "`registryTrusted()`: 查询是否信任 Registry 的系统逻辑判定。",
             "`execute(...)` / `executeBatch(...)`: 作为钱包执行目标调用。"
           ]
         },
@@ -1137,30 +1131,30 @@ factory.getAddress(owners, registry, nonce);`
           id: "policy",
           title: "权限判定规则",
           bullets: [
-            "新建账户默认 `registryTrusted = true`。",
-            "系统逻辑可在受信 Registry 下直接作为系统应用使用。",
-            "非系统逻辑通常还需要 owner 显式执行 `authorizeLogic`。",
-            "如果逻辑绑定了 App NFT，钱包还必须持有该 NFT。"
+            "应用发布、安装和启用是三层不同状态。",
+            "只有被 Store 安装过的应用，才会获得对应 entitlement。",
+            "只有被钱包本地启用的应用，才会在账户里真正可用。",
+            "运行条件通常可概括为 `isAppEnabled(app) && registry.isEntitled(wallet, app)`。"
           ],
           callout: {
             title: "实际含义",
-            body: "Moss 把“是否可调用某逻辑”拆成了系统白名单、owner 授权、App NFT 三层，不是单一 allowlist。",
+            body: "Moss 不再把“是否可调用”理解成单一 allowlist，而是拆成 Store 安装 entitlement 和钱包本地启用两层状态。",
             tone: "accent"
           }
         }
       ]
     },
     {
-      slug: "token-and-nft-permit-api",
+      slug: "wallet-asset-signing-api",
       group: "ecosystem-dev",
-      title: "Token / NFT Permit API",
-      summary: "围绕 TokenManage 与 NFTManage 的 Permit 和签名调用能力，整理当前最值得引用的方法。",
+      title: "钱包资产签名能力",
+      summary: "围绕 Token 与 NFT 的 Permit 和签名调用能力，整理当前最值得引用的方法。",
       eyebrow: "API",
-      hero: "Moss 的资产层关键不在于转账本身，而在于系统模块如何把授权、签名和执行统一起来。",
+      hero: "Moss 的资产层关键不在于转账本身，而在于钱包如何把授权、签名和执行统一起来。",
       sections: [
         {
           id: "tokenmanage-api",
-          title: "TokenManage",
+          title: "Token API",
           bullets: [
             "`tokenApprove(asset, spender, value)`: 设置额度。",
             "`tokenApproveForAll(spender, approved)`: 设置全局授权。",
@@ -1171,7 +1165,7 @@ factory.getAddress(owners, registry, nonce);`
         },
         {
           id: "nftmanage-api",
-          title: "NFTManage",
+          title: "NFT API",
           bullets: [
             "`nftApproveWithSig(asset, operator, tokenId, deadline, signature)`: 单 NFT 签名授权。",
             "`nftSetApprovalForOneAllWithSig(asset, operator, approved, deadline, signature)`: 某 NFT 集合级签名授权。",
@@ -1182,7 +1176,7 @@ factory.getAddress(owners, registry, nonce);`
           id: "signing-model",
           title: "签名模型",
           bullets: [
-            "TokenManage 与 NFTManage 的 Permit 都依赖 Moss 双层 EIP-712 / ERC-1271 包装。",
+            "这些 Token / NFT Permit 都依赖 Moss 双层 EIP-712 / ERC-1271 包装。",
             "前端会先读取 nonce，再由钱包生成外层安全签名。",
             "这让支付、挂单、授权和代理执行可以在不直接切换 owner 的情况下完成。"
           ]
@@ -1232,7 +1226,7 @@ factory.getAddress(owners, registry, nonce);`
       slug: "onboarding-flow",
       group: "start",
       title: "Onboarding 流程",
-      summary: "把 OS 现有引导拆成一条可用于演示、销售和测试的标准流程。",
+      summary: "把 Runtime 现有引导拆成一条可用于演示、销售和测试的标准流程。",
       eyebrow: "Flow",
       hero: "这条流程的目标不是展示某个单一功能，而是让用户在 5 分钟内理解 Moss 的产品闭环。",
       sections: [
@@ -1240,11 +1234,11 @@ factory.getAddress(owners, registry, nonce);`
           id: "steps",
           title: "标准演示路径",
           steps: [
-            { title: "进入 OS 并连接钱包", description: "使用 EOA 进入，但目标是引导用户创建 Moss Wallet。" },
+            { title: "进入 Runtime 并连接钱包", description: "使用 EOA 进入，但目标是引导用户创建 Moss Wallet。" },
             { title: "创建 Moss Wallet", description: "让用户明确：Moss Wallet 就是后续所有能力的账户容器。" },
             { title: "领取测试资产", description: "为后续支付、授权、交易和安装应用做准备。" },
-            { title: "进入 Store mint 一个 App NFT", description: "建议优先演示 PeerDex，路径最直观。" },
-            { title: "返回 OS 打开应用", description: "让用户看见“安装后出现在账户工作台”的结果。" }
+            { title: "进入 Store 安装一个应用", description: "建议优先演示 PeerDex，路径最直观。" },
+            { title: "返回 Runtime 打开应用", description: "让用户看见“安装后出现在 Runtime 里”的结果。" }
           ],
           visuals: [
             {
@@ -1261,7 +1255,7 @@ factory.getAddress(owners, registry, nonce);`
             "Moss 不是单 dApp。",
             "Moss 先交付账户，再交付应用。",
             "应用安装与链上状态有关，不是前端假装安装。",
-            "系统模块让应用不必各自实现资产层。"
+            "钱包原生能力让应用不必各自实现资产层。"
           ]
         }
       ]
@@ -1270,24 +1264,24 @@ factory.getAddress(owners, registry, nonce);`
       slug: "store-install-flow",
       group: "start",
       title: "Store 安装流程",
-      summary: "面向 App NFT 安装场景的流程页，适合演示 Store 与 OS 的联动关系。",
+      summary: "面向当前安装模型的流程页，适合演示 Store 与 Runtime 的联动关系。",
       eyebrow: "Flow",
-      hero: "Store 的价值不是陈列目录，而是把安装状态、分发和收益模型放到链上。",
+      hero: "Store 的价值不是陈列目录，而是把安装状态、分发和启用入口放到一条可验证的产品路径里。",
       sections: [
         {
           id: "steps",
           title: "安装路径",
           steps: [
-            { title: "进入应用详情页", description: "查看应用简介、mint 费用与 App NFT 信息。" },
-            { title: "发起 mint", description: "由用户钱包提交 App NFT 铸造交易。" },
-            { title: "等待交易确认", description: "安装状态成为链上事实，而不是本地缓存。" },
-            { title: "回到 OS 刷新", description: "钱包内应用在满足授权和 NFT 条件后可被显示或使用。" }
+            { title: "进入应用详情页", description: "查看应用简介、安装费用和能力说明。" },
+            { title: "发起安装", description: "由用户钱包完成 Store 安装交易。" },
+            { title: "等待交易确认", description: "安装 entitlement 成为链上事实，而不是本地缓存。" },
+            { title: "回到 Runtime 刷新", description: "钱包启用完成后，应用会在 Runtime 里显示或可被使用。" }
           ],
           visuals: [
             {
               src: "/diagrams/store-install-flow.svg",
               alt: "Store install flow diagram",
-              caption: "Store 到 OS 的关键不是页面跳转，而是 App NFT 安装状态的同步。",
+              caption: "Store 到 Runtime 的关键不是页面跳转，而是安装 entitlement 与钱包启用状态的同步。",
             }
           ]
         },
@@ -1298,7 +1292,7 @@ factory.getAddress(owners, registry, nonce);`
             "是否在正确网络。",
             "gas 是否充足。",
             "Registry 中是否已正确注册该 logic。",
-            "App NFT 地址与前端配置是否一致。"
+            "前端读取到的 entitlement / enable 状态是否和链上结果一致。"
           ]
         }
       ]
@@ -1317,7 +1311,7 @@ factory.getAddress(owners, registry, nonce);`
           steps: [
             { title: "创建或获取 session grant", description: "先由 owner 对某个会话或支付范围做授权。" },
             { title: "服务端或 Agent 发起扣费请求", description: "请求中会携带对应会话上下文和支付目标。" },
-            { title: "走签名/校验路径", description: "由钱包签名语义和系统模块共同保证支付合法。" },
+            { title: "走签名/校验路径", description: "由钱包签名语义和钱包原生支付能力共同保证支付合法。" },
             { title: "完成微支付结算", description: "适用于 API 调用、AI Agent、订阅和 x402 风格支付流。" }
           ],
           visuals: [
@@ -1333,7 +1327,7 @@ factory.getAddress(owners, registry, nonce);`
           title: "文档里要强调什么",
           bullets: [
             "一次授权，多次低摩擦支付。",
-            "和 TokenManage / x402 路由存在明显关联。",
+            "和钱包原生支付能力、x402 路由存在明显关联。",
             "既是产品能力，也是开发者集成能力。"
           ]
         }
@@ -1382,38 +1376,37 @@ factory.getAddress(owners, registry, nonce);`
     {
       slug: "overview",
       group: "start",
-      title: "Overview",
-      summary: "Build the right mental model first: Moss is not a single dApp, but a product system centered on smart accounts, app installation, and a unified runtime environment.",
+      title: "What Moss Is",
+      summary: "Build the right mental model first: Moss is not one isolated dApp, but a product that connects a smart wallet, app installation, and a shared Runtime.",
       eyebrow: "Moss Book",
-      hero: "Moss brings together the owner layer, the smart contract wallet, Moss OS, and app distribution in one user journey.",
+      hero: "Moss gives the user a Runtime first, then brings apps into that environment.",
       sections: [
         {
           id: "what-is-moss",
           title: "What Moss Is",
           paragraphs: [
-            "From a product-structure perspective, Moss is not one isolated page. It is a product system composed of an account operating system and an app store.",
-            "These are not unrelated surfaces. They work around the same account context: OS hosts the workspace, and Store handles installation and distribution.",
-            "Underneath Moss, there are two identity layers. The first layer is the owner, which today is usually an EOA account responsible for wallet connection, control, and signing. The second layer is the Moss smart contract wallet. Moss OS runs inside that wallet, making it more than a place to hold assets. It can install apps, manage permissions, complete payments, and execute logic.",
-            "In a traditional wallet, the surface is usually limited to balance, send, and receive, and wallet apps are often just entry links to web pages. In Moss, the surface behaves like a user desktop operating system, and apps run on top of that operating system.",
-            "The difference is significant. The former only links outward. The latter installs inward. Why does that matter? Because what Web3 actually lacks is not one more entry point, but a unified user runtime environment."
+            "From a user perspective, Moss is not about jumping between many separate dApps. It gives you a Moss Wallet first, then lets apps enter that wallet environment.",
+            "The most important thing in Moss is not one isolated page. It is the Runtime itself. You connect your existing wallet, create a Moss Wallet, install apps from Store, and then continue using them inside the Runtime.",
+            "That means apps are not treated as external websites first. They become part of what the account can do. Assets, permissions, payments, and app entry points all sit around the same account context.",
+            "That matters because Web3 has not really lacked more entry points. It has lacked a continuous, stateful user environment."
           ],
           cards: [
-            { title: "OS", description: "The account workspace where assets, permissions, and apps are organized." },
-            { title: "Store", description: "The discovery and distribution layer for app installation and App NFT state." }
+            { title: "Moss Runtime", description: "The app runtime. Wallet, assets, apps, and settings all start here." },
+            { title: "Store", description: "The place where apps are discovered, installed, and brought back into the wallet." }
           ]
         },
         {
           id: "loop",
           title: "Product Loop",
           steps: [
-            { title: "Create a Moss Wallet", description: "Users create a smart wallet in Account OS, which becomes the container for all later capabilities." },
-            { title: "Install capabilities", description: "Users enable system apps or mint App NFTs in Store to install app-level capabilities." },
-            { title: "Return to the account", description: "Installed capabilities appear back inside the account workspace." },
-            { title: "Execute in one wallet context", description: "Authorized app logic and system modules run within the same wallet context." }
+            { title: "Connect a wallet and create a Moss Wallet", description: "Users start from an existing wallet, then create a Moss Wallet as the runtime environment." },
+            { title: "Install an app in Store", description: "Users discover an app in Store and bind that installation to the current account." },
+            { title: "Return to the Runtime", description: "The installed app appears back inside the Runtime instead of staying in the store page." },
+            { title: "Keep using the same Runtime", description: "Assets, permissions, payments, and app entry points continue accumulating inside the same Moss Wallet." }
           ],
           callout: {
             title: "The key reading",
-            body: "Moss is not about packing more web entry points into a wallet. It is about building an installable, permissioned, and composable account runtime.",
+            body: "Moss is not about stuffing more web links into a wallet. It is about building an account environment that can install apps and keep growing over time.",
             tone: "accent"
           }
         },
@@ -1421,11 +1414,11 @@ factory.getAddress(owners, registry, nonce);`
           id: "concepts",
           title: "Core Concepts",
           bullets: [
-            "Moss Wallet: the smart wallet used inside OS and the execution subject for modules and apps.",
-            "Account OS: a capability layer organized around the account rather than a single dApp.",
-            "Store: the distribution layer for logic contracts, App NFTs, and mint-fee economics.",
-            "System App: built-in wallet capabilities such as TokenManage and NFTManage.",
-            "App NFT: the installation proof for non-system applications."
+            "Moss Wallet: the smart wallet you actually use inside Moss.",
+            "Moss Runtime: the app runtime. You enter the shared runtime first, not a standalone dApp first.",
+            "Store: the discovery and installation surface for apps.",
+            "Install: the state that binds an app to your account.",
+            "Enable: the wallet-side step that makes an installed app actually usable."
           ]
         }
       ]
@@ -1436,18 +1429,18 @@ factory.getAddress(owners, registry, nonce);`
       title: "Getting Started",
       summary: "Turn the current account onboarding into an explicit, executable journey.",
       eyebrow: "Onboarding",
-      hero: "The shortest path is: connect a wallet -> create a Moss Wallet -> fund gas -> claim test assets -> mint an App NFT in Store -> return to OS and use the app.",
+      hero: "The shortest path is: connect a wallet -> create a Moss Wallet -> prepare gas and test assets -> install an app in Store -> return to the Runtime and use it.",
       sections: [
         {
           id: "journey",
           title: "First Journey",
           steps: [
-            { title: "Connect any EOA wallet", description: "Users start from a regular wallet. Moss is designed to let any account enter first." },
+            { title: "Connect any EOA wallet", description: "Users start from a regular wallet. That wallet is the entry point into Moss." },
             { title: "Create a Moss Wallet", description: "If no SCW is detected after connection, the UI exposes a Create Moss Wallet flow." },
             { title: "Prepare Sepolia ETH", description: "The current demo path centers on Ethereum Sepolia, so gas is required first." },
             { title: "Claim test assets", description: "The Faucet flow provides USDC, USDT, MOSS, and test NFTs for follow-up interactions." },
-            { title: "Install an app in Store", description: "Wallet-native apps such as PeerDex need an App NFT before they become available in OS." },
-            { title: "Return to OS", description: "After the transaction confirms, refresh OS and the installed app should appear in the wallet workspace." }
+            { title: "Install an app in Store", description: "Pick an app and install it. Store binds that installation to the current account." },
+            { title: "Return to Runtime", description: "After confirmation, refresh the Runtime and the app should appear inside your Moss Wallet." }
           ]
         },
         {
@@ -1455,9 +1448,9 @@ factory.getAddress(owners, registry, nonce);`
           title: "Current Product Assumptions",
           bullets: [
             "The default demo network is Ethereum Sepolia.",
-            "System apps are available by default, such as TokenManage, NFTManage, and Red Packet.",
-            "In-wallet apps and standalone apps are not the same surface.",
-            "App NFT ownership and authorization state jointly determine availability."
+            "Basic asset tools are wallet-native capabilities rather than Store-installed apps.",
+            "Some apps may also have standalone sites, but the continuous experience happens inside the Runtime.",
+            "The current install model is Store installation plus wallet enablement."
           ]
         },
         {
@@ -1466,10 +1459,10 @@ factory.getAddress(owners, registry, nonce);`
           bullets: [
             "Cannot see Create Moss Wallet: you are usually not using the Moss connector, or you are on the wrong network.",
             "Faucet or mint failed: check the new wallet's gas balance first.",
-            "The app is still missing after install: wait for confirmation and refresh OS, then wait a few more seconds if needed."
+            "The app is still missing after install: wait for confirmation and refresh Runtime, then wait a few more seconds if needed."
           ],
           links: [
-            { label: "Account OS", href: externalLinks.os, external: true },
+            { label: "Moss Runtime", href: externalLinks.os, external: true },
             { label: "Moss Store", href: externalLinks.store, external: true },
             { label: "SDK Package", href: externalLinks.sdk, external: true }
           ]
@@ -1477,55 +1470,55 @@ factory.getAddress(owners, registry, nonce);`
       ]
     },
     {
-      slug: "account-os",
+      slug: "runtime",
       group: "platform",
-      title: "Account OS",
-      summary: "Understand Account OS as a product surface: not a post-login wallet page, but the layer where account capabilities are organized, authorized, and executed.",
+      title: "Moss Runtime",
+      summary: "Understand Runtime as a product surface: not a post-login wallet page, but the environment where apps run inside Moss Wallet.",
       eyebrow: "Platform",
-      hero: "In Moss, the account is not the thing you log into after the product starts. The account is the product surface.",
+      hero: "In Moss, Runtime is not a side layer. It is the environment where apps actually run and keep being used.",
       sections: [
         {
           id: "role",
-          title: "What the OS Does",
+          title: "What Runtime Does",
           paragraphs: [
-            "Account OS is the main workspace users enter in Moss. Its job is not only to show balances or an address. Its job is to turn the account itself into an installable, authorizable, executable surface.",
-            "Users do not start by opening one standalone app and then connecting a wallet. They enter their account space first, then invoke asset capabilities, system capabilities, and installed apps from there."
+            "Moss Runtime is the environment where apps run inside Moss Wallet. Its job is not only to show balances or an address. Its job is to host app execution, asset capabilities, and installed entry points.",
+            "Users do not start by opening one standalone app and then connecting a wallet. They enter the Runtime first, then invoke asset capabilities, installed apps, and account settings from there."
           ],
           bullets: [
-            "It is the main account workspace.",
+            "It is the shared app runtime.",
             "It unifies assets, identity, apps, and settings.",
-            "It pulls permission checks and execution context into the account layer.",
-            "It makes installed capabilities feel like account-native features instead of external sites."
+            "It pulls permission checks and execution context into one environment.",
+            "It makes installed capabilities appear directly in the Runtime instead of living on external sites."
           ]
         },
         {
           id: "account-first",
-          title: "Why Account-First Matters",
+          title: "Why Runtime Matters",
           paragraphs: [
-            "If an account is only a login state, every app has to rebuild asset handling, permissions, authorization state, and interaction flow on its own. Moss flips that model: establish the account layer first, then let apps reuse the same account context.",
-            "That makes payments, tokens, NFTs, installation state, and automation persist inside the account instead of being fragmented across different pages and product entries."
+            "Without a shared Runtime, every app would have to rebuild asset handling, permissions, and interaction flow on its own. Moss flips that model: establish the Runtime first, then let apps reuse the same context.",
+            "That makes payments, tokens, NFTs, installation state, and automation persist inside one Runtime instead of being fragmented across different pages and product entries."
           ],
           bullets: [
             "Asset capabilities do not need to be reimplemented by each app.",
-            "Permissions and authorization state can persist at the account layer.",
-            "Installed apps become part of the account surface.",
-            "The user experiences one continuous workspace instead of disconnected sites."
+            "Permissions and install state can persist inside the Runtime.",
+            "Installed apps become part of the Runtime.",
+            "The user experiences one continuous environment instead of disconnected sites."
           ],
           callout: {
             title: "Design reading",
-            body: "The key move is not making a wallet look more like an app. It is making the account the host layer for every capability.",
+            body: "The key move is not making a wallet look more like an app. It is providing a Runtime where apps can live and keep running over time.",
             tone: "accent"
           }
         },
         {
           id: "workspace",
-          title: "What Gets Organized Inside the Account",
+          title: "What Gets Organized Inside the Runtime",
           paragraphs: [
-            "A real Account OS has to place several kinds of capabilities inside one account surface: built-in system capabilities, installed app capabilities, the account's own asset state, and long-lived settings and security entry points.",
-            "That is why the user experience is framed as what my account can do, not which site I have jumped to."
+            "A real Runtime has to place several kinds of capabilities inside one environment: wallet-native capabilities, installed app capabilities, the wallet's own asset state, and long-lived settings and security entry points.",
+            "That is why the user experience is framed as what this Runtime can do, not which site I have jumped to."
           ],
           bullets: [
-            "System capabilities: default abilities such as token and NFT management.",
+            "Wallet-native capabilities: default abilities such as token and NFT management.",
             "Installed apps: app entry points that appear after Store installation.",
             "Account state: address, assets, permissions, sessions, and executable scope.",
             "Settings and security: network, recovery, and permission management."
@@ -1534,99 +1527,96 @@ factory.getAddress(owners, registry, nonce);`
       ]
     },
     {
-      slug: "store-and-app-nft",
+      slug: "store-installation",
       group: "platform",
-      title: "Store and App NFT",
-      summary: "Understand the centralized registration model in Store, and why App NFTs matter in Moss distribution.",
+      title: "Store and App Installation",
+      summary: "Understand what Store does in Moss today: app discovery, installation, and bringing apps back into the Runtime.",
       eyebrow: "Distribution",
-      hero: "In Moss, an app is not just a link. It becomes part of the wallet capability system through Registry state and App NFTs.",
+      hero: "In Moss today, Store owns discovery and install entry, and the wallet turns that into an actual usable app.",
       sections: [
         {
           id: "store-role",
-          title: "What the Store Owns",
+          title: "What the Store Does",
           paragraphs: [
-            "The architectural center of Store is `LogicRegistry`. It manages logic contracts, creates AppNFTs, mints NFTs, and distributes revenue.",
-            "So the Moss store is not just a frontend catalog. It is an on-chain registration and permission-distribution system."
+            "Store is more than a frontend catalog. It works with the wallet runtime as the installation entry point.",
+            "In the current model, `LogicRegistry` handles app publication and install entitlement, `installApp(wallet, logic)` records that an account installed an app, and wallet-side `enableApp(app)` makes the installed app actually available inside the wallet."
           ],
           bullets: [
-            "Governance registers or creates apps.",
-            "Developers set mint fees.",
-            "Users mint App NFTs as installation proofs.",
-            "Revenue is split between the developer and the Store."
+            "Apps are registered into the Store path first.",
+            "Users install from Store instead of manually trusting arbitrary addresses.",
+            "Installation and wallet-local enablement are separate states.",
+            "There is no separate NFT-license contract in the current model."
           ]
         },
         {
           id: "economics",
-          title: "Economics and Governance",
+          title: "Why Installation Goes Through Store",
           bullets: [
-            "The current split is 70% for developers and 30% for the Store.",
-            "Revenue is isolated per app.",
-            "Both developers and governance can withdraw their earnings.",
-            "A centralized registry keeps listing, monitoring, and governance paths legible."
+            "Ordinary users should not need to reason about raw contract addresses before installing an app.",
+            "Store defines the normal product path and reduces arbitrary-address installation risk.",
+            "Install state becomes verifiable on-chain instead of a frontend-only memory of 'installed'.",
+            "The wallet still needs to enable the app before it becomes visible inside the Runtime."
           ],
           callout: {
-            title: "Why App NFT matters",
-            body: "App NFT turns installation into on-chain state instead of a frontend-only notion of 'installed'.",
+            title: "How to read installation now",
+            body: "Publication, installation, and enablement are different things in Moss. Store handles installation, the wallet handles enablement, and actual usage happens inside the Runtime.",
             tone: "accent"
           }
         },
         {
           id: "contracts",
-          title: "Core Interfaces",
+          title: "What the User Actually Feels",
           bullets: [
-            "createApp(): create an app",
-            "mintNFT(): buy one App NFT",
-            "batchMintNFT(): buy in batch",
-            "setAppMintFee(): set app mint price",
-            "withdrawDeveloperEarnings(): withdraw developer revenue",
-            "withdrawGovernorEarnings(): withdraw governance revenue"
+            "Open an app detail page in Store.",
+            "Install it for the current wallet.",
+            "Let the wallet enable it as a Runtime-available app.",
+            "Return to the Runtime and keep using it there."
           ]
         }
       ]
     },
     {
-      slug: "system-modules",
+      slug: "wallet-native-capabilities",
       group: "platform",
-      title: "System Modules and Permissions",
-      summary: "The system modules define the lowest asset-control layer of Moss and make higher-level apps possible.",
+      title: "Wallet-Native Capabilities",
+      summary: "Understand which abilities in Moss belong to the wallet itself rather than needing to be understood as separately installed apps.",
       eyebrow: "Permissions",
-      hero: "System modules come first. Apps inherit a consistent asset-permission model from them.",
+      hero: "In Moss today, core asset abilities are increasingly wallet-native rather than something users should think of as separately installable apps.",
       sections: [
         {
           id: "tokenmanage",
-          title: "TokenManage",
+          title: "Token Abilities",
           paragraphs: [
-            "TokenManage is a built-in system app following ERC-7204.",
-            "It provides a unified model for approvals, batched approvals, and transfers, so applications do not need to re-implement a wallet asset-control layer."
+            "Moss treats common token actions as wallet capabilities rather than something every app should rebuild.",
+            "That means apps entering the account context can reuse one shared token approval, transfer, and signing model."
           ],
           bullets: [
-            "tokenApprove(): set allowance for a spender",
-            "tokenApproveForAll(): set wallet-wide approvals",
-            "tokenTransfer(): validate and consume allowance during transfer",
-            "tokenAllowance() / tokenIsApproveForAll(): query current permission state"
+            "Token permissions do not need to be redesigned by every app.",
+            "Transfers and batched approvals can share the same account semantics.",
+            "Users understand what their wallet allowed, not a different rule system inside each app."
           ]
         },
         {
           id: "nftmanage",
-          title: "NFTManage",
+          title: "NFT Abilities",
           paragraphs: [
-            "NFTManage also exposes permit flows such as `nftApproveWithSig`.",
-            "This shows that Moss applies the same modular asset-control philosophy to NFTs as well."
+            "NFT abilities follow the same logic. Moss tries to keep NFT permissions and actions tied to the account layer instead of scattering them across isolated app-specific flows.",
+            "That makes listings, approvals, delegated execution, and multi-asset flows easier to reason about."
           ],
           bullets: [
-            "Supports ERC-7564 Permit",
-            "Frontend can auto-read nonce and ownerIndex",
-            "Suitable for NFT markets, signed listings, and delegated execution"
+            "Useful for NFT markets and signed-listing flows.",
+            "Also useful for delegated execution and delayed execution models.",
+            "The user sees one continuous wallet experience instead of a different NFT rule set per product."
           ]
         },
         {
           id: "auth",
-          title: "Authorization Model",
+          title: "What Makes an App Available",
           bullets: [
-            "System apps can be trusted by default or marked as system logic by the Registry.",
-            "Non-system logic must be explicitly authorized via methods such as authorizeLogic().",
-            "App NFT ownership and authorization state jointly determine availability.",
-            "Users can revoke permissions through revokeLogic()."
+            "The app should exist in the Store-supported product path.",
+            "The account needs to install it and enable it inside the wallet.",
+            "Specific actions may still require signatures or permission confirmation.",
+            "Users should still be able to disable or withdraw access later."
           ]
         }
       ]
@@ -1655,7 +1645,7 @@ factory.getAddress(owners, registry, nonce);`
           title: "What These Apps Signal",
           bullets: [
             "Moss is not only targeting DeFi. It also covers NFTs, payments, account automation, and wallet-native coordination.",
-            "Many apps reuse system modules instead of implementing separate asset-control layers.",
+            "Many apps share one wallet and asset context instead of rebuilding their own account layer.",
             "The store app list is effectively a roadmap of Moss product direction."
           ]
         },
@@ -1663,8 +1653,8 @@ factory.getAddress(owners, registry, nonce);`
           id: "drill-down",
           title: "Go Deeper",
           cards: [
-            { title: "PeerDex Page", description: "Positioning, install requirements, TokenManage dependency, and addresses.", href: "/en/docs/app-peerdex" },
-            { title: "CloseSky Page", description: "Mixed NFT/token matching and dual-Permit dependency.", href: "/en/docs/app-closesky" },
+            { title: "PeerDex Page", description: "Positioning, install requirements, and in-wallet trading flow.", href: "/en/docs/app-peerdex" },
+            { title: "CloseSky Page", description: "Mixed NFT/token matching and multi-asset settlement.", href: "/en/docs/app-closesky" },
             { title: "Flashman Page", description: "Flash-loan pool model, use cases, and addresses.", href: "/en/docs/app-flashman" },
             { title: "CryptoWill Page", description: "Will plans, heartbeat windows, execution fee, and external execution mode.", href: "/en/docs/app-cryptowill" },
             { title: "BlinkPay Page", description: "Session authorization, x402 payment flow, and agent use cases.", href: "/en/docs/app-blinkpay" }
@@ -1675,37 +1665,37 @@ factory.getAddress(owners, registry, nonce);`
     {
       slug: "architecture",
       group: "platform",
-      title: "Architecture Breakdown",
-      summary: "Separate product surfaces, on-chain components, and execution layers so builders can form a clean mental model quickly.",
+      title: "How Moss Fits Together",
+      summary: "Separate wallet, Store, and app relationships so users can form a stable mental model before diving into deeper implementation details.",
       eyebrow: "Architecture",
-      hero: "If product surfaces and chain boundaries are unclear, deployment and integration become noisy fast.",
+      hero: "If the wallet, the Store, and the app relationship are unclear, people end up reading Moss as a set of disconnected websites.",
       sections: [
         {
           id: "product-map",
-          title: "Product Surfaces",
+          title: "The Three Surfaces Users See First",
           cards: [
-            { title: "Account OS", description: "The account workspace for system capabilities and installed apps." },
-            { title: "Store", description: "The discovery and distribution layer for app installation and App NFTs." },
-            { title: "Labs", description: "An experimental surface for concept exploration and future scenarios." }
+            { title: "Moss Wallet / Runtime", description: "The app runtime where users actually stay and keep working." },
+            { title: "Store", description: "The surface for discovery, installation, and sending apps back into the wallet." },
+            { title: "Apps", description: "Trading, payments, and automation capabilities that are ultimately used inside the account." }
           ]
         },
         {
           id: "chain-layers",
-          title: "On-chain Layers",
+          title: "How the Lower Layers Cooperate",
           bullets: [
-            "MossAccountOS Factory / Implementation instantiate wallets.",
-            "LogicRegistry handles dApp registration, AppNFT minting, and system-logic management.",
-            "System apps provide the lowest capability layer for asset permissions.",
-            "Regular dApp logic executes only after authorization in the wallet context."
+            "The smart wallet holds assets, install state, and the execution context.",
+            "Store / Registry decide which apps belong to the normal installation path.",
+            "Installation and enablement are separate so discovery and actual wallet availability remain distinct states.",
+            "When an app runs, it still runs in the user's own wallet context."
           ]
         },
         {
           id: "ui-layers",
           title: "Product Layers",
           bullets: [
-            "OS is the wallet workspace and main interaction surface.",
-            "Store is the app installation and distribution surface.",
-            "Labs explores possible futures and is not necessarily a production workflow commitment."
+            "Moss Runtime is the main interaction surface.",
+            "Store is the installation surface.",
+            "App and flow pages explain what users can actually do after installation."
           ],
           visuals: [
             {
@@ -1721,9 +1711,9 @@ factory.getAddress(owners, registry, nonce);`
       slug: "contracts-and-deployment",
       group: "ecosystem-dev",
       title: "Ecosystem App Development",
-      summary: "For builders who want to ship apps in Moss, this page focuses on Store distribution, revenue structure, and the practical benefits for developers.",
+      summary: "For readers who want to understand the deeper Moss app model, this page focuses on installation, distribution, revenue structure, and why apps return to the Runtime.",
       eyebrow: "Ecosystem Dev",
-      hero: "Building in Moss is not only about deploying a logic contract. It is about plugging an app into the account, distribution, and monetization system.",
+      hero: "Building in Moss is not only about deploying a logic contract. It is about plugging an app into the account, installation, and monetization system.",
       sections: [
         {
           id: "why-build",
@@ -1734,8 +1724,8 @@ factory.getAddress(owners, registry, nonce);`
           ],
           bullets: [
             "Account, asset, and permission semantics already exist.",
-            "System modules can be reused instead of rebuilt.",
-            "Apps can be installed into the account workspace through Store.",
+            "Wallet-native asset capabilities can be reused instead of rebuilt.",
+            "Apps can be installed into the Runtime through Store.",
             "Distribution and monetization have on-chain state behind them."
           ]
         },
@@ -1744,8 +1734,8 @@ factory.getAddress(owners, registry, nonce);`
           title: "What Store Gives Developers",
           bullets: [
             "Your app can be registered, discovered, and installed instead of spreading only through an external link.",
-            "App NFT makes “this user installed your app” an on-chain fact.",
-            "After install, the app reappears inside the account workspace instead of staying inside the store page.",
+            "Install state makes “this account installed your app” a verifiable fact.",
+            "After install, the app reappears inside the Runtime instead of staying inside the store page.",
             "Store also handles revenue recording and distribution. It is not only a catalog."
           ],
           callout: {
@@ -1769,9 +1759,9 @@ factory.getAddress(owners, registry, nonce);`
           title: "Questions to Resolve Before Launch",
           bullets: [
             "Should this app really live inside the account surface, or is it better as a standalone site?",
-            "Can it reuse TokenManage / NFTManage instead of shipping its own asset-control layer?",
-            "Does it need system capability, explicit authorization, App NFT installation, or some combination of the three?",
-            "After installation, what should the entry and visible state look like inside the account workspace?"
+            "Can it reuse wallet-native asset capabilities instead of shipping its own asset-control layer?",
+            "What install, enablement, and permission path does it need?",
+            "After installation, what should the entry and visible state look like inside the Runtime?"
           ]
         }
       ]
@@ -1807,10 +1797,10 @@ factory.getAddress(owners, registry, nonce);`
           id: "integration-path",
           title: "Recommended Integration Path",
           steps: [
-            { title: "Prepare chain addresses", description: "Confirm logic, App NFT, Registry, and system-module addresses first." },
+            { title: "Prepare chain addresses", description: "Confirm logic, Registry, and wallet-related deployment addresses first." },
             { title: "Wire the connector", description: "Make sure the frontend can enter the Moss smart-wallet context." },
-            { title: "Check installation and permission state", description: "Before entering an app flow, verify App NFT ownership and authorization state." },
-            { title: "Design around system modules", description: "Prefer reusing TokenManage / NFTManage rather than inventing a separate asset-control layer." }
+            { title: "Check installation and enablement state", description: "Before entering an app flow, verify the wallet has installed and enabled the app." },
+            { title: "Design around wallet-native capabilities", description: "Prefer reusing wallet-native token and NFT abilities instead of inventing a separate asset-control layer." }
           ],
           visuals: [
             {
@@ -1901,12 +1891,12 @@ const moss = createMossConnector({
             "`smartSignMessage(...)`: returns an ERC-1271-wrapped message signature.",
             "`smartSignTypedData(...)`: returns a typed-data signature suitable for contract verification.",
             "`wrap1271Signature(...)`: adds the outer EIP-712 / ERC-1271 wrapper to a signature.",
-            "`getSystemApps()`: paginates through system logic addresses from the Registry.",
-            "`isLogicUsable({ smartWallet, logic })`: checks block status, Registry state, authorization, and App NFT balance."
+            "`getSystemApps()`: reads wallet-native or platform-reserved capabilities from the Registry.",
+            "`isLogicUsable({ smartWallet, logic })`: checks whether a target app satisfies install, enablement, and execution conditions in the current wallet."
           ],
           callout: {
             title: "Easy to miss",
-            body: "`isLogicUsable` is not just an allowlist check. It also considers Registry trust, system-logic flags, and App NFT ownership.",
+            body: "`isLogicUsable` is not just an allowlist check. It also considers Registry state, install entitlement, and wallet-local enablement.",
             tone: "accent"
           }
         },
@@ -1914,7 +1904,7 @@ const moss = createMossConnector({
           id: "next-reads",
           title: "Read Next",
           cards: [
-            { title: "Frontend and SDK Integration", description: "How the SDK enters the OS frontend and app flows.", href: "/en/docs/frontend-and-sdk" },
+            { title: "Frontend and SDK Integration", description: "How the SDK enters the Runtime frontend and app flows.", href: "/en/docs/frontend-and-sdk" },
             { title: "Networks and Address Matrix", description: "Current Sepolia addresses used across product surfaces.", href: "/en/docs/networks-and-addresses" }
           ]
         }
@@ -1926,7 +1916,7 @@ const moss = createMossConnector({
       title: "Networks and Address Matrix",
       summary: "Based on `packages/deployments/sepolia.json` and frontend config shape, this page captures the current chain-address baseline for the docs site.",
       eyebrow: "Networks",
-      hero: "If the address baseline is unclear, OS, Store, frontend integrations, and SDK flows drift out of sync quickly.",
+      hero: "If the address baseline is unclear, Runtime, Store, frontend integrations, and SDK flows drift out of sync quickly.",
       sections: [
         {
           id: "network",
@@ -1935,18 +1925,16 @@ const moss = createMossConnector({
             "Network: Sepolia",
             "chainId: 11155111",
             "block explorer: https://sepolia.etherscan.io",
-            "The current OS and Store onboarding flows are documented around this testnet."
+            "The current Runtime and Store onboarding flows are documented around this testnet."
           ]
         },
         {
           id: "core-addresses",
-          title: "Core System Addresses",
+          title: "Core Addresses",
           bullets: [
             "MossAccountOSFactory: 0xa3954a7688518acF3bB74BEC2330d5966e87960A",
             "MossAccountOSImplementation: 0x65C4340E65144e2Da93dECfAFcb16a116C75C0d8",
-            "LogicRegistry: 0xec2242300B40E3272Df9F65738465aeD9f7f4298",
-            "TokenManage: 0xC2d2c2b8fffb4BFA2E609180363D3e41b855784E",
-            "NftManage: 0x9334d17921768D95ca4062e7D4Bd1DEDD0d8281B"
+            "LogicRegistry: 0xec2242300B40E3272Df9F65738465aeD9f7f4298"
           ]
         },
         {
@@ -1963,13 +1951,13 @@ const moss = createMossConnector({
         },
         {
           id: "apps",
-          title: "App Logic and App NFT Addresses",
+          title: "App Logic Addresses",
           bullets: [
-            "PeerDex: 0xe4C8B151ABbFC485CC31f7d6E5e26F280E9C2dF7 / AppNFT: 0x44ac3D37ed34f9c97cCcE84D1B1Dd53a5DcD16Ed",
-            "Closesky: 0x2E137ffe6c94F6688Bc89Ac6699708e609B9Fc6d / AppNFT: 0xFdADfb032C551ffb354786d054045bC1dBB8f200",
-            "Flashman: 0x5383dbE8E2A6a1dBC5f0E4edB78523fb13aC3d72 / AppNFT: 0x9b5cac28D3eC52d8C07285db366265934185E5e1",
-            "CryptoWill: 0xDb66ba171263198554aF0AE31C21c6282C52b9D0 / AppNFT: 0x7c1Ba50bE5Db1CD0C8b88978f6001f7Dc5659f69",
-            "BlinkPay: 0xBa313EEfD0CD713CB8f1e6AB1D49118a311014bb / AppNFT: 0x2514beCAa699DBEBea40f70d984Ec0D253B2b673"
+            "PeerDex: 0xe4C8B151ABbFC485CC31f7d6E5e26F280E9C2dF7",
+            "Closesky: 0x2E137ffe6c94F6688Bc89Ac6699708e609B9Fc6d",
+            "Flashman: 0x5383dbE8E2A6a1dBC5f0E4edB78523fb13aC3d72",
+            "CryptoWill: 0xDb66ba171263198554aF0AE31C21c6282C52b9D0",
+            "BlinkPay: 0xBa313EEfD0CD713CB8f1e6AB1D49118a311014bb"
           ]
         },
         {
@@ -1978,7 +1966,7 @@ const moss = createMossConnector({
           bullets: [
             "Both frontend integration surfaces prefer environment variables first.",
             "If not explicitly overridden, they fall back to the shared `@mossdapp/deployments` package.",
-            "When addresses change, you should check deployment metadata, OS env values, and Store env values together."
+            "When addresses change, you should check deployment metadata, Runtime env values, and Store env values together."
           ],
           callout: {
             title: "Recommended practice",
@@ -1992,26 +1980,26 @@ const moss = createMossConnector({
       slug: "app-peerdex",
       group: "ecosystem",
       title: "PeerDex",
-      summary: "PeerDex is the most representative in-wallet trading app in Moss today, centered on order books, signed orders, and TokenManage permissions.",
+      summary: "PeerDex is the clearest in-wallet trading app in Moss today, and a good first example of how an installed app returns to the Runtime.",
       eyebrow: "App",
-      hero: "PeerDex is the clearest example of the Moss pattern: wallet context + App NFT installation + system-module reuse.",
+      hero: "PeerDex is the clearest example of the Moss pattern: wallet context + Store installation + in-account trading.",
       sections: [
         {
           id: "positioning",
           title: "Positioning",
           paragraphs: [
             "Store data describes PeerDex as a decentralized order-book exchange with both on-chain limit orders and ERC-7204 signed orders.",
-            "The current onboarding flow also uses PeerDex as the clearest example of the Store -> App NFT -> OS usage loop."
+            "The current onboarding flow also uses PeerDex as the clearest example of the Store -> install -> account usage loop."
           ]
         },
         {
           id: "requirements",
           title: "Install and Permission Requirements",
           bullets: [
-            "Users need to mint the PeerDex App NFT in Store.",
+            "Users need to install it in Store and enable it in the wallet.",
             "The wallet needs enough gas and test assets.",
-            "The logic must be usable: not blocked, and valid under the authorization / system / App NFT checks.",
-            "Trading and approval semantics depend on TokenManage."
+            "The app needs to be in a valid installed and enabled state.",
+            "Trading and approval semantics depend on the wallet-native token layer."
           ]
         },
       ]
@@ -2022,7 +2010,7 @@ const moss = createMossConnector({
       title: "CloseSky",
       summary: "CloseSky handles complex NFT/token matching and is a strong example of Moss's dual-Permit asset model.",
       eyebrow: "App",
-      hero: "CloseSky is not a simple NFT market. It is an app form that pulls both TokenManage and NFTManage into the settlement path.",
+      hero: "CloseSky is not a simple NFT market. It puts both NFTs and tokens into one account-level settlement flow.",
       sections: [
         {
           id: "positioning",
@@ -2036,10 +2024,10 @@ const moss = createMossConnector({
           id: "requirements",
           title: "Dependencies",
           bullets: [
-            "As an in-wallet app, it requires the corresponding App NFT.",
+            "As an in-wallet app, it needs to be installed and enabled first.",
             "It relies on both ERC-7204 and ERC-7564 Permit flows.",
-            "It depends on both TokenManage and NFTManage.",
-            "It is a good page for explaining module reuse instead of app-specific asset layers."
+            "It depends on both wallet-native token and NFT abilities.",
+            "It is a good page for explaining shared account-level asset logic instead of app-specific asset layers."
           ]
         },
       ]
@@ -2064,7 +2052,7 @@ const moss = createMossConnector({
           id: "requirements",
           title: "Usage Requirements",
           bullets: [
-            "As an in-wallet app, it requires the corresponding App NFT.",
+            "As an in-wallet app, it needs to be installed and enabled first.",
             "It depends on the wallet already holding lendable token assets.",
             "Frontend and deployment config also include `FlashmanTestBorrower` for testing scenarios."
           ]
@@ -2120,7 +2108,7 @@ const moss = createMossConnector({
           title: "Key Dependencies",
           bullets: [
             "It depends on wallet signing and session authorization.",
-            "It is closely related to TokenManage payments and x402 flows.",
+            "It is closely related to wallet-native payments and x402 flows.",
             "It is best documented as both a user-facing app and a builder-facing integration surface."
           ]
         },
@@ -2132,7 +2120,7 @@ const moss = createMossConnector({
       title: "Account Contract API",
       summary: "A contract-level reference focused on the key interfaces of `MossAccountOS` and `MossAccountOSFactory`.",
       eyebrow: "API",
-      hero: "To understand the real boundary of the Moss wallet, you need to understand how the Factory creates accounts and how the Account authorizes logic.",
+      hero: "To understand the real boundary of the Moss wallet, you need to understand how the Factory creates accounts and how the Account installs, enables, and executes apps.",
       sections: [
         {
           id: "factory",
@@ -2153,11 +2141,11 @@ factory.getAddress(owners, registry, nonce);`
           id: "account",
           title: "Account Interfaces",
           bullets: [
-            "`authorizeLogic(address)`: allows a logic contract to run in the wallet.",
-            "`revokeLogic(address)`: revokes logic permissions.",
-            "`isBlocked(address)`: checks whether a logic is blocked.",
+            "`executeApp(address app, bytes data)`: executes an app through the wallet context.",
+            "`enableApp(address app)`: enables an installed app locally in the wallet.",
+            "`disableApp(address app)`: disables an app locally in the wallet.",
+            "`isAppEnabled(address app)`: checks whether an app is enabled in the wallet.",
             "`registry()`: returns the bound Registry.",
-            "`registryTrusted()`: returns whether Registry system-logic decisions are trusted.",
             "`execute(...)` / `executeBatch(...)`: wallet execution entry points."
           ]
         },
@@ -2165,30 +2153,30 @@ factory.getAddress(owners, registry, nonce);`
           id: "policy",
           title: "Permission Rules",
           bullets: [
-            "New accounts default to `registryTrusted = true`.",
-            "System logic can run directly when the Registry is trusted.",
-            "Non-system logic usually still requires an explicit owner `authorizeLogic` call.",
-            "If the logic is tied to an App NFT, the wallet must also hold that NFT."
+            "Publication, installation, and enablement are different states.",
+            "Only Store-installed apps receive an install entitlement.",
+            "Only wallet-enabled apps become available inside the Runtime.",
+            "A practical execution rule is `isAppEnabled(app) && registry.isEntitled(wallet, app)`."
           ],
           callout: {
             title: "Practical meaning",
-            body: "Moss splits logic usability into three layers: system whitelist, owner authorization, and App NFT ownership.",
+            body: "Moss no longer treats execution as a single allowlist question. Store entitlement and wallet-local enablement are both part of the runtime model.",
             tone: "accent"
           }
         }
       ]
     },
     {
-      slug: "token-and-nft-permit-api",
+      slug: "wallet-asset-signing-api",
       group: "ecosystem-dev",
-      title: "Token / NFT Permit API",
-      summary: "A focused reference for TokenManage and NFTManage permit-style methods and signed execution flows.",
+      title: "Wallet Asset Signing APIs",
+      summary: "A focused reference for token and NFT permit-style methods and signed execution flows.",
       eyebrow: "API",
-      hero: "The key asset story in Moss is not transfer alone. It is how system modules unify permissions, signatures, and execution.",
+      hero: "The key asset story in Moss is not transfer alone. It is how the wallet unifies permissions, signatures, and execution.",
       sections: [
         {
           id: "tokenmanage-api",
-          title: "TokenManage",
+          title: "Token APIs",
           bullets: [
             "`tokenApprove(asset, spender, value)`: set allowance.",
             "`tokenApproveForAll(spender, approved)`: set wallet-wide approval.",
@@ -2199,7 +2187,7 @@ factory.getAddress(owners, registry, nonce);`
         },
         {
           id: "nftmanage-api",
-          title: "NFTManage",
+          title: "NFT APIs",
           bullets: [
             "`nftApproveWithSig(asset, operator, tokenId, deadline, signature)`: single-NFT signed approval.",
             "`nftSetApprovalForOneAllWithSig(asset, operator, approved, deadline, signature)`: collection-scoped signed approval.",
@@ -2210,7 +2198,7 @@ factory.getAddress(owners, registry, nonce);`
           id: "signing-model",
           title: "Signing Model",
           bullets: [
-            "Both TokenManage and NFTManage permits rely on Moss dual-layer EIP-712 / ERC-1271 wrapping.",
+            "Both token and NFT permits rely on Moss dual-layer EIP-712 / ERC-1271 wrapping.",
             "The frontend reads nonces first, then uses wallet signing to produce the outer safe signature.",
             "That makes payments, listings, approvals, and delegated execution possible without directly moving the owner context each time."
           ]
@@ -2260,7 +2248,7 @@ factory.getAddress(owners, registry, nonce);`
       slug: "onboarding-flow",
       group: "start",
       title: "Onboarding Flow",
-      summary: "Turn the current OS onboarding into a standard flow for demos, sales, and internal testing.",
+      summary: "Turn the current Runtime onboarding into a standard flow for demos, sales, and internal testing.",
       eyebrow: "Flow",
       hero: "The goal of this flow is not to show one isolated feature. It is to let users understand the Moss product loop in under five minutes.",
       sections: [
@@ -2268,11 +2256,11 @@ factory.getAddress(owners, registry, nonce);`
           id: "steps",
           title: "Standard Demo Path",
           steps: [
-            { title: "Enter OS and connect a wallet", description: "Users enter with an EOA first, but the destination is a Moss Wallet." },
+            { title: "Enter Runtime and connect a wallet", description: "Users enter with an EOA first, but the destination is a Moss Wallet." },
             { title: "Create a Moss Wallet", description: "Make the user understand that the wallet is the container for all later capabilities." },
             { title: "Claim test assets", description: "Prepare for later payments, approvals, trading, and app installation." },
-            { title: "Mint one App NFT in Store", description: "PeerDex is usually the clearest first example." },
-            { title: "Return to OS and open the app", description: "Show that installation changes the account workspace, not just a web menu." }
+            { title: "Install one app in Store", description: "PeerDex is usually the clearest first example." },
+            { title: "Return to Runtime and open the app", description: "Show that installation changes the Runtime, not just a web menu." }
           ],
           visuals: [
             {
@@ -2289,7 +2277,7 @@ factory.getAddress(owners, registry, nonce);`
             "Moss is not a single dApp.",
             "Moss delivers the account layer before the app layer.",
             "Installation is on-chain state, not frontend-only state.",
-            "System modules let apps avoid building separate asset layers."
+            "Wallet-native capabilities let apps avoid building separate asset layers."
           ]
         }
       ]
@@ -2298,24 +2286,24 @@ factory.getAddress(owners, registry, nonce);`
       slug: "store-install-flow",
       group: "start",
       title: "Store Install Flow",
-      summary: "A flow page for App NFT installation scenarios, designed to explain the coupling between Store and OS.",
+      summary: "A flow page for the current installation model, designed to explain the coupling between Store and Runtime.",
       eyebrow: "Flow",
-      hero: "The Store is valuable not because it lists apps, but because it moves installation, distribution, and monetization onto the chain.",
+      hero: "The Store is valuable not because it lists apps, but because it makes installation, distribution, and wallet entry part of one verifiable path.",
       sections: [
         {
           id: "steps",
           title: "Installation Path",
           steps: [
-            { title: "Open the app detail page", description: "Review app summary, mint price, and App NFT information." },
-            { title: "Submit the mint transaction", description: "The user wallet mints the App NFT on-chain." },
-            { title: "Wait for confirmation", description: "Installation becomes chain state instead of local cache." },
-            { title: "Return to OS and refresh", description: "In-wallet apps appear or become usable when authorization and NFT conditions are satisfied." }
+            { title: "Open the app detail page", description: "Review app summary, install fee, and capability description." },
+            { title: "Submit the install transaction", description: "The user wallet completes the Store installation flow." },
+            { title: "Wait for confirmation", description: "Install entitlement becomes chain state instead of local cache." },
+            { title: "Return to Runtime and refresh", description: "After wallet enablement, the app appears or becomes usable inside the Runtime." }
           ],
           visuals: [
             {
               src: "/diagrams/store-install-flow.svg",
               alt: "Store install flow diagram",
-              caption: "The critical transition is from Store minting to account-visible capability, not just from page A to page B.",
+              caption: "The critical transition is from Store installation to account-visible capability, not just from page A to page B.",
             }
           ]
         },
@@ -2326,7 +2314,7 @@ factory.getAddress(owners, registry, nonce);`
             "Are you on the correct network?",
             "Is there enough gas?",
             "Is the logic correctly registered in the Registry?",
-            "Does the App NFT address match the frontend configuration?"
+            "Do frontend entitlement and enablement reads match the chain state?"
           ]
         }
       ]
@@ -2345,7 +2333,7 @@ factory.getAddress(owners, registry, nonce);`
           steps: [
             { title: "Create or obtain a session grant", description: "The owner authorizes a session or payment scope first." },
             { title: "A server or agent initiates a charge", description: "The request carries the relevant session context and payment target." },
-            { title: "Run the signing and validation path", description: "Wallet-signing semantics and system modules jointly guarantee validity." },
+            { title: "Run the signing and validation path", description: "Wallet-signing semantics and wallet-native payment capabilities jointly guarantee validity." },
             { title: "Finalize micropayment settlement", description: "This fits APIs, AI agents, subscriptions, and x402-style payment flows." }
           ],
           visuals: [
@@ -2361,7 +2349,7 @@ factory.getAddress(owners, registry, nonce);`
           title: "What the Docs Should Emphasize",
           bullets: [
             "One authorization, many low-friction payments.",
-            "Strong relation to TokenManage and x402 routes.",
+            "Strong relation to wallet-native payment abilities and x402 routes.",
             "It is both a product feature and a developer integration surface."
           ]
         }
@@ -2429,35 +2417,35 @@ const docOrder: Record<Locale, string[]> = {
   zh: [
     "overview",
     "getting-started",
-    "account-os",
-    "store-and-app-nft",
-    "system-modules",
-    "architecture",
+    "runtime",
+    "store-installation",
     "ecosystem-apps",
+    "wallet-native-capabilities",
+    "architecture",
     "app-peerdex",
     "app-closesky",
     "app-flashman",
     "app-cryptowill",
     "app-blinkpay",
     "contracts-and-deployment",
-    "token-and-nft-permit-api",
+    "wallet-asset-signing-api",
     "frontend-and-sdk",
   ],
   en: [
     "overview",
     "getting-started",
-    "account-os",
-    "store-and-app-nft",
-    "system-modules",
-    "architecture",
+    "runtime",
+    "store-installation",
     "ecosystem-apps",
+    "wallet-native-capabilities",
+    "architecture",
     "app-peerdex",
     "app-closesky",
     "app-flashman",
     "app-cryptowill",
     "app-blinkpay",
     "contracts-and-deployment",
-    "token-and-nft-permit-api",
+    "wallet-asset-signing-api",
     "frontend-and-sdk",
   ],
 };

@@ -1,5 +1,5 @@
 {
-  "name": "Moss Account OS",
+  "name": "Moss Runtime",
   "short_name": "Moss",
   "icons": [
     { "src": "/favicon-16x16.png", "sizes": "16x16", "type": "image/png" },

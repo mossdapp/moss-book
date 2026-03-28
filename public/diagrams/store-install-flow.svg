@@ -18,26 +18,26 @@
   <rect x="144" y="374" rx="22" width="294" height="82" fill="#FDF2F8"/>
   <text x="174" y="425" fill="#171217" font-family="Space Grotesk, sans-serif" font-size="30" font-weight="700">PeerDex</text>
   <rect x="144" y="474" rx="18" width="182" height="44" fill="#FFF7ED"/>
-  <text x="174" y="503" fill="#171217" font-family="Space Grotesk, sans-serif" font-size="20" font-weight="700">Mint fee: 0.001 ETH</text>
+  <text x="174" y="503" fill="#171217" font-family="Space Grotesk, sans-serif" font-size="20" font-weight="700">Install fee: 0.001 ETH</text>
   <rect x="144" y="532" rx="22" width="230" height="72" fill="#171217"/>
-  <text x="178" y="577" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="28" font-weight="700">Mint App NFT</text>
+  <text x="178" y="577" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="28" font-weight="700">Install App</text>
 
   <rect x="608" y="278" rx="34" width="384" height="264" fill="#FFFFFF" stroke="#CDD7FF" stroke-width="2"/>
   <text x="648" y="334" fill="#5566DA" font-family="Space Grotesk, sans-serif" font-size="18" font-weight="700">CHAIN STATE</text>
-  <text x="648" y="388" fill="#171217" font-family="Space Grotesk, sans-serif" font-size="34" font-weight="700">Registry + App NFT</text>
+  <text x="648" y="388" fill="#171217" font-family="Space Grotesk, sans-serif" font-size="34" font-weight="700">Registry + Entitlement</text>
   <rect x="648" y="424" rx="20" width="304" height="44" fill="#EEF2FF"/>
   <text x="680" y="452" fill="#171217" font-family="Space Grotesk, sans-serif" font-size="20" font-weight="700">Ownership is recorded on-chain</text>
   <rect x="648" y="482" rx="20" width="250" height="44" fill="#EEF2FF"/>
   <text x="680" y="510" fill="#171217" font-family="Space Grotesk, sans-serif" font-size="20" font-weight="700">Install status can be checked</text>
 
   <rect x="1122" y="230" rx="34" width="374" height="360" fill="#FFFFFF" stroke="#D8EBD9" stroke-width="2"/>
-  <text x="1162" y="286" fill="#1D9C63" font-family="Space Grotesk, sans-serif" font-size="18" font-weight="700">ACCOUNT OS</text>
+  <text x="1162" y="286" fill="#1D9C63" font-family="Space Grotesk, sans-serif" font-size="18" font-weight="700">RUNTIME</text>
   <text x="1162" y="340" fill="#171217" font-family="Space Grotesk, sans-serif" font-size="34" font-weight="700">Account updates</text>
   <rect x="1162" y="380" rx="20" width="228" height="56" fill="#E9F8F0"/>
   <text x="1192" y="416" fill="#171217" font-family="Space Grotesk, sans-serif" font-size="22" font-weight="700">Refresh or re-open</text>
   <rect x="1162" y="458" rx="24" width="262" height="104" fill="#F6FBF7"/>
   <text x="1198" y="505" fill="#171217" font-family="Space Grotesk, sans-serif" font-size="30" font-weight="700">App tile appears</text>
-  <text x="1198" y="542" fill="#6F6570" font-family="Space Grotesk, sans-serif" font-size="20">Usable inside the account workspace</text>
+  <text x="1198" y="542" fill="#6F6570" font-family="Space Grotesk, sans-serif" font-size="20">Usable inside the shared runtime</text>
 
   <path d="M494 412H576" stroke="#171217" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 12"/>
   <path d="M1008 412H1090" stroke="#171217" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 12"/>
@@ -46,5 +46,5 @@
 
   <rect x="352" y="676" rx="34" width="896" height="116" fill="#171217"/>
   <text x="404" y="724" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="20" font-weight="700">KEY IDEA</text>
-  <text x="404" y="766" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="34" font-weight="700">A successful mint changes what the account is allowed to see and run</text>
+  <text x="404" y="766" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="34" font-weight="700">A successful install changes what the wallet can see and run</text>
 </svg>

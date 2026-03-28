@@ -1,14 +1,47 @@
-# moss-book
+# Moss Book
 
-Moss 的独立文档仓库，基于 `Next.js App Router` 构建，内容由 `moss-core`、`moss-store`、`moss-website` 与 `moss-labs` 当前代码与 README 整理而来。
+Moss Book 是 Moss 的独立文档站仓库，目标首先是帮助普通用户理解 Moss 是什么、怎么开始、应用如何安装以及为什么应用会回到账户里使用。站点基于 `Next.js App Router` 构建，当前采用 `TypeScript` 内容源直接驱动页面，而不是 MDX 或 CMS。
 
-## 目标
+## Current Model
 
-- 作为 Moss 官方文档入口，统一解释 Account OS、Store、系统模块、应用生态和开发者接入。
-- 复用现有品牌资源与视觉语言，降低设计割裂。
-- 当前先用代码内数据结构驱动双语文档，后续可以平滑迁移到 MDX 或 CMS。
+- 文档内容集中维护在 `src/lib/docs.ts`
+- 叙事优先服务普通用户建立产品心智模型，再承接开发和集成说明
+- 当前支持 `zh` / `en` 双语路由
+- 首页、文档列表、文档详情页都由静态数据直接生成
+- 搜索、侧边导航、目录导航都基于同一份文档数据工作
+- 旧路径 `/docs` 和 `/docs/[slug]` 会重定向到中文路径
 
-## 运行
+## Project Structure
+
+- `src/app/`
+  - `page.tsx`: 根路径重定向到 `/zh`
+  - `[locale]/page.tsx`: 多语言首页
+  - `[locale]/docs/page.tsx`: 文档索引页
+  - `[locale]/docs/[slug]/page.tsx`: 文档详情页
+  - `docs/page.tsx` / `docs/[slug]/page.tsx`: 旧文档路径兼容重定向
+- `src/components/`
+  - `site-header.tsx`: 顶部导航、语言切换、全站搜索入口
+  - `docs-sidebar.tsx`: 左侧导航
+  - `docs-search.tsx`: 文档列表页搜索
+  - `global-search.tsx`: 全局搜索弹层
+  - `doc-content.tsx`: 正文渲染
+  - `docs-toc.tsx`: 文档页目录
+- `src/lib/`
+  - `docs.ts`: 站点文案、文档定义、分组、排序、相邻导航
+  - `i18n.ts`: locale 定义与语言切换辅助
+- `public/`
+  - 应用图标、流程图、品牌图标、字体与站点图标资源
+
+## Routes
+
+- `/` -> `/zh`
+- `/docs` -> `/zh/docs`
+- `/docs/[slug]` -> `/zh/docs/[slug]`
+- `/[locale]`
+- `/[locale]/docs`
+- `/[locale]/docs/[slug]`
+
+## Development
 
 ```bash
 npm install
@@ -17,22 +50,46 @@ npm run dev
 
 默认启动地址为 `http://localhost:3000`。
 
-## 结构
+其他常用命令：
 
-- `src/app/[locale]/page.tsx`: 双语首页，当前支持 `zh` / `en`。
-- `src/app/[locale]/docs/[slug]/page.tsx`: 双语文档详情页。
-- `src/lib/docs.ts`: 双语文档内容、导航和首页文案定义。
-- `src/lib/i18n.ts`: locale 定义与切换辅助。
-- `public/`: 复用自现有 Moss 站点的图标、字体与应用图标。
+```bash
+npm run lint
+npm run build
+npm run start
+```
 
-## 当前路线
+## Content Workflow
 
-- 现在阶段推荐继续使用 `TS 数据驱动`，因为信息架构、双语命名和开发者路径还在快速收敛。
-- 等文档目录和内容 ownership 稳定后，再迁移到“导航用 TS，正文用 MDX”的混合模式。
+### Update an existing page
 
-## 当前信息来源
+直接修改 `src/lib/docs.ts` 中对应 locale 的文档定义。
 
-- `moss-core`: Account OS、SDK、系统应用、应用路由与环境变量约定
-- `moss-store`: Store 架构、LogicRegistry、AppNFT、收益模型与应用列表
-- `moss-website`: 官方叙事、快速开始流程、品牌视觉
-- `moss-labs`: 品牌语气与探索性定位
+### Add a new page
+
+1. 在 `docsByLocale.zh` 和 `docsByLocale.en` 中各新增一份页面对象
+2. 保持两种语言使用相同 `slug`
+3. 为页面选择已有 `group`
+4. 把 `slug` 加入 `docOrder.zh` 和 `docOrder.en`
+5. 如果需要插图或图标，把资源放到 `public/diagrams` 或 `public/apps`
+
+### Add or update page sections
+
+`DocSection` 当前支持这些内容块：
+
+- `paragraphs`
+- `bullets`
+- `steps`
+- `cards`
+- `links`
+- `visuals`
+- `code`
+- `callout`
+
+## Maintenance Notes
+
+- `getDocs()` 会按 `docOrder` 过滤和排序，未进入排序表的页面不会出现在站点导航中
+- 搜索索引来自文档标题、摘要、hero 和 section 文本，不需要额外维护搜索数据
+- 语言切换依赖相同 `slug`，因此中英文页面必须保持 slug 对齐
+- 当前内容模型仍在快速迭代，继续使用 `TS 数据驱动` 比引入 MDX 更稳妥
+
+更多维护细节见 [docs/DEVELOPER_GUIDE.md](/home/xiang/moss/moss-book/docs/DEVELOPER_GUIDE.md) 和 [docs/PROJECT_STRUCTURE.md](/home/xiang/moss/moss-book/docs/PROJECT_STRUCTURE.md)。

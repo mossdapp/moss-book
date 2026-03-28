@@ -5,16 +5,16 @@ import { GlobalSearch } from "@/components/global-search";
 import { LanguageSwitcher } from "@/components/language-switcher";
 import type { Locale } from "@/lib/i18n";
 
-const navLabels: Record<Locale, { docs: string; os: string; store: string; labs: string }> = {
+const navLabels: Record<Locale, { docs: string; runtime: string; store: string; labs: string }> = {
   zh: {
     docs: "Docs",
-    os: "OS",
+    runtime: "Runtime",
     store: "Store",
     labs: "Labs",
   },
   en: {
     docs: "Docs",
-    os: "OS",
+    runtime: "Runtime",
     store: "Store",
     labs: "Labs",
   },
@@ -58,7 +58,7 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
             rel="noreferrer"
             className="hidden rounded-full border border-[var(--line)] bg-[var(--surface)] px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--ink-soft)] transition hover:border-[rgba(156,107,58,0.22)] hover:bg-[var(--surface-strong)] hover:text-[var(--ink)] sm:inline-flex"
           >
-            {labels.os}
+            {labels.runtime}
           </a>
           <a
             href="https://store.mossdapp.com/en"

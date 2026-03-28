@@ -31,12 +31,12 @@
     <rect x="962" y="250" rx="30" width="252" height="174" fill="#FFFFFF" stroke="#CDD7FF" stroke-width="2"/>
     <text x="994" y="304" fill="#5566DA" font-size="18" font-weight="700">STEP 04</text>
     <text x="994" y="356" fill="#171217" font-size="32" font-weight="700">Install in Store</text>
-    <text x="994" y="396" fill="#6F6570" font-size="20">Mint an App NFT for the app you want</text>
+    <text x="994" y="396" fill="#6F6570" font-size="20">Install the app you want from Store</text>
 
     <rect x="1252" y="250" rx="30" width="252" height="174" fill="#FFFFFF" stroke="#D8EBD9" stroke-width="2"/>
     <text x="1284" y="304" fill="#1D9C63" font-size="18" font-weight="700">STEP 05</text>
-    <text x="1284" y="356" fill="#171217" font-size="32" font-weight="700">Open in OS</text>
-    <text x="1284" y="396" fill="#6F6570" font-size="20">Use the app inside the account surface</text>
+    <text x="1284" y="356" fill="#171217" font-size="32" font-weight="700">Open in Runtime</text>
+    <text x="1284" y="396" fill="#6F6570" font-size="20">Use the app inside the shared runtime</text>
   </g>
 
   <path d="M344 336H368" stroke="#171217" stroke-width="5" stroke-linecap="round"/>
@@ -46,7 +46,7 @@
 
   <rect x="260" y="560" rx="40" width="1080" height="188" fill="#171217"/>
   <text x="322" y="626" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="20" font-weight="700">OUTCOME</text>
-  <text x="322" y="676" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="38" font-weight="700">The account becomes the place where apps appear, persist, and execute</text>
+  <text x="322" y="676" fill="#FFFFFF" font-family="Space Grotesk, sans-serif" font-size="38" font-weight="700">The Runtime becomes the place where apps appear, persist, and execute</text>
   <rect x="322" y="700" rx="18" width="182" height="34" fill="#2A2430"/>
   <rect x="518" y="700" rx="18" width="208" height="34" fill="#2A2430"/>
   <rect x="740" y="700" rx="18" width="196" height="34" fill="#2A2430"/>

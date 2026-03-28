@@ -5,7 +5,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Moss Book",
-  description: "Moss 官方文档站，覆盖 Account OS、Store、系统模块、应用生态与开发者接入。",
+  description: "Moss 官方文档站，覆盖 Runtime、Store、应用生态与开发者接入。",
 };
 
 export const viewport: Viewport = {

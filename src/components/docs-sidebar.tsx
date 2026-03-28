@@ -14,8 +14,8 @@ export function DocsSidebar({ locale, activeSlug }: DocsSidebarProps) {
   const copy = siteCopy[locale];
   const helperText =
     locale === "zh"
-      ? "按开始、平台、生态、生态开发和集成方 5 条路径组织。"
-      : "Organized into five paths: start, platform, ecosystem, ecosystem dev, and integrators.";
+      ? "按先理解、核心机制、应用案例、进阶阅读和集成说明 5 条路径组织。"
+      : "Organized into five paths: start here, core model, app cases, advanced, and integration.";
 
   return (
     <aside className="top-24 h-fit lg:sticky">
