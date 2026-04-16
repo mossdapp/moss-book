@@ -33,7 +33,7 @@ export default async function HomePage({ params }: PageProps) {
           <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--accent)]">{copy.homeEyebrow}</p>
           <div className="mt-6 flex items-center gap-4">
             <div className="flex h-14 w-14 items-center justify-center rounded-[1.25rem] border border-[var(--line)] bg-[var(--surface-strong)] shadow-[var(--shadow-md)]">
-              <Image src="/onedo-icon.svg" alt="1do" width={28} height={28} />
+              <Image src="/onedo-icon.svg" alt="1Do" width={28} height={28} />
             </div>
             <span className="rounded-full border border-[var(--line)] bg-[var(--surface)] px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--ink-soft)]">
               {copy.generatedFrom}

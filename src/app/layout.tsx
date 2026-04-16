@@ -4,8 +4,8 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "1do Book",
-  description: "1do 官方文档站，覆盖 Runtime、Store、应用生态与开发者接入。",
+  title: "1Do Book",
+  description: "1Do 官方文档站，覆盖 Runtime、Store、应用生态与开发者接入。",
 };
 
 export const viewport: Viewport = {

@@ -1,6 +1,6 @@
-# 1do Book
+# 1Do Book
 
-1do Book 是 1do 的独立文档站仓库，目标首先是帮助普通用户理解 1do 是什么、怎么开始、应用如何安装以及为什么应用会回到账户里使用。站点基于 `Next.js App Router` 构建，当前采用 `TypeScript` 内容源直接驱动页面，而不是 MDX 或 CMS。
+1Do Book 是 1Do 的独立文档站仓库，目标首先是帮助普通用户理解 1Do 是什么、怎么开始、应用如何安装以及为什么应用会回到账户里使用。站点基于 `Next.js App Router` 构建，当前采用 `TypeScript` 内容源直接驱动页面，而不是 MDX 或 CMS。
 
 ## Current Model
 

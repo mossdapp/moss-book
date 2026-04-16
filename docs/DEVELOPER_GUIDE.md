@@ -1,10 +1,10 @@
-# 1do Book Developer Guide
+# 1Do Book Developer Guide
 
 这份文档面向维护 `1do-book` 内容和前端结构的开发者。
 
 ## What This Repo Owns
 
-- 1do 官方文档站前端
+- 1Do 官方文档站前端
 - 双语文档内容的数据结构
 - 文档导航、搜索、目录和语言切换
 - 品牌相关静态资源

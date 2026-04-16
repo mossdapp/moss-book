@@ -33,13 +33,13 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
         <div className="flex items-center gap-3">
           <Link href={`/${locale}`} className="flex items-center gap-3">
             <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[var(--line)] bg-[var(--surface-strong)] shadow-[var(--shadow-md)]">
-              <Image src="/onedo-icon.svg" alt="1do" width={22} height={22} />
+              <Image src="/onedo-icon.svg" alt="1Do" width={22} height={22} />
             </div>
             <div>
               <span className="block text-[11px] font-semibold uppercase tracking-[0.26em] text-[var(--accent)]">
                 Official Docs
               </span>
-              <span className="block text-base font-semibold tracking-[-0.03em] text-[var(--ink)]">1do Book</span>
+              <span className="block text-base font-semibold tracking-[-0.03em] text-[var(--ink)]">1Do Book</span>
             </div>
           </Link>
         </div>
