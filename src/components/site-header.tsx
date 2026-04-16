@@ -33,13 +33,13 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
         <div className="flex items-center gap-3">
           <Link href={`/${locale}`} className="flex items-center gap-3">
             <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[var(--line)] bg-[var(--surface-strong)] shadow-[var(--shadow-md)]">
-              <Image src="/moss-icon.svg" alt="Moss" width={22} height={22} />
+              <Image src="/onedo-icon.svg" alt="1do" width={22} height={22} />
             </div>
             <div>
               <span className="block text-[11px] font-semibold uppercase tracking-[0.26em] text-[var(--accent)]">
                 Official Docs
               </span>
-              <span className="block text-base font-semibold tracking-[-0.03em] text-[var(--ink)]">Moss Book</span>
+              <span className="block text-base font-semibold tracking-[-0.03em] text-[var(--ink)]">1do Book</span>
             </div>
           </Link>
         </div>
@@ -53,7 +53,7 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
             {labels.docs}
           </Link>
           <a
-            href="https://os.mossdapp.com"
+            href="https://1do.app/app"
             target="_blank"
             rel="noreferrer"
             className="hidden rounded-full border border-[var(--line)] bg-[var(--surface)] px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--ink-soft)] transition hover:border-[rgba(156,107,58,0.22)] hover:bg-[var(--surface-strong)] hover:text-[var(--ink)] sm:inline-flex"
@@ -61,7 +61,7 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
             {labels.runtime}
           </a>
           <a
-            href="https://store.mossdapp.com/en"
+            href="https://store.1do.app/en"
             target="_blank"
             rel="noreferrer"
             className="hidden rounded-full border border-[var(--line)] bg-[var(--surface)] px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--ink-soft)] transition hover:border-[rgba(156,107,58,0.22)] hover:bg-[var(--surface-strong)] hover:text-[var(--ink)] md:inline-flex"
@@ -69,7 +69,7 @@ export function SiteHeader({ locale }: SiteHeaderProps) {
             {labels.store}
           </a>
           <a
-            href="https://labs.mossdapp.com"
+            href="https://labs.1do.app"
             target="_blank"
             rel="noreferrer"
             className="hidden rounded-full border border-[var(--line)] bg-[var(--surface)] px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--ink-soft)] transition hover:border-[rgba(156,107,58,0.22)] hover:bg-[var(--surface-strong)] hover:text-[var(--ink)] lg:inline-flex"

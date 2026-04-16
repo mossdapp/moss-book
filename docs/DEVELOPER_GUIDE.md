@@ -1,10 +1,10 @@
-# Moss Book Developer Guide
+# 1do Book Developer Guide
 
-这份文档面向维护 `moss-book` 内容和前端结构的开发者。
+这份文档面向维护 `1do-book` 内容和前端结构的开发者。
 
 ## What This Repo Owns
 
-- Moss 官方文档站前端
+- 1do 官方文档站前端
 - 双语文档内容的数据结构
 - 文档导航、搜索、目录和语言切换
 - 品牌相关静态资源
@@ -13,11 +13,11 @@
 
 - 从外部 CMS 拉取内容
 - MDX 编译链路
-- `moss-core` / `moss-store` 合约或业务逻辑源码
+- `1do-core` / `1do-store` 合约或业务逻辑源码
 
 ## Main Content Source
 
-当前文档内容统一维护在 [src/lib/docs.ts](/home/xiang/moss/moss-book/src/lib/docs.ts)。
+当前文档内容统一维护在 [src/lib/docs.ts](/home/xiang/1do/1do-book/src/lib/docs.ts)。
 
 这里同时定义了：
 
@@ -32,7 +32,7 @@
 
 ### Update an existing document
 
-1. 找到 [src/lib/docs.ts](/home/xiang/moss/moss-book/src/lib/docs.ts) 中对应的 `slug`
+1. 找到 [src/lib/docs.ts](/home/xiang/1do/1do-book/src/lib/docs.ts) 中对应的 `slug`
 2. 同步修改 `zh` 和 `en` 两份页面内容
 3. 如果只改一端语言，至少确认另一端不会因为结构不对齐导致切换体验异常
 
@@ -70,14 +70,14 @@
 - `code`: 代码块
 - `callout`: 提示信息
 
-正文渲染组件在 [src/components/doc-content.tsx](/home/xiang/moss/moss-book/src/components/doc-content.tsx)。
+正文渲染组件在 [src/components/doc-content.tsx](/home/xiang/1do/1do-book/src/components/doc-content.tsx)。
 
 ## Navigation And Search
 
 - 左侧导航来自 `docGroups + getDocs()`
 - 上下篇跳转来自 `getAdjacentDocs()`
-- 文档列表搜索在 [src/components/docs-search.tsx](/home/xiang/moss/moss-book/src/components/docs-search.tsx)
-- 全局搜索弹层在 [src/components/global-search.tsx](/home/xiang/moss/moss-book/src/components/global-search.tsx)
+- 文档列表搜索在 [src/components/docs-search.tsx](/home/xiang/1do/1do-book/src/components/docs-search.tsx)
+- 全局搜索弹层在 [src/components/global-search.tsx](/home/xiang/1do/1do-book/src/components/global-search.tsx)
 
 搜索文本目前会扫描：
 
@@ -98,11 +98,11 @@
 
 相关路由文件：
 
-- [src/app/page.tsx](/home/xiang/moss/moss-book/src/app/page.tsx)
-- [src/app/docs/page.tsx](/home/xiang/moss/moss-book/src/app/docs/page.tsx)
-- [src/app/docs/[slug]/page.tsx](/home/xiang/moss/moss-book/src/app/docs/[slug]/page.tsx)
-- [src/app/[locale]/docs/page.tsx](/home/xiang/moss/moss-book/src/app/[locale]/docs/page.tsx)
-- [src/app/[locale]/docs/[slug]/page.tsx](/home/xiang/moss/moss-book/src/app/[locale]/docs/[slug]/page.tsx)
+- [src/app/page.tsx](/home/xiang/1do/1do-book/src/app/page.tsx)
+- [src/app/docs/page.tsx](/home/xiang/1do/1do-book/src/app/docs/page.tsx)
+- [src/app/docs/[slug]/page.tsx](/home/xiang/1do/1do-book/src/app/docs/[slug]/page.tsx)
+- [src/app/[locale]/docs/page.tsx](/home/xiang/1do/1do-book/src/app/[locale]/docs/page.tsx)
+- [src/app/[locale]/docs/[slug]/page.tsx](/home/xiang/1do/1do-book/src/app/[locale]/docs/[slug]/page.tsx)
 
 ## Static Assets
 
@@ -140,6 +140,6 @@ npm run dev
 ## Editing Guidance
 
 - 优先保持 `zh` / `en` 结构对齐
-- 产品事实以 `moss-core` / `moss-store` 当前代码和文档为准
+- 产品事实以 `1do-core` / `1do-store` 当前代码和文档为准
 - 当前仓库更适合维护“已整理后的稳定说明”，不要把临时实验结论直接写成正式文案
 - 如果内容量继续增大，再评估是否迁移到 “导航用 TS，正文用 MDX” 的混合模式

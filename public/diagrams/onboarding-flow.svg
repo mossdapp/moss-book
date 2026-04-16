@@ -9,7 +9,7 @@
   <circle cx="170" cy="160" r="130" fill="#FCE7F3"/>
   <circle cx="1430" cy="734" r="182" fill="#E0E7FF"/>
 
-  <text x="96" y="96" fill="#171217" font-family="Space Grotesk, sans-serif" font-size="56" font-weight="700">Moss Onboarding</text>
+  <text x="96" y="96" fill="#171217" font-family="Space Grotesk, sans-serif" font-size="56" font-weight="700">1do Onboarding</text>
   <text x="96" y="142" fill="#6F6570" font-family="Space Grotesk, sans-serif" font-size="24">A five-step path from first visit to account-native app use</text>
 
   <g font-family="Space Grotesk, sans-serif">
@@ -21,7 +21,7 @@
     <rect x="382" y="250" rx="30" width="252" height="174" fill="#FFFFFF" stroke="#CDD7FF" stroke-width="2"/>
     <text x="414" y="304" fill="#5566DA" font-size="18" font-weight="700">STEP 02</text>
     <text x="414" y="356" fill="#171217" font-size="32" font-weight="700">Create account</text>
-    <text x="414" y="396" fill="#6F6570" font-size="20">Moss Wallet becomes your workspace</text>
+    <text x="414" y="396" fill="#6F6570" font-size="20">1do Wallet becomes your workspace</text>
 
     <rect x="672" y="250" rx="30" width="252" height="174" fill="#FFFFFF" stroke="#F2D6A3" stroke-width="2"/>
     <text x="704" y="304" fill="#B7791F" font-size="18" font-weight="700">STEP 03</text>

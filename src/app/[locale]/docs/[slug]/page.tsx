@@ -24,17 +24,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { locale, slug } = await params;
 
   if (!isValidLocale(locale)) {
-    return { title: "Moss Book" };
+    return { title: "1do Book" };
   }
 
   const doc = getDocBySlug(locale, slug);
 
   if (!doc) {
-    return { title: "Moss Book" };
+    return { title: "1do Book" };
   }
 
   return {
-    title: `${doc.title} | Moss Book`,
+    title: `${doc.title} | 1do Book`,
     description: doc.summary,
   };
 }

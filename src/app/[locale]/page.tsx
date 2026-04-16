@@ -33,7 +33,7 @@ export default async function HomePage({ params }: PageProps) {
           <p className="text-xs font-semibold uppercase tracking-[0.28em] text-[var(--accent)]">{copy.homeEyebrow}</p>
           <div className="mt-6 flex items-center gap-4">
             <div className="flex h-14 w-14 items-center justify-center rounded-[1.25rem] border border-[var(--line)] bg-[var(--surface-strong)] shadow-[var(--shadow-md)]">
-              <Image src="/moss-icon.svg" alt="Moss" width={28} height={28} />
+              <Image src="/onedo-icon.svg" alt="1do" width={28} height={28} />
             </div>
             <span className="rounded-full border border-[var(--line)] bg-[var(--surface)] px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--ink-soft)]">
               {copy.generatedFrom}
@@ -58,7 +58,7 @@ export default async function HomePage({ params }: PageProps) {
               {copy.homeCta}
             </Link>
             <a
-              href={externalLinks.os}
+              href={externalLinks.app}
               target="_blank"
               rel="noreferrer"
               className="rounded-full border border-[var(--line)] bg-[var(--surface-strong)] px-6 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-[var(--ink)] transition hover:border-[rgba(156,107,58,0.22)]"

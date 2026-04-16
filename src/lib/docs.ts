@@ -111,12 +111,12 @@ type SiteCopy = {
 };
 
 export const externalLinks = {
-  website: "https://mossdapp.com",
-  docs: "https://docs.mossdapp.com",
-  os: "https://os.mossdapp.com",
-  store: "https://store.mossdapp.com/en",
-  labs: "https://labs.mossdapp.com",
-  sdk: "https://www.npmjs.com/package/@mossdapp/sdk",
+  website: "https://1do.app",
+  docs: "https://docs.1do.app",
+  app: "https://1do.app/app",
+  store: "https://store.1do.app/en",
+  labs: "https://labs.1do.app",
+  sdk: "https://www.npmjs.com/package/@1doapp/sdk",
 };
 
 export const showcaseCards: Record<
@@ -134,7 +134,7 @@ export const showcaseCards: Record<
     {
       title: "PeerDex",
       category: "Trading",
-      description: "最适合演示 Moss 钱包内安装式交易体验的代表应用。",
+      description: "最适合演示 1do 钱包内安装式交易体验的代表应用。",
       icon: "/apps/peerdex.svg",
       image: "/diagrams/mock-peerdex.svg",
       href: "/zh/docs/app-peerdex",
@@ -176,7 +176,7 @@ export const showcaseCards: Record<
     {
       title: "PeerDex",
       category: "Trading",
-      description: "The clearest app for demonstrating the in-wallet install-and-trade pattern in Moss.",
+      description: "The clearest app for demonstrating the in-wallet install-and-trade pattern in 1do.",
       icon: "/apps/peerdex.svg",
       image: "/diagrams/mock-peerdex.svg",
       href: "/en/docs/app-peerdex",
@@ -218,23 +218,23 @@ export const showcaseCards: Record<
 
 export const siteCopy: Record<Locale, SiteCopy> = {
   zh: {
-    homeEyebrow: "Moss Documentation",
-    homeTitle: "MOSS\nBOOK",
+    homeEyebrow: "1do Documentation",
+    homeTitle: "1DO\nBOOK",
     homeIntro:
-      "这套文档优先帮助普通用户理解 Moss：它是什么、怎么开始、应用如何安装，以及为什么应用会回到 Runtime 里使用。",
+      "这套文档优先帮助普通用户理解 1do：它是什么、怎么开始、应用如何安装，以及为什么应用会回到 Runtime 里使用。",
     homeCta: "开始阅读",
     homeSecondaryCta: "打开 Runtime",
     homeStoreCta: "打开 Store",
     audienceTitle: "按你现在的问题进入",
     audienceCards: [
       {
-        title: "Moss 到底是什么",
+        title: "1do 到底是什么",
         description: "先建立正确心智模型，理解钱包、Store 和应用之间到底是什么关系。",
         href: "/zh/docs/overview",
       },
       {
         title: "第一次怎么开始",
-        description: "沿着最短路径完成连接钱包、创建 Moss Wallet、安装应用和开始使用。",
+        description: "沿着最短路径完成连接钱包、启用 1do runtime、安装应用和开始使用。",
         href: "/zh/docs/getting-started",
       },
       {
@@ -254,17 +254,17 @@ export const siteCopy: Record<Locale, SiteCopy> = {
     generatedFrom: "当前产品草稿",
     solvesTitle: "这版文档先解决什么",
     solvesItems: [
-      "先用普通用户能读懂的方式解释 Moss，而不是先抛内部术语。",
+      "先用普通用户能读懂的方式解释 1do，而不是先抛内部术语。",
       "把过时的安装模型和偏内部实现的旧术语从核心路径里移走。",
       "把钱包、Store、应用安装和实际使用串成一条连续体验路径。",
     ],
     readingMapEyebrow: "Reading Map",
-    readingMapTitle: "从认识 Moss 到第一次装应用",
+    readingMapTitle: "从认识 1do 到第一次装应用",
     browseDocs: "浏览全部文档",
     docsEyebrow: "Docs",
-    docsTitle: "Moss 文档总览",
-    docsIntro: "这套文档先服务普通用户理解 Moss，再承接开发和集成说明。当前仍以代码内数据驱动，方便快速调整叙事和结构。",
-    navTitle: "Moss 文档目录",
+    docsTitle: "1do 文档总览",
+    docsIntro: "这套文档先服务普通用户理解 1do，再承接开发和集成说明。当前仍以代码内数据驱动，方便快速调整叙事和结构。",
+    navTitle: "1do 文档目录",
     navSubtitle: "Navigation",
     navGroups: {
       start: "先理解",
@@ -283,23 +283,23 @@ export const siteCopy: Record<Locale, SiteCopy> = {
     browseDocsButton: "浏览文档",
   },
   en: {
-    homeEyebrow: "Moss Documentation",
-    homeTitle: "MOSS\nBOOK",
+    homeEyebrow: "1do Documentation",
+    homeTitle: "1DO\nBOOK",
     homeIntro:
-      "This documentation is written for ordinary users first: what Moss is, how to get started, how app installation works now, and why apps return to the Runtime.",
+      "This documentation is written for ordinary users first: what 1do is, how to get started, how app installation works now, and why apps return to the Runtime.",
     homeCta: "Start Reading",
     homeSecondaryCta: "Open Runtime",
     homeStoreCta: "Open Store",
     audienceTitle: "Start from Your Question",
     audienceCards: [
       {
-        title: "What Moss Is",
+        title: "What 1do Is",
         description: "Build the right mental model for the wallet, the Store, and in-account apps before anything else.",
         href: "/en/docs/overview",
       },
       {
         title: "How to Start",
-        description: "Follow the shortest path from wallet connection to Moss Wallet creation, installation, and first use.",
+        description: "Follow the shortest path from wallet connection to 1do Wallet creation, installation, and first use.",
         href: "/en/docs/getting-started",
       },
       {
@@ -319,17 +319,17 @@ export const siteCopy: Record<Locale, SiteCopy> = {
     generatedFrom: "Current product draft",
     solvesTitle: "What this draft solves first",
     solvesItems: [
-      "It explains Moss in language ordinary users can follow instead of starting from internal implementation terms.",
+      "It explains 1do in language ordinary users can follow instead of starting from internal implementation terms.",
       "It removes outdated installation framing and overly internal terminology from the core learning path.",
       "It connects wallet, Store, app installation, and actual usage into one continuous journey.",
     ],
     readingMapEyebrow: "Reading Map",
-    readingMapTitle: "From understanding Moss to installing the first app",
+    readingMapTitle: "From understanding 1do to installing the first app",
     browseDocs: "Browse all docs",
     docsEyebrow: "Docs",
-    docsTitle: "Moss Docs Index",
-    docsIntro: "This documentation is designed to help ordinary users understand Moss first, then move into advanced builder and integration material. It stays data-driven for now so the structure can keep evolving quickly.",
-    navTitle: "Moss Navigation",
+    docsTitle: "1do Docs Index",
+    docsIntro: "This documentation is designed to help ordinary users understand 1do first, then move into advanced builder and integration material. It stays data-driven for now so the structure can keep evolving quickly.",
+    navTitle: "1do Navigation",
     navSubtitle: "Navigation",
     navGroups: {
       start: "Start Here",
@@ -354,22 +354,22 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
     {
       slug: "overview",
       group: "start",
-      title: "Moss 是什么",
-      summary: "先建立对 Moss 的整体认知：它不是一个孤立 dApp，而是一个把智能钱包、应用安装和账户内使用串起来的产品。",
-      eyebrow: "Moss Book",
-      hero: "Moss 先给用户一个 Runtime，再把应用装进这个运行环境里。",
+      title: "1do 是什么",
+      summary: "先建立对 1do 的整体认知：它不是一个孤立 dApp，而是一个把智能钱包、应用安装和账户内使用串起来的产品。",
+      eyebrow: "1do Book",
+      hero: "1do 先给用户一个 Runtime，再把应用装进这个运行环境里。",
       sections: [
         {
-          id: "what-is-moss",
-          title: "Moss 是什么",
+          id: "what-is-1do",
+          title: "1do 是什么",
           paragraphs: [
-            "从用户视角看，Moss 不是让你在很多 dApp 之间来回跳转，而是先给你一个自己的 Moss Wallet，再让应用进入这个钱包环境里工作。",
-            "Moss 里最重要的不是某一个单独页面，而是 Runtime 本身。你连接自己的钱包、创建 Moss Wallet、在 Store 里安装应用，然后回到 Runtime 里继续使用它们。",
+            "从用户视角看，1do 不是让你在很多 dApp 之间来回跳转，而是先给你一个自己的 1do Wallet，再让应用进入这个钱包环境里工作。",
+            "1do 里最重要的不是某一个单独页面，而是 Runtime 本身。你连接自己的钱包、启用 1do runtime、在 Store 里安装应用，然后回到 Runtime 里继续使用它们。",
             "这意味着应用不再只是外部站点入口，而会成为你账户能力的一部分。资产、授权、支付和应用入口都围绕同一个账户上下文展开。",
             "这件事重要，是因为 Web3 长期缺少的不是更多入口，而是一个连续、统一、能积累状态的用户运行环境。"
           ],
           cards: [
-            { title: "Moss Runtime", description: "应用的运行环境。钱包、资产、应用和设置都从这里进入。" },
+            { title: "1do Runtime", description: "应用的运行环境。钱包、资产、应用和设置都从这里进入。" },
             { title: "Store", description: "应用被发现、安装并带回钱包的地方。" }
           ]
         },
@@ -377,14 +377,14 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           id: "loop",
           title: "产品闭环",
           steps: [
-            { title: "连接钱包并创建 Moss Wallet", description: "先从你已有的钱包进入，再创建自己的 Moss Wallet 作为应用运行的环境。" },
+            { title: "连接钱包并启用 1do runtime", description: "先从你已有的钱包进入；如果地址还未启用 7702，就先完成 runtime 激活。" },
             { title: "在 Store 安装应用", description: "用户在 Store 里发现应用并完成安装，安装记录会与这个账户绑定。" },
             { title: "回到 Runtime 里使用", description: "安装完成后，应用会重新出现在 Runtime 里，而不是停留在商店页。" },
-            { title: "持续复用同一个运行环境", description: "之后的资产、授权、支付和应用入口都围绕同一个 Moss Wallet 持续累积。" }
+            { title: "持续复用同一个运行环境", description: "之后的资产、授权、支付和应用入口都围绕同一个 1do Wallet 持续累积。" }
           ],
           callout: {
             title: "一个关键判断",
-            body: "Moss 不是把很多网页入口塞进钱包，而是在做一个可以安装应用、持续使用和逐渐长出能力的账户环境。",
+            body: "1do 不是把很多网页入口塞进钱包，而是在做一个可以安装应用、持续使用和逐渐长出能力的账户环境。",
             tone: "accent"
           }
         },
@@ -392,8 +392,8 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           id: "concepts",
           title: "关键概念",
           bullets: [
-            "Moss Wallet: 你在 Moss 里真正使用的智能钱包，也是应用运行的账户边界。",
-            "Moss Runtime: 应用的运行环境。你不是先进某个 dApp，而是先进入应用运行所在的环境。",
+            "1do Wallet: 你在 1do 里真正使用的智能钱包，也是应用运行的账户边界。",
+            "1do Runtime: 应用的运行环境。你不是先进某个 dApp，而是先进入应用运行所在的环境。",
             "Store: 应用的发现和安装入口。",
             "安装: 把某个应用和你的账户建立正式关系。",
             "启用: 安装后让这个应用在当前钱包里可见、可用。"
@@ -407,18 +407,18 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
       title: "快速开始",
       summary: "把当前账户引导路径整理成一套最短可执行步骤。",
       eyebrow: "Onboarding",
-      hero: "最短路径是：连接钱包 -> 创建 Moss Wallet -> 准备 gas 与测试资产 -> 在 Store 安装应用 -> 回到 Runtime 里使用。",
+      hero: "最短路径是：连接钱包 -> 启用 1do runtime -> 准备 gas 与测试资产 -> 在 Store 安装应用 -> 回到 Runtime 里使用。",
       sections: [
         {
           id: "journey",
           title: "首条体验路径",
           steps: [
-            { title: "连接任意 EOA 钱包", description: "先用你已有的钱包进入 Moss，普通钱包是进入 Moss 的起点。" },
-            { title: "创建 Moss Wallet", description: "连接成功后，如果当前还没有 SCW，界面就会出现 “Create Moss Wallet” 入口。" },
+            { title: "连接任意 EOA 钱包", description: "先用你已有的钱包进入 1do，普通钱包是进入 1do 的起点。" },
+            { title: "启用 1do runtime", description: "连接成功后，如果当前地址还没有启用 7702 runtime，界面会引导你完成激活。" },
             { title: "准备 Sepolia ETH", description: "当前演示路径默认围绕 Ethereum Sepolia，用户需要先准备 gas。" },
-            { title: "领取测试资产", description: "通过 Faucet 获取 USDC、USDT、MOSS 以及测试 NFT，便于体验后续应用。" },
+            { title: "领取测试资产", description: "通过 Faucet 获取 USDC、USDT、1DO 以及测试 NFT，便于体验后续应用。" },
             { title: "在 Store 安装应用", description: "选择一个应用完成安装，Store 会把这次安装与当前账户绑定。" },
-            { title: "回到 Runtime 使用应用", description: "安装确认后刷新 Runtime，应用会出现在你的 Moss Wallet 里。" }
+            { title: "回到 Runtime 使用应用", description: "安装确认后刷新 Runtime，应用会出现在你的 1do Wallet 里。" }
           ]
         },
         {
@@ -435,13 +435,13 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           id: "faq",
           title: "常见问题",
           bullets: [
-            "看不到 Create Moss Wallet: 多半是没有使用 Moss connector，或者当前网络不在 Sepolia。",
+            "看不到 7702 激活入口: 多半是当前网络不在 Sepolia，或者这个地址已经启用了 1do runtime。",
             "Faucet / mint 失败: 先确认新钱包内是否有足够 gas。",
             "安装后应用未显示: 等待确认并刷新 Runtime，必要时再等 10 到 30 秒。"
           ],
           links: [
-            { label: "Moss Runtime", href: externalLinks.os, external: true },
-            { label: "Moss Store", href: externalLinks.store, external: true },
+            { label: "1do Runtime", href: externalLinks.app, external: true },
+            { label: "1do Store", href: externalLinks.store, external: true },
             { label: "SDK Package", href: externalLinks.sdk, external: true }
           ]
         }
@@ -450,16 +450,16 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
     {
       slug: "runtime",
       group: "platform",
-      title: "Moss Runtime",
-      summary: "理解 Runtime 的产品定位：它不是登录后的钱包页面，而是应用在 Moss Wallet 里的运行环境。",
+      title: "1do Runtime",
+      summary: "理解 Runtime 的产品定位：它不是登录后的钱包页面，而是应用在 1do Wallet 里的运行环境。",
       eyebrow: "Platform",
-      hero: "在 Moss 里，Runtime 不是附属层，而是应用真正运行和持续被使用的环境。",
+      hero: "在 1do 里，Runtime 不是附属层，而是应用真正运行和持续被使用的环境。",
       sections: [
         {
           id: "role",
           title: "Runtime 承担什么角色",
           paragraphs: [
-            "Moss Runtime 是应用在 Moss Wallet 里运行的环境。它的职责不是只展示余额或地址，而是承接应用执行、资产能力和安装后的入口。",
+            "1do Runtime 是应用在 1do Wallet 里运行的环境。它的职责不是只展示余额或地址，而是承接应用执行、资产能力和安装后的入口。",
             "用户不是先进入某个单独应用再连接钱包，而是先进入 Runtime，再从这个环境里调用资产能力、已安装应用和账户设置。"
           ],
           bullets: [
@@ -473,7 +473,7 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           id: "account-first",
           title: "为什么需要 Runtime",
           paragraphs: [
-            "如果没有统一 Runtime，每个应用就都要自己处理资产、权限和交互流程。Moss 反过来做：先建立统一运行环境，再让应用复用同一个上下文。",
+            "如果没有统一 Runtime，每个应用就都要自己处理资产、权限和交互流程。1do 反过来做：先建立统一运行环境，再让应用复用同一个上下文。",
             "这样支付、Token、NFT、安装状态和自动化能力都可以沉淀在同一个 Runtime 里，而不是被拆散在不同页面和不同入口里。"
           ],
           bullets: [
@@ -484,7 +484,7 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           ],
           callout: {
             title: "设计判断",
-            body: "Moss 的关键不是做一个更像 App 的钱包界面，而是提供一个让应用长期运行的 Runtime。",
+            body: "1do 的关键不是做一个更像 App 的钱包界面，而是提供一个让应用长期运行的 Runtime。",
             tone: "accent"
           }
         },
@@ -493,7 +493,7 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           title: "Runtime 里到底组织了什么",
           paragraphs: [
             "一个成立的 Runtime，至少要把几类能力放进同一个运行环境里：钱包原生能力、安装后出现的应用能力、账户自己的资产状态，以及安全与设置入口。",
-            "这样用户在使用 Moss 时，感知到的是“这个 Runtime 现在能做什么”，而不是“我又跳到了哪个站点”。"
+            "这样用户在使用 1do 时，感知到的是“这个 Runtime 现在能做什么”，而不是“我又跳到了哪个站点”。"
           ],
           bullets: [
             "钱包原生能力：例如 Token 和 NFT 管理这类默认可用能力。",
@@ -508,9 +508,9 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
       slug: "store-installation",
       group: "platform",
       title: "Store 与应用安装",
-      summary: "理解 Store 在今天 Moss 里的作用：发现应用、完成安装，并把应用带回 Runtime 里使用。",
+      summary: "理解 Store 在今天 1do 里的作用：发现应用、完成安装，并把应用带回 Runtime 里使用。",
       eyebrow: "Distribution",
-      hero: "在今天的 Moss 里，Store 负责应用发现和安装入口，钱包负责把应用真正启用起来。",
+      hero: "在今天的 1do 里，Store 负责应用发现和安装入口，钱包负责把应用真正启用起来。",
       sections: [
         {
           id: "store-role",
@@ -537,7 +537,7 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           ],
           callout: {
             title: "现在该怎么理解安装",
-            body: "在今天的 Moss 里，发布、安装、启用是三件不同的事：Store 负责安装入口，钱包负责启用，真正的使用发生在 Runtime 里。",
+            body: "在今天的 1do 里，发布、安装、启用是三件不同的事：Store 负责安装入口，钱包负责启用，真正的使用发生在 Runtime 里。",
             tone: "accent"
           }
         },
@@ -557,15 +557,15 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
       slug: "wallet-native-capabilities",
       group: "platform",
       title: "钱包原生能力",
-      summary: "理解 Moss 里哪些能力本来就属于钱包自己，而不是必须先安装一个应用才能拥有。",
+      summary: "理解 1do 里哪些能力本来就属于钱包自己，而不是必须先安装一个应用才能拥有。",
       eyebrow: "Permissions",
-      hero: "在今天的 Moss 里，基础资产能力越来越像钱包原生能力，而不是另外一层需要单独安装的特殊应用。",
+      hero: "在今天的 1do 里，基础资产能力越来越像钱包原生能力，而不是另外一层需要单独安装的特殊应用。",
       sections: [
         {
           id: "tokenmanage",
           title: "Token 能力",
           paragraphs: [
-            "Moss 把常见的 Token 操作理解为钱包自己的基础能力，而不是每个应用都重新实现一遍。",
+            "1do 把常见的 Token 操作理解为钱包自己的基础能力，而不是每个应用都重新实现一遍。",
             "这意味着应用在进入账户上下文后，可以复用同一套 Token 授权、转账和签名语义。"
           ],
           bullets: [
@@ -578,7 +578,7 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           id: "nftmanage",
           title: "NFT 能力",
           paragraphs: [
-            "NFT 相关能力也是同样逻辑。Moss 不是让每个 NFT 应用各自拥有一套孤立资产层，而是尽量把能力收回到账户层。",
+            "NFT 相关能力也是同样逻辑。1do 不是让每个 NFT 应用各自拥有一套孤立资产层，而是尽量把能力收回到账户层。",
             "这样像授权、挂单、代理执行这类行为，就能围绕同一个钱包上下文工作。"
           ],
           bullets: [
@@ -605,7 +605,7 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
       title: "应用生态",
       summary: "基于当前应用列表与账户入口，整理生态里最重要的应用层能力。",
       eyebrow: "Apps",
-      hero: "Moss 的应用不是随机拼贴，它们围绕交易、支付、资产管理和账户自动化几个方向聚集。",
+      hero: "1do 的应用不是随机拼贴，它们围绕交易、支付、资产管理和账户自动化几个方向聚集。",
       sections: [
         {
           id: "major",
@@ -622,9 +622,9 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           id: "categories",
           title: "这些应用说明了什么",
           bullets: [
-            "Moss 不只想服务 DeFi，也在覆盖 NFT、支付、账户自动化和现实协作场景。",
+            "1do 不只想服务 DeFi，也在覆盖 NFT、支付、账户自动化和现实协作场景。",
             "很多应用都共享同一个钱包和资产上下文，而不是各自重新造一个账户层。",
-            "Store 里的应用列表本身就是 Moss 产品方向的路线图。"
+            "Store 里的应用列表本身就是 1do 产品方向的路线图。"
           ]
         },
         {
@@ -643,16 +643,16 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
     {
       slug: "architecture",
       group: "platform",
-      title: "Moss 如何协同工作",
+      title: "1do 如何协同工作",
       summary: "把钱包、Store 和应用之间的关系拆开讲清楚，先建立稳定心智模型，再去理解更深的实现细节。",
       eyebrow: "Architecture",
-      hero: "先把产品表面和安装关系讲清楚，用户就不会把 Moss 理解成几个彼此断开的站点。",
+      hero: "先把产品表面和安装关系讲清楚，用户就不会把 1do 理解成几个彼此断开的站点。",
       sections: [
         {
           id: "product-map",
           title: "用户先看到的三层",
           cards: [
-            { title: "Moss Wallet / Runtime", description: "应用运行环境，是用户真正持续停留和使用的地方。" },
+            { title: "1do Wallet / Runtime", description: "应用运行环境，是用户真正持续停留和使用的地方。" },
             { title: "Store", description: "负责应用发现、安装和把能力带回钱包。" },
             { title: "Apps", description: "交易、支付、自动化等能力最终都在账户上下文里被调用。" }
           ]
@@ -671,14 +671,14 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           id: "ui-layers",
           title: "产品表面",
           bullets: [
-            "Moss Runtime 是主交互层。",
+            "1do Runtime 是主交互层。",
             "Store 是安装层。",
             "应用页和具体流程页，是帮助用户理解“装完之后我能做什么”的能力说明。"
           ],
           visuals: [
             {
               src: "/diagrams/architecture-map.svg",
-              alt: "Moss architecture map",
+              alt: "1do architecture map",
               caption: "把账户、分发、实验层和链上执行放在同一张图里之后，产品边界会清楚很多。",
             }
           ]
@@ -689,15 +689,15 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
       slug: "contracts-and-deployment",
       group: "ecosystem-dev",
       title: "生态 App 开发",
-      summary: "面向想更深入理解 Moss 应用模型的读者，重点说明安装分发、收益结构和为什么应用会回到账户里。",
+      summary: "面向想更深入理解 1do 应用模型的读者，重点说明安装分发、收益结构和为什么应用会回到账户里。",
       eyebrow: "Ecosystem Dev",
-      hero: "在 Moss 里做应用，不只是部署一个 logic，而是把应用接入账户、安装分发和收益体系。",
+      hero: "在 1do 里做应用，不只是部署一个 logic，而是把应用接入账户、安装分发和收益体系。",
       sections: [
         {
           id: "why-build",
-          title: "为什么要在 Moss 里做生态应用",
+          title: "为什么要在 1do 里做生态应用",
           paragraphs: [
-            "Moss 给应用的不是单一流量入口，而是一个已经成立的账户上下文。用户进入应用前，已经有钱包、资产、权限体系和安装机制。",
+            "1do 给应用的不是单一流量入口，而是一个已经成立的账户上下文。用户进入应用前，已经有钱包、资产、权限体系和安装机制。",
             "这意味着开发者不必从零重新搭一套账户层，而是可以把精力放在应用逻辑本身。"
           ],
           bullets: [
@@ -729,7 +729,7 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
             "当前分成结构是开发者 70%，Store 30%。",
             "收益按应用维度独立记录，不会和别的应用混在一起。",
             "开发者可以持续从安装和使用中获得明确回报。",
-            "相比独立站模式，Moss 更容易把“安装 -> 使用 -> 收益”接成闭环。"
+            "相比独立站模式，1do 更容易把“安装 -> 使用 -> 收益”接成闭环。"
           ]
         },
         {
@@ -748,27 +748,27 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
       slug: "frontend-and-sdk",
       group: "integrator",
       title: "前端与 SDK 接入",
-      summary: "整理当前前端接入方式，方便前端或第三方 dApp 对接 Moss 钱包能力。",
+      summary: "整理当前前端接入方式，方便前端或第三方 dApp 对接 1do 钱包能力。",
       eyebrow: "Integration",
-      hero: "对接 Moss 时，真正重要的是连接器、部署信息、权限检查和智能钱包上下文。",
+      hero: "对接 1do 时，真正重要的是部署信息、权限检查和 7702 runtime 上下文。",
       sections: [
         {
           id: "frontend-entry",
           title: "前端接入点",
           bullets: [
-            "钱包连接层负责连接器集成。",
-            "`src/moss/lib/config.ts` 汇总环境变量和部署信息。",
-            "`ConnectWallet` 与相关 wallet 组件负责智能钱包检测与创建。",
-            "`MossWalletGate` 用于把部分页面限制在 Moss Wallet 环境内。"
+            "钱包连接层负责接入常规 EOA 钱包。",
+            "`src/runtime/lib/config.ts` 汇总环境变量和部署信息。",
+            "`Activate7702Button` 与相关 wallet 组件负责 runtime 检测与激活。",
+            "`WalletGate` 用于把部分页面限制在 1do Wallet 环境内。"
           ]
         },
         {
           id: "sdk-assets",
           title: "可复用包",
           cards: [
-            { title: "@mossdapp/sdk", description: "面向 dApp 的 TS SDK，可复用 smart wallet 地址计算和签名能力。", href: externalLinks.sdk, external: true },
-            { title: "@mossdapp/abi", description: "对外暴露 ABI JSON，可被前端和脚本复用。" },
-            { title: "@mossdapp/deployments", description: "按网络组织部署信息，用于环境配置和集成。" }
+            { title: "@1doapp/sdk", description: "面向 dApp 的 TS SDK，可复用 smart wallet 地址计算和签名能力。", href: externalLinks.sdk, external: true },
+            { title: "@1doapp/abi", description: "对外暴露 ABI JSON，可被前端和脚本复用。" },
+            { title: "@1doapp/deployments", description: "按网络组织部署信息，用于环境配置和集成。" }
           ]
         },
         {
@@ -776,7 +776,7 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           title: "接入新应用的推荐路径",
           steps: [
             { title: "准备链上地址", description: "先确认逻辑合约、Registry 和钱包相关地址。" },
-            { title: "接入连接器", description: "让前端能识别并连接 Moss 智能钱包上下文。" },
+            { title: "接入钱包连接", description: "让前端先连接 EOA，再显式检测当前地址是否启用了 1do runtime。" },
             { title: "读取安装与启用状态", description: "在进入应用前先检查钱包是否已经安装并启用该应用。" },
             { title: "根据钱包原生能力设计交互", description: "尽量复用钱包原生 Token / NFT 能力，而不是重复设计资产控制层。" }
           ],
@@ -794,18 +794,17 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
       slug: "sdk-api",
       group: "integrator",
       title: "SDK API 参考",
-      summary: "基于当前 SDK 接口与实现，整理最关键的连接器和智能钱包 API。",
+      summary: "基于当前 SDK 接口与实现，整理最关键的 7702 runtime signing API。",
       eyebrow: "SDK",
-      hero: "SDK 的职责不是替你重新发明账户系统，而是把 SCW 地址、交易包装和签名语义安全地暴露给 dApp。",
+      hero: "SDK 的职责不是替你重新发明账户系统，而是把 7702 runtime 的签名语义安全地暴露给 dApp。",
       sections: [
         {
           id: "exports",
           title: "当前导出",
           bullets: [
-            "`createMossConnector`: 为 wagmi / RainbowKit 暴露 Moss connector。",
-            "`MossEip1193Provider`: 将底层 provider 包装成面向 SCW 的 EIP-1193 provider。",
-            "`MossAccountOSSDK`: 提供地址计算、钱包创建、签名和链上读取能力。",
-            "`BlinkPay`: 额外导出的 BlinkPay 相关 SDK 能力。"
+            "`BlinkPay`: 导出 BlinkPay session grant 与 settlement intent 的 typed-data helpers。",
+            "runtime signing helpers: 由前端直接连接 EOA，并显式调用 7702 钱包能力。",
+            "connector/provider 适配层已移除，不再维护 wagmi / RainbowKit 自定义 connector。"
           ]
         },
         {
@@ -814,40 +813,33 @@ export const docsByLocale: Record<Locale, DocPage[]> = {
           code: {
             language: "bash",
             caption: "当前推荐安装方式",
-            content: `npm i @mossdapp/sdk
-npm i wagmi viem @rainbow-me/rainbowkit ethers @tanstack/react-query`
+            content: `npm i @1doapp/sdk
+npm i ethers`
           }
         },
         {
-          id: "connector",
-          title: "连接器集成",
+          id: "runtime-signing",
+          title: "7702 runtime 集成",
           paragraphs: [
-            "这里的核心思路是: 在 dApp 中接入 `createMossConnector`，让 RainbowKit / wagmi 能暴露 SCW 地址，而不是只看到底层 EOA。",
-            "这样前端既能沿用现成钱包连接生态，又能保持 Moss 智能钱包上下文。"
+            "当前集成路径不再把 1do 包装成自定义钱包 connector。前端连接 EOA 后，直接通过 7702 runtime 执行钱包能力。",
+            "SDK 只负责生成业务 typed data 和签名 payload，钱包连接与交易发送由应用主线显式处理。"
           ],
           visuals: [
             {
               src: "/diagrams/sdk-integration.svg",
               alt: "SDK integration diagram",
-              caption: "连接器的意义在于把现有钱包连接生态平滑切到 Moss 的智能钱包上下文。",
+              caption: "集成重点是让 dApp UI、SDK signing helpers 和 7702 runtime 边界保持清晰。",
             }
           ],
           code: {
             language: "ts",
-            caption: "连接器的典型形状",
-            content: `import { createMossConnector } from "@mossdapp/sdk";
+            caption: "BlinkPay typed data helper",
+            content: `import { BlinkPay } from "@1doapp/sdk";
 
-const moss = createMossConnector({
-  getOwnerProvider: () => (typeof window !== "undefined" ? window.ethereum : undefined),
-  sdkConfig: {
-    rpcUrl: "https://eth-sepolia.g.alchemy.com/v2/KEY",
-    chainId: 11155111,
-    contracts: {
-      factory: "0x...",
-      implementation: "0x...",
-      registry: "0x..."
-    }
-  }
+const typedData = BlinkPay.buildSessionGrantTypedData({
+  chainId: 11155111,
+  verifyingContract: "0x...",
+  grant
 });`
           }
         },
@@ -855,11 +847,11 @@ const moss = createMossConnector({
           id: "wallet-api",
           title: "常用钱包 API",
           bullets: [
-            "`getSmartWalletAddress(owner)`: 默认按 nonce 0 计算钱包地址。",
-            "`computeSmartWalletAddress(owner, nonce)`: 显式计算某个 nonce 的预测地址。",
-            "`checkSmartWalletExists(scw)`: 检查目标地址是否已部署智能钱包。",
-            "`createSmartWallet(owner)`: 通过 Factory 发起创建交易。",
-            "`waitForTransaction(txHash)`: 等待钱包创建或其他链上交易确认。"
+            "`BlinkPay.buildSessionGrantTypedData(...)`: 构造 BlinkPay session grant typed data。",
+            "`BlinkPay.buildSettlementIntentTypedData(...)`: 构造累计结算 typed data。",
+            "`waitForTransaction(txHash)`: 等待 runtime 激活交易或其他链上交易确认。",
+            "`smartSignMessage(...)`: 生成适合 7702 runtime 验证的消息签名。",
+            "`smartSignTypedData(...)`: 生成适合合约验证的 typed-data 签名。"
           ]
         },
         {
@@ -910,8 +902,7 @@ const moss = createMossConnector({
           id: "core-addresses",
           title: "核心地址",
           bullets: [
-            "MossAccountOSFactory: 0xa3954a7688518acF3bB74BEC2330d5966e87960A",
-            "MossAccountOSImplementation: 0x65C4340E65144e2Da93dECfAFcb16a116C75C0d8",
+            "AccountImplementation: 0x65C4340E65144e2Da93dECfAFcb16a116C75C0d8",
             "LogicRegistry: 0xec2242300B40E3272Df9F65738465aeD9f7f4298"
           ]
         },
@@ -921,7 +912,7 @@ const moss = createMossConnector({
           bullets: [
             "TestUSDC: 0x9d4b951592c31dc042efDC4E1F8aE00718b96fe1",
             "TestUSDT: 0xdd7468f993c52fcF43Cef80c9a4e042de4920F2d",
-            "MossToken: 0xC741d79714c6cd3684CF4217DB423D1cf79F6cec",
+            "1DO Token: 0xC741d79714c6cd3684CF4217DB423D1cf79F6cec",
             "TestWETH: 0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9",
             "NftDropOne: 0x15C0D103bb59aE9f01b8193e84311ba259083FcF",
             "NftDropTwo: 0x1e439692Be42748A57fbF8608F14116f5CAFA78F"
@@ -943,7 +934,7 @@ const moss = createMossConnector({
           title: "地址来源顺序",
           bullets: [
             "当前前端接入层都优先读取环境变量。",
-            "未显式覆盖时，前端会退回 `@mossdapp/deployments` 的网络数据。",
+            "未显式覆盖时，前端会退回 `@1doapp/deployments` 的网络数据。",
             "因此地址变更后，至少要同时检查部署包、Runtime 环境变量和 Store 环境变量。"
           ],
           callout: {
@@ -958,9 +949,9 @@ const moss = createMossConnector({
       slug: "app-peerdex",
       group: "ecosystem",
       title: "PeerDex",
-      summary: "PeerDex 是 Moss 当前最典型的钱包内交易应用，适合用来理解“安装后回到账户里交易”这件事。",
+      summary: "PeerDex 是 1do 当前最典型的钱包内交易应用，适合用来理解“安装后回到账户里交易”这件事。",
       eyebrow: "App",
-      hero: "PeerDex 展示了 Moss 钱包级应用的核心范式：钱包上下文 + Store 安装 + 账户内交易。",
+      hero: "PeerDex 展示了 1do 钱包级应用的核心范式：钱包上下文 + Store 安装 + 账户内交易。",
       sections: [
         {
           id: "positioning",
@@ -986,7 +977,7 @@ const moss = createMossConnector({
       slug: "app-closesky",
       group: "ecosystem",
       title: "CloseSky",
-      summary: "CloseSky 主要处理 NFT 与 Token 的复杂撮合，也是 Moss 双 Permit 资产层的代表性应用。",
+      summary: "CloseSky 主要处理 NFT 与 Token 的复杂撮合，也是 1do 双 Permit 资产层的代表性应用。",
       eyebrow: "App",
       hero: "CloseSky 不是简单 NFT 市场，而是把 Token 和 NFT 同时放进一个账户结算流程的应用形态。",
       sections: [
@@ -995,7 +986,7 @@ const moss = createMossConnector({
           title: "产品定位",
           paragraphs: [
             "Store 数据将 CloseSky 定义为支持 NFT↔NFT 与 NFT↔Token 的复杂撮合应用。",
-            "它特别适合说明 Moss 的价值不止是代币转账，而是把多资产类型的权限模型统一到同一钱包层里。"
+            "它特别适合说明 1do 的价值不止是代币转账，而是把多资产类型的权限模型统一到同一钱包层里。"
           ]
         },
         {
@@ -1014,16 +1005,16 @@ const moss = createMossConnector({
       slug: "app-flashman",
       group: "ecosystem",
       title: "Flashman",
-      summary: "Flashman 把用户钱包资产转成可配置的 EIP-3156 闪电贷池，属于 Moss 资产自动化方向的重要样本。",
+      summary: "Flashman 把用户钱包资产转成可配置的 EIP-3156 闪电贷池，属于 1do 资产自动化方向的重要样本。",
       eyebrow: "App",
-      hero: "Flashman 说明 Moss 应用不只是交易和支付，也可以把账户资产变成可编程金融基础设施。",
+      hero: "Flashman 说明 1do 应用不只是交易和支付，也可以把账户资产变成可编程金融基础设施。",
       sections: [
         {
           id: "positioning",
           title: "产品定位",
           paragraphs: [
             "Store 数据把 Flashman 定义为基于 EIP-3156 的闪电贷放贷器，可把钱包余额变成闪电贷资金池。",
-            "这类应用非常适合 Moss，因为钱包本身就是可编程执行环境。"
+            "这类应用非常适合 1do，因为钱包本身就是可编程执行环境。"
           ]
         },
         {
@@ -1043,7 +1034,7 @@ const moss = createMossConnector({
       title: "CryptoWill",
       summary: "CryptoWill 把链下遗嘱、心跳窗口和权限外执行机制结合在一个钱包级应用里。",
       eyebrow: "App",
-      hero: "CryptoWill 是 Moss 在账户自动化和链下签名编排上的代表性应用，不只是一个普通 dApp 表单。",
+      hero: "CryptoWill 是 1do 在账户自动化和链下签名编排上的代表性应用，不只是一个普通 dApp 表单。",
       sections: [
         {
           id: "positioning",
@@ -1069,9 +1060,9 @@ const moss = createMossConnector({
       slug: "app-blinkpay",
       group: "ecosystem",
       title: "BlinkPay",
-      summary: "BlinkPay 是 Moss 面向 Agent、API 和订阅场景的支付层，核心在于 session key 与免弹窗微支付。",
+      summary: "BlinkPay 是 1do 面向 Agent、API 和订阅场景的支付层，核心在于 session key 与免弹窗微支付。",
       eyebrow: "App",
-      hero: "BlinkPay 展示了 Moss 如何把智能钱包从交互账户推向机器可用账户。",
+      hero: "BlinkPay 展示了 1do 如何把智能钱包从交互账户推向机器可用账户。",
       sections: [
         {
           id: "positioning",
@@ -1096,25 +1087,10 @@ const moss = createMossConnector({
       slug: "account-contract-api",
       group: "ecosystem-dev",
       title: "Account Contract API",
-      summary: "围绕 `MossAccountOS` 与 `MossAccountOSFactory` 的关键接口整理一页契约级参考。",
+      summary: "围绕账户 runtime 合约的关键接口整理一页契约级参考。",
       eyebrow: "API",
-      hero: "如果你要理解 Moss 钱包的真实边界，必须先理解 Factory 如何创建账户，以及 Account 如何安装、启用和执行应用。",
+      hero: "如果你要理解 1do 钱包的真实边界，必须先理解 runtime account 如何安装、启用和执行应用。",
       sections: [
-        {
-          id: "factory",
-          title: "Factory 侧接口",
-          bullets: [
-            "`createAccount(bytes[] owners, address registry, uint256 nonce)`: 创建账户实例。",
-            "`getAddress(bytes[] owners, address registry, uint256 nonce)`: 预测账户地址。",
-            "`IMPLEMENTATION()`: 返回当前 factory 指向的实现合约地址。"
-          ],
-          code: {
-            language: "solidity",
-            caption: "文档里最常用的账户创建语义",
-            content: `factory.createAccount(owners, registry, nonce);
-factory.getAddress(owners, registry, nonce);`
-          }
-        },
         {
           id: "account",
           title: "Account 侧接口",
@@ -1138,7 +1114,7 @@ factory.getAddress(owners, registry, nonce);`
           ],
           callout: {
             title: "实际含义",
-            body: "Moss 不再把“是否可调用”理解成单一 allowlist，而是拆成 Store 安装 entitlement 和钱包本地启用两层状态。",
+            body: "1do 不再把“是否可调用”理解成单一 allowlist，而是拆成 Store 安装 entitlement 和钱包本地启用两层状态。",
             tone: "accent"
           }
         }
@@ -1150,7 +1126,7 @@ factory.getAddress(owners, registry, nonce);`
       title: "钱包资产签名能力",
       summary: "围绕 Token 与 NFT 的 Permit 和签名调用能力，整理当前最值得引用的方法。",
       eyebrow: "API",
-      hero: "Moss 的资产层关键不在于转账本身，而在于钱包如何把授权、签名和执行统一起来。",
+      hero: "1do 的资产层关键不在于转账本身，而在于钱包如何把授权、签名和执行统一起来。",
       sections: [
         {
           id: "tokenmanage-api",
@@ -1176,7 +1152,7 @@ factory.getAddress(owners, registry, nonce);`
           id: "signing-model",
           title: "签名模型",
           bullets: [
-            "这些 Token / NFT Permit 都依赖 Moss 双层 EIP-712 / ERC-1271 包装。",
+            "这些 Token / NFT Permit 都依赖 1do 双层 EIP-712 / ERC-1271 包装。",
             "前端会先读取 nonce，再由钱包生成外层安全签名。",
             "这让支付、挂单、授权和代理执行可以在不直接切换 owner 的情况下完成。"
           ]
@@ -1228,14 +1204,14 @@ factory.getAddress(owners, registry, nonce);`
       title: "Onboarding 流程",
       summary: "把 Runtime 现有引导拆成一条可用于演示、销售和测试的标准流程。",
       eyebrow: "Flow",
-      hero: "这条流程的目标不是展示某个单一功能，而是让用户在 5 分钟内理解 Moss 的产品闭环。",
+      hero: "这条流程的目标不是展示某个单一功能，而是让用户在 5 分钟内理解 1do 的产品闭环。",
       sections: [
         {
           id: "steps",
           title: "标准演示路径",
           steps: [
-            { title: "进入 Runtime 并连接钱包", description: "使用 EOA 进入，但目标是引导用户创建 Moss Wallet。" },
-            { title: "创建 Moss Wallet", description: "让用户明确：Moss Wallet 就是后续所有能力的账户容器。" },
+            { title: "进入 Runtime 并连接钱包", description: "使用 EOA 进入，并检测当前地址是否已经启用 1do runtime。" },
+            { title: "启用 1do runtime", description: "让用户明确：当前地址启用 7702 后，就会成为后续所有能力的账户容器。" },
             { title: "领取测试资产", description: "为后续支付、授权、交易和安装应用做准备。" },
             { title: "进入 Store 安装一个应用", description: "建议优先演示 PeerDex，路径最直观。" },
             { title: "返回 Runtime 打开应用", description: "让用户看见“安装后出现在 Runtime 里”的结果。" }
@@ -1244,7 +1220,7 @@ factory.getAddress(owners, registry, nonce);`
             {
               src: "/diagrams/onboarding-flow.svg",
               alt: "Onboarding flow diagram",
-              caption: "这条路径最适合首次演示 Moss 的账户闭环。",
+              caption: "这条路径最适合首次演示 1do 的账户闭环。",
             }
           ]
         },
@@ -1252,8 +1228,8 @@ factory.getAddress(owners, registry, nonce);`
           id: "demo-goal",
           title: "这条流程要讲清什么",
           bullets: [
-            "Moss 不是单 dApp。",
-            "Moss 先交付账户，再交付应用。",
+            "1do 不是单 dApp。",
+            "1do 先交付账户，再交付应用。",
             "应用安装与链上状态有关，不是前端假装安装。",
             "钱包原生能力让应用不必各自实现资产层。"
           ]
@@ -1376,22 +1352,22 @@ factory.getAddress(owners, registry, nonce);`
     {
       slug: "overview",
       group: "start",
-      title: "What Moss Is",
-      summary: "Build the right mental model first: Moss is not one isolated dApp, but a product that connects a smart wallet, app installation, and a shared Runtime.",
-      eyebrow: "Moss Book",
-      hero: "Moss gives the user a Runtime first, then brings apps into that environment.",
+      title: "What 1do Is",
+      summary: "Build the right mental model first: 1do is not one isolated dApp, but a product that connects a smart wallet, app installation, and a shared Runtime.",
+      eyebrow: "1do Book",
+      hero: "1do gives the user a Runtime first, then brings apps into that environment.",
       sections: [
         {
-          id: "what-is-moss",
-          title: "What Moss Is",
+          id: "what-is-1do",
+          title: "What 1do Is",
           paragraphs: [
-            "From a user perspective, Moss is not about jumping between many separate dApps. It gives you a Moss Wallet first, then lets apps enter that wallet environment.",
-            "The most important thing in Moss is not one isolated page. It is the Runtime itself. You connect your existing wallet, create a Moss Wallet, install apps from Store, and then continue using them inside the Runtime.",
+            "From a user perspective, 1do is not about jumping between many separate dApps. It gives you a 1do Wallet first, then lets apps enter that wallet environment.",
+            "The most important thing in 1do is not one isolated page. It is the Runtime itself. You connect your existing wallet, activate the 1do runtime, install apps from Store, and then continue using them inside the Runtime.",
             "That means apps are not treated as external websites first. They become part of what the account can do. Assets, permissions, payments, and app entry points all sit around the same account context.",
             "That matters because Web3 has not really lacked more entry points. It has lacked a continuous, stateful user environment."
           ],
           cards: [
-            { title: "Moss Runtime", description: "The app runtime. Wallet, assets, apps, and settings all start here." },
+            { title: "1do Runtime", description: "The app runtime. Wallet, assets, apps, and settings all start here." },
             { title: "Store", description: "The place where apps are discovered, installed, and brought back into the wallet." }
           ]
         },
@@ -1399,14 +1375,14 @@ factory.getAddress(owners, registry, nonce);`
           id: "loop",
           title: "Product Loop",
           steps: [
-            { title: "Connect a wallet and create a Moss Wallet", description: "Users start from an existing wallet, then create a Moss Wallet as the runtime environment." },
+            { title: "Connect a wallet and activate the 1do runtime", description: "Users start from an existing wallet, then activate the 1do runtime on that address." },
             { title: "Install an app in Store", description: "Users discover an app in Store and bind that installation to the current account." },
             { title: "Return to the Runtime", description: "The installed app appears back inside the Runtime instead of staying in the store page." },
-            { title: "Keep using the same Runtime", description: "Assets, permissions, payments, and app entry points continue accumulating inside the same Moss Wallet." }
+            { title: "Keep using the same Runtime", description: "Assets, permissions, payments, and app entry points continue accumulating inside the same 1do Wallet." }
           ],
           callout: {
             title: "The key reading",
-            body: "Moss is not about stuffing more web links into a wallet. It is about building an account environment that can install apps and keep growing over time.",
+            body: "1do is not about stuffing more web links into a wallet. It is about building an account environment that can install apps and keep growing over time.",
             tone: "accent"
           }
         },
@@ -1414,8 +1390,8 @@ factory.getAddress(owners, registry, nonce);`
           id: "concepts",
           title: "Core Concepts",
           bullets: [
-            "Moss Wallet: the smart wallet you actually use inside Moss.",
-            "Moss Runtime: the app runtime. You enter the shared runtime first, not a standalone dApp first.",
+            "1do Wallet: the smart wallet you actually use inside 1do.",
+            "1do Runtime: the app runtime. You enter the shared runtime first, not a standalone dApp first.",
             "Store: the discovery and installation surface for apps.",
             "Install: the state that binds an app to your account.",
             "Enable: the wallet-side step that makes an installed app actually usable."
@@ -1429,18 +1405,18 @@ factory.getAddress(owners, registry, nonce);`
       title: "Getting Started",
       summary: "Turn the current account onboarding into an explicit, executable journey.",
       eyebrow: "Onboarding",
-      hero: "The shortest path is: connect a wallet -> create a Moss Wallet -> prepare gas and test assets -> install an app in Store -> return to the Runtime and use it.",
+      hero: "The shortest path is: connect a wallet -> create a 1do Wallet -> prepare gas and test assets -> install an app in Store -> return to the Runtime and use it.",
       sections: [
         {
           id: "journey",
           title: "First Journey",
           steps: [
-            { title: "Connect any EOA wallet", description: "Users start from a regular wallet. That wallet is the entry point into Moss." },
-            { title: "Create a Moss Wallet", description: "If no SCW is detected after connection, the UI exposes a Create Moss Wallet flow." },
+            { title: "Connect any EOA wallet", description: "Users start from a regular wallet. That wallet is the entry point into 1do." },
+            { title: "Activate the 1do runtime", description: "If the current address has not enabled 7702 yet, the UI exposes a runtime activation flow." },
             { title: "Prepare Sepolia ETH", description: "The current demo path centers on Ethereum Sepolia, so gas is required first." },
-            { title: "Claim test assets", description: "The Faucet flow provides USDC, USDT, MOSS, and test NFTs for follow-up interactions." },
+            { title: "Claim test assets", description: "The Faucet flow provides USDC, USDT, 1DO, and test NFTs for follow-up interactions." },
             { title: "Install an app in Store", description: "Pick an app and install it. Store binds that installation to the current account." },
-            { title: "Return to Runtime", description: "After confirmation, refresh the Runtime and the app should appear inside your Moss Wallet." }
+            { title: "Return to Runtime", description: "After confirmation, refresh the Runtime and the app should appear inside your 1do Wallet." }
           ]
         },
         {
@@ -1457,13 +1433,13 @@ factory.getAddress(owners, registry, nonce);`
           id: "faq",
           title: "Common Issues",
           bullets: [
-            "Cannot see Create Moss Wallet: you are usually not using the Moss connector, or you are on the wrong network.",
+            "Cannot see 7702 activation: you are usually on the wrong network, or this address already uses the 1do runtime.",
             "Faucet or mint failed: check the new wallet's gas balance first.",
             "The app is still missing after install: wait for confirmation and refresh Runtime, then wait a few more seconds if needed."
           ],
           links: [
-            { label: "Moss Runtime", href: externalLinks.os, external: true },
-            { label: "Moss Store", href: externalLinks.store, external: true },
+            { label: "1do Runtime", href: externalLinks.app, external: true },
+            { label: "1do Store", href: externalLinks.store, external: true },
             { label: "SDK Package", href: externalLinks.sdk, external: true }
           ]
         }
@@ -1472,16 +1448,16 @@ factory.getAddress(owners, registry, nonce);`
     {
       slug: "runtime",
       group: "platform",
-      title: "Moss Runtime",
-      summary: "Understand Runtime as a product surface: not a post-login wallet page, but the environment where apps run inside Moss Wallet.",
+      title: "1do Runtime",
+      summary: "Understand Runtime as a product surface: not a post-login wallet page, but the environment where apps run inside 1do Wallet.",
       eyebrow: "Platform",
-      hero: "In Moss, Runtime is not a side layer. It is the environment where apps actually run and keep being used.",
+      hero: "In 1do, Runtime is not a side layer. It is the environment where apps actually run and keep being used.",
       sections: [
         {
           id: "role",
           title: "What Runtime Does",
           paragraphs: [
-            "Moss Runtime is the environment where apps run inside Moss Wallet. Its job is not only to show balances or an address. Its job is to host app execution, asset capabilities, and installed entry points.",
+            "1do Runtime is the environment where apps run inside 1do Wallet. Its job is not only to show balances or an address. Its job is to host app execution, asset capabilities, and installed entry points.",
             "Users do not start by opening one standalone app and then connecting a wallet. They enter the Runtime first, then invoke asset capabilities, installed apps, and account settings from there."
           ],
           bullets: [
@@ -1495,7 +1471,7 @@ factory.getAddress(owners, registry, nonce);`
           id: "account-first",
           title: "Why Runtime Matters",
           paragraphs: [
-            "Without a shared Runtime, every app would have to rebuild asset handling, permissions, and interaction flow on its own. Moss flips that model: establish the Runtime first, then let apps reuse the same context.",
+            "Without a shared Runtime, every app would have to rebuild asset handling, permissions, and interaction flow on its own. 1do flips that model: establish the Runtime first, then let apps reuse the same context.",
             "That makes payments, tokens, NFTs, installation state, and automation persist inside one Runtime instead of being fragmented across different pages and product entries."
           ],
           bullets: [
@@ -1530,9 +1506,9 @@ factory.getAddress(owners, registry, nonce);`
       slug: "store-installation",
       group: "platform",
       title: "Store and App Installation",
-      summary: "Understand what Store does in Moss today: app discovery, installation, and bringing apps back into the Runtime.",
+      summary: "Understand what Store does in 1do today: app discovery, installation, and bringing apps back into the Runtime.",
       eyebrow: "Distribution",
-      hero: "In Moss today, Store owns discovery and install entry, and the wallet turns that into an actual usable app.",
+      hero: "In 1do today, Store owns discovery and install entry, and the wallet turns that into an actual usable app.",
       sections: [
         {
           id: "store-role",
@@ -1559,7 +1535,7 @@ factory.getAddress(owners, registry, nonce);`
           ],
           callout: {
             title: "How to read installation now",
-            body: "Publication, installation, and enablement are different things in Moss. Store handles installation, the wallet handles enablement, and actual usage happens inside the Runtime.",
+            body: "Publication, installation, and enablement are different things in 1do. Store handles installation, the wallet handles enablement, and actual usage happens inside the Runtime.",
             tone: "accent"
           }
         },
@@ -1579,15 +1555,15 @@ factory.getAddress(owners, registry, nonce);`
       slug: "wallet-native-capabilities",
       group: "platform",
       title: "Wallet-Native Capabilities",
-      summary: "Understand which abilities in Moss belong to the wallet itself rather than needing to be understood as separately installed apps.",
+      summary: "Understand which abilities in 1do belong to the wallet itself rather than needing to be understood as separately installed apps.",
       eyebrow: "Permissions",
-      hero: "In Moss today, core asset abilities are increasingly wallet-native rather than something users should think of as separately installable apps.",
+      hero: "In 1do today, core asset abilities are increasingly wallet-native rather than something users should think of as separately installable apps.",
       sections: [
         {
           id: "tokenmanage",
           title: "Token Abilities",
           paragraphs: [
-            "Moss treats common token actions as wallet capabilities rather than something every app should rebuild.",
+            "1do treats common token actions as wallet capabilities rather than something every app should rebuild.",
             "That means apps entering the account context can reuse one shared token approval, transfer, and signing model."
           ],
           bullets: [
@@ -1600,7 +1576,7 @@ factory.getAddress(owners, registry, nonce);`
           id: "nftmanage",
           title: "NFT Abilities",
           paragraphs: [
-            "NFT abilities follow the same logic. Moss tries to keep NFT permissions and actions tied to the account layer instead of scattering them across isolated app-specific flows.",
+            "NFT abilities follow the same logic. 1do tries to keep NFT permissions and actions tied to the account layer instead of scattering them across isolated app-specific flows.",
             "That makes listings, approvals, delegated execution, and multi-asset flows easier to reason about."
           ],
           bullets: [
@@ -1625,9 +1601,9 @@ factory.getAddress(owners, registry, nonce);`
       slug: "ecosystem-apps",
       group: "ecosystem",
       title: "App Ecosystem",
-      summary: "Based on the current app catalog and account entry points, this page summarizes the most important application-layer capabilities in Moss today.",
+      summary: "Based on the current app catalog and account entry points, this page summarizes the most important application-layer capabilities in 1do today.",
       eyebrow: "Apps",
-      hero: "The Moss app surface is not random. It clusters around trading, payments, asset management, and account automation.",
+      hero: "The 1do app surface is not random. It clusters around trading, payments, asset management, and account automation.",
       sections: [
         {
           id: "major",
@@ -1644,9 +1620,9 @@ factory.getAddress(owners, registry, nonce);`
           id: "categories",
           title: "What These Apps Signal",
           bullets: [
-            "Moss is not only targeting DeFi. It also covers NFTs, payments, account automation, and wallet-native coordination.",
+            "1do is not only targeting DeFi. It also covers NFTs, payments, account automation, and wallet-native coordination.",
             "Many apps share one wallet and asset context instead of rebuilding their own account layer.",
-            "The store app list is effectively a roadmap of Moss product direction."
+            "The store app list is effectively a roadmap of 1do product direction."
           ]
         },
         {
@@ -1665,16 +1641,16 @@ factory.getAddress(owners, registry, nonce);`
     {
       slug: "architecture",
       group: "platform",
-      title: "How Moss Fits Together",
+      title: "How 1do Fits Together",
       summary: "Separate wallet, Store, and app relationships so users can form a stable mental model before diving into deeper implementation details.",
       eyebrow: "Architecture",
-      hero: "If the wallet, the Store, and the app relationship are unclear, people end up reading Moss as a set of disconnected websites.",
+      hero: "If the wallet, the Store, and the app relationship are unclear, people end up reading 1do as a set of disconnected websites.",
       sections: [
         {
           id: "product-map",
           title: "The Three Surfaces Users See First",
           cards: [
-            { title: "Moss Wallet / Runtime", description: "The app runtime where users actually stay and keep working." },
+            { title: "1do Wallet / Runtime", description: "The app runtime where users actually stay and keep working." },
             { title: "Store", description: "The surface for discovery, installation, and sending apps back into the wallet." },
             { title: "Apps", description: "Trading, payments, and automation capabilities that are ultimately used inside the account." }
           ]
@@ -1693,14 +1669,14 @@ factory.getAddress(owners, registry, nonce);`
           id: "ui-layers",
           title: "Product Layers",
           bullets: [
-            "Moss Runtime is the main interaction surface.",
+            "1do Runtime is the main interaction surface.",
             "Store is the installation surface.",
             "App and flow pages explain what users can actually do after installation."
           ],
           visuals: [
             {
               src: "/diagrams/architecture-map.svg",
-              alt: "Moss architecture map",
+              alt: "1do architecture map",
               caption: "Putting account, distribution, experimental surfaces, and on-chain execution on one map makes the product boundaries much easier to explain.",
             }
           ]
@@ -1711,15 +1687,15 @@ factory.getAddress(owners, registry, nonce);`
       slug: "contracts-and-deployment",
       group: "ecosystem-dev",
       title: "Ecosystem App Development",
-      summary: "For readers who want to understand the deeper Moss app model, this page focuses on installation, distribution, revenue structure, and why apps return to the Runtime.",
+      summary: "For readers who want to understand the deeper 1do app model, this page focuses on installation, distribution, revenue structure, and why apps return to the Runtime.",
       eyebrow: "Ecosystem Dev",
-      hero: "Building in Moss is not only about deploying a logic contract. It is about plugging an app into the account, installation, and monetization system.",
+      hero: "Building in 1do is not only about deploying a logic contract. It is about plugging an app into the account, installation, and monetization system.",
       sections: [
         {
           id: "why-build",
-          title: "Why Build Inside Moss",
+          title: "Why Build Inside 1do",
           paragraphs: [
-            "Moss gives apps more than a traffic source. It gives them an existing account context. Before users open your app, they already have a wallet, assets, permissions, and an installation model.",
+            "1do gives apps more than a traffic source. It gives them an existing account context. Before users open your app, they already have a wallet, assets, permissions, and an installation model.",
             "That lets developers spend less time rebuilding the account layer and more time on application logic."
           ],
           bullets: [
@@ -1751,7 +1727,7 @@ factory.getAddress(owners, registry, nonce);`
             "The current split is 70% for developers and 30% for the Store.",
             "Revenue is recorded per app rather than mixed across the whole ecosystem.",
             "Builders get a clearer path from installation to usage to revenue.",
-            "Compared with a standalone site model, Moss can close the loop between install, usage, and monetization much more directly."
+            "Compared with a standalone site model, 1do can close the loop between install, usage, and monetization much more directly."
           ]
         },
         {
@@ -1770,27 +1746,27 @@ factory.getAddress(owners, registry, nonce);`
       slug: "frontend-and-sdk",
       group: "integrator",
       title: "Frontend and SDK Integration",
-      summary: "Consolidate the current integration path so frontend teams and third-party builders can adopt Moss wallet capabilities cleanly.",
+      summary: "Consolidate the current integration path so frontend teams and third-party builders can adopt 1do wallet capabilities cleanly.",
       eyebrow: "Integration",
-      hero: "When integrating Moss, the real concerns are connector wiring, deployment metadata, permission checks, and smart-wallet context.",
+      hero: "When integrating 1do, the real concerns are deployment metadata, permission checks, and 7702 runtime context.",
       sections: [
         {
           id: "frontend-entry",
           title: "Frontend Entry Points",
           bullets: [
-            "The wallet connection layer handles connector integration.",
-            "`src/moss/lib/config.ts` aggregates environment variables and deployment metadata.",
-            "`ConnectWallet` and related wallet components manage smart-wallet detection and creation.",
-            "`MossWalletGate` is the guardrail for pages that require a Moss wallet context."
+            "The wallet connection layer handles regular EOA connectivity.",
+            "`src/runtime/lib/config.ts` aggregates environment variables and deployment metadata.",
+            "`Activate7702Button` and related wallet components manage runtime detection and activation.",
+            "`WalletGate` is the guardrail for pages that require a 1do wallet context."
           ]
         },
         {
           id: "sdk-assets",
           title: "Reusable Packages",
           cards: [
-            { title: "@mossdapp/sdk", description: "TypeScript SDK for dApps, including smart-wallet address computation and signature flows.", href: externalLinks.sdk, external: true },
-            { title: "@mossdapp/abi", description: "Published ABI JSON exports for frontend and script reuse." },
-            { title: "@mossdapp/deployments", description: "Per-network deployment metadata for integration and environment setup." }
+            { title: "@1doapp/sdk", description: "TypeScript SDK for dApps, including smart-wallet address computation and signature flows.", href: externalLinks.sdk, external: true },
+            { title: "@1doapp/abi", description: "Published ABI JSON exports for frontend and script reuse." },
+            { title: "@1doapp/deployments", description: "Per-network deployment metadata for integration and environment setup." }
           ]
         },
         {
@@ -1798,7 +1774,7 @@ factory.getAddress(owners, registry, nonce);`
           title: "Recommended Integration Path",
           steps: [
             { title: "Prepare chain addresses", description: "Confirm logic, Registry, and wallet-related deployment addresses first." },
-            { title: "Wire the connector", description: "Make sure the frontend can enter the Moss smart-wallet context." },
+            { title: "Wire wallet connectivity", description: "Make sure the frontend connects an EOA first, then detects whether the address uses the 1do runtime." },
             { title: "Check installation and enablement state", description: "Before entering an app flow, verify the wallet has installed and enabled the app." },
             { title: "Design around wallet-native capabilities", description: "Prefer reusing wallet-native token and NFT abilities instead of inventing a separate asset-control layer." }
           ],
@@ -1816,18 +1792,17 @@ factory.getAddress(owners, registry, nonce);`
       slug: "sdk-api",
       group: "integrator",
       title: "SDK API Reference",
-      summary: "Based on the current `@mossdapp/sdk` interface and implementation, this page consolidates the most important connector and smart-wallet APIs.",
+      summary: "Based on the current `@1doapp/sdk` interface and implementation, this page consolidates the most important 7702 runtime signing APIs.",
       eyebrow: "SDK",
-      hero: "The SDK does not reinvent the account system. It safely exposes SCW addressability, transaction wrapping, and signature semantics to dApps.",
+      hero: "The SDK does not reinvent the account system. It safely exposes 7702 runtime signature semantics to dApps.",
       sections: [
         {
           id: "exports",
           title: "Current Exports",
           bullets: [
-            "`createMossConnector`: exposes a Moss connector to wagmi / RainbowKit.",
-            "`MossEip1193Provider`: wraps a provider into an SCW-oriented EIP-1193 provider.",
-            "`MossAccountOSSDK`: provides address computation, wallet creation, signing, and chain reads.",
-            "`BlinkPay`: additional BlinkPay-oriented SDK exports."
+            "`BlinkPay`: typed-data helpers for BlinkPay session grants and settlement intents.",
+            "runtime signing helpers: the frontend connects the EOA directly and explicitly calls 7702 wallet capabilities.",
+            "connector/provider adapters have been removed; the SDK no longer maintains a custom wagmi / RainbowKit connector."
           ]
         },
         {
@@ -1836,40 +1811,33 @@ factory.getAddress(owners, registry, nonce);`
           code: {
             language: "bash",
             caption: "Recommended installation shape",
-            content: `npm i @mossdapp/sdk
-npm i wagmi viem @rainbow-me/rainbowkit ethers @tanstack/react-query`
+            content: `npm i @1doapp/sdk
+npm i ethers`
           }
         },
         {
-          id: "connector",
-          title: "Connector Integration",
+          id: "runtime-signing",
+          title: "7702 Runtime Integration",
           paragraphs: [
-            "The core integration pattern is to use `createMossConnector` so RainbowKit / wagmi can expose the smart-wallet address instead of only the underlying EOA.",
-            "That lets a dApp keep familiar wallet tooling while operating in the Moss smart-wallet context."
+            "The current integration path no longer wraps 1do as a custom wallet connector. The frontend connects the EOA and explicitly executes through the 7702 runtime.",
+            "The SDK only builds business typed data and signing payloads; wallet connection and transaction sending stay in the app mainline."
           ],
           visuals: [
             {
               src: "/diagrams/sdk-integration.svg",
               alt: "SDK integration diagram",
-              caption: "The connector exists to bridge familiar wallet tooling into the Moss smart-wallet context.",
+              caption: "The integration boundary keeps dApp UI, SDK signing helpers, and 7702 runtime execution separate.",
             }
           ],
           code: {
             language: "ts",
-            caption: "Typical connector shape",
-            content: `import { createMossConnector } from "@mossdapp/sdk";
+            caption: "BlinkPay typed data helper",
+            content: `import { BlinkPay } from "@1doapp/sdk";
 
-const moss = createMossConnector({
-  getOwnerProvider: () => (typeof window !== "undefined" ? window.ethereum : undefined),
-  sdkConfig: {
-    rpcUrl: "https://eth-sepolia.g.alchemy.com/v2/KEY",
-    chainId: 11155111,
-    contracts: {
-      factory: "0x...",
-      implementation: "0x...",
-      registry: "0x..."
-    }
-  }
+const typedData = BlinkPay.buildSessionGrantTypedData({
+  chainId: 11155111,
+  verifyingContract: "0x...",
+  grant
 });`
           }
         },
@@ -1877,11 +1845,11 @@ const moss = createMossConnector({
           id: "wallet-api",
           title: "Common Wallet APIs",
           bullets: [
-            "`getSmartWalletAddress(owner)`: computes the default wallet address with nonce 0.",
-            "`computeSmartWalletAddress(owner, nonce)`: explicitly computes a predicted address for a nonce.",
-            "`checkSmartWalletExists(scw)`: checks whether the target smart wallet is deployed.",
-            "`createSmartWallet(owner)`: sends the creation transaction through the Factory.",
-            "`waitForTransaction(txHash)`: waits for wallet-creation or other on-chain confirmation."
+            "`BlinkPay.buildSessionGrantTypedData(...)`: builds BlinkPay session-grant typed data.",
+            "`BlinkPay.buildSettlementIntentTypedData(...)`: builds cumulative-settlement typed data.",
+            "`waitForTransaction(txHash)`: waits for runtime activation or other on-chain confirmation.",
+            "`smartSignMessage(...)`: returns a message signature compatible with the 7702 runtime.",
+            "`smartSignTypedData(...)`: returns a typed-data signature suitable for contract verification."
           ]
         },
         {
@@ -1932,8 +1900,7 @@ const moss = createMossConnector({
           id: "core-addresses",
           title: "Core Addresses",
           bullets: [
-            "MossAccountOSFactory: 0xa3954a7688518acF3bB74BEC2330d5966e87960A",
-            "MossAccountOSImplementation: 0x65C4340E65144e2Da93dECfAFcb16a116C75C0d8",
+            "AccountImplementation: 0x65C4340E65144e2Da93dECfAFcb16a116C75C0d8",
             "LogicRegistry: 0xec2242300B40E3272Df9F65738465aeD9f7f4298"
           ]
         },
@@ -1943,7 +1910,7 @@ const moss = createMossConnector({
           bullets: [
             "TestUSDC: 0x9d4b951592c31dc042efDC4E1F8aE00718b96fe1",
             "TestUSDT: 0xdd7468f993c52fcF43Cef80c9a4e042de4920F2d",
-            "MossToken: 0xC741d79714c6cd3684CF4217DB423D1cf79F6cec",
+            "1DO Token: 0xC741d79714c6cd3684CF4217DB423D1cf79F6cec",
             "TestWETH: 0x7b79995e5f793A07Bc00c21412e50Ecae098E7f9",
             "NftDropOne: 0x15C0D103bb59aE9f01b8193e84311ba259083FcF",
             "NftDropTwo: 0x1e439692Be42748A57fbF8608F14116f5CAFA78F"
@@ -1965,7 +1932,7 @@ const moss = createMossConnector({
           title: "Source-of-truth Order",
           bullets: [
             "Both frontend integration surfaces prefer environment variables first.",
-            "If not explicitly overridden, they fall back to the shared `@mossdapp/deployments` package.",
+            "If not explicitly overridden, they fall back to the shared `@1doapp/deployments` package.",
             "When addresses change, you should check deployment metadata, Runtime env values, and Store env values together."
           ],
           callout: {
@@ -1980,9 +1947,9 @@ const moss = createMossConnector({
       slug: "app-peerdex",
       group: "ecosystem",
       title: "PeerDex",
-      summary: "PeerDex is the clearest in-wallet trading app in Moss today, and a good first example of how an installed app returns to the Runtime.",
+      summary: "PeerDex is the clearest in-wallet trading app in 1do today, and a good first example of how an installed app returns to the Runtime.",
       eyebrow: "App",
-      hero: "PeerDex is the clearest example of the Moss pattern: wallet context + Store installation + in-account trading.",
+      hero: "PeerDex is the clearest example of the 1do pattern: wallet context + Store installation + in-account trading.",
       sections: [
         {
           id: "positioning",
@@ -2008,7 +1975,7 @@ const moss = createMossConnector({
       slug: "app-closesky",
       group: "ecosystem",
       title: "CloseSky",
-      summary: "CloseSky handles complex NFT/token matching and is a strong example of Moss's dual-Permit asset model.",
+      summary: "CloseSky handles complex NFT/token matching and is a strong example of 1do's dual-Permit asset model.",
       eyebrow: "App",
       hero: "CloseSky is not a simple NFT market. It puts both NFTs and tokens into one account-level settlement flow.",
       sections: [
@@ -2017,7 +1984,7 @@ const moss = createMossConnector({
           title: "Positioning",
           paragraphs: [
             "Store data describes CloseSky as an app for NFT↔NFT and NFT↔Token matching.",
-            "It is especially useful for explaining that Moss is not just about token transfers. It unifies multiple asset-permission models at the wallet layer."
+            "It is especially useful for explaining that 1do is not just about token transfers. It unifies multiple asset-permission models at the wallet layer."
           ]
         },
         {
@@ -2036,16 +2003,16 @@ const moss = createMossConnector({
       slug: "app-flashman",
       group: "ecosystem",
       title: "Flashman",
-      summary: "Flashman turns wallet assets into a configurable EIP-3156 flash-loan pool and represents the programmable-finance direction of Moss.",
+      summary: "Flashman turns wallet assets into a configurable EIP-3156 flash-loan pool and represents the programmable-finance direction of 1do.",
       eyebrow: "App",
-      hero: "Flashman shows that Moss apps are not only about trading and payments. They can also turn an account into programmable financial infrastructure.",
+      hero: "Flashman shows that 1do apps are not only about trading and payments. They can also turn an account into programmable financial infrastructure.",
       sections: [
         {
           id: "positioning",
           title: "Positioning",
           paragraphs: [
             "Store data describes Flashman as an EIP-3156 flash-loan lender that turns wallet balances into a configurable lending pool.",
-            "This is a very Moss-native app shape because the wallet itself is already a programmable execution environment."
+            "This is a very 1do-native app shape because the wallet itself is already a programmable execution environment."
           ]
         },
         {
@@ -2065,7 +2032,7 @@ const moss = createMossConnector({
       title: "CryptoWill",
       summary: "CryptoWill combines off-chain wills, heartbeat windows, and permissionless execution into a wallet-native automation flow.",
       eyebrow: "App",
-      hero: "CryptoWill is a representative Moss app for account automation and off-chain signature orchestration, not just a normal dApp form.",
+      hero: "CryptoWill is a representative 1do app for account automation and off-chain signature orchestration, not just a normal dApp form.",
       sections: [
         {
           id: "positioning",
@@ -2091,9 +2058,9 @@ const moss = createMossConnector({
       slug: "app-blinkpay",
       group: "ecosystem",
       title: "BlinkPay",
-      summary: "BlinkPay is Moss's payment layer for agents, APIs, and subscription-style flows, built around session keys and low-friction micropayments.",
+      summary: "BlinkPay is 1do's payment layer for agents, APIs, and subscription-style flows, built around session keys and low-friction micropayments.",
       eyebrow: "App",
-      hero: "BlinkPay shows how Moss can move from a human-operated smart wallet toward a machine-usable account surface.",
+      hero: "BlinkPay shows how 1do can move from a human-operated smart wallet toward a machine-usable account surface.",
       sections: [
         {
           id: "positioning",
@@ -2118,25 +2085,10 @@ const moss = createMossConnector({
       slug: "account-contract-api",
       group: "ecosystem-dev",
       title: "Account Contract API",
-      summary: "A contract-level reference focused on the key interfaces of `MossAccountOS` and `MossAccountOSFactory`.",
+      summary: "A contract-level reference focused on the key interfaces of the account runtime contract.",
       eyebrow: "API",
-      hero: "To understand the real boundary of the Moss wallet, you need to understand how the Factory creates accounts and how the Account installs, enables, and executes apps.",
+      hero: "To understand the real boundary of the 1do wallet, you need to understand how the runtime account installs, enables, and executes apps.",
       sections: [
-        {
-          id: "factory",
-          title: "Factory Interfaces",
-          bullets: [
-            "`createAccount(bytes[] owners, address registry, uint256 nonce)`: creates an account instance.",
-            "`getAddress(bytes[] owners, address registry, uint256 nonce)`: predicts the account address.",
-            "`IMPLEMENTATION()`: returns the implementation address used by the factory."
-          ],
-          code: {
-            language: "solidity",
-            caption: "The most common account-creation semantics",
-            content: `factory.createAccount(owners, registry, nonce);
-factory.getAddress(owners, registry, nonce);`
-          }
-        },
         {
           id: "account",
           title: "Account Interfaces",
@@ -2160,7 +2112,7 @@ factory.getAddress(owners, registry, nonce);`
           ],
           callout: {
             title: "Practical meaning",
-            body: "Moss no longer treats execution as a single allowlist question. Store entitlement and wallet-local enablement are both part of the runtime model.",
+            body: "1do no longer treats execution as a single allowlist question. Store entitlement and wallet-local enablement are both part of the runtime model.",
             tone: "accent"
           }
         }
@@ -2172,7 +2124,7 @@ factory.getAddress(owners, registry, nonce);`
       title: "Wallet Asset Signing APIs",
       summary: "A focused reference for token and NFT permit-style methods and signed execution flows.",
       eyebrow: "API",
-      hero: "The key asset story in Moss is not transfer alone. It is how the wallet unifies permissions, signatures, and execution.",
+      hero: "The key asset story in 1do is not transfer alone. It is how the wallet unifies permissions, signatures, and execution.",
       sections: [
         {
           id: "tokenmanage-api",
@@ -2198,7 +2150,7 @@ factory.getAddress(owners, registry, nonce);`
           id: "signing-model",
           title: "Signing Model",
           bullets: [
-            "Both token and NFT permits rely on Moss dual-layer EIP-712 / ERC-1271 wrapping.",
+            "Both token and NFT permits rely on 1do dual-layer EIP-712 / ERC-1271 wrapping.",
             "The frontend reads nonces first, then uses wallet signing to produce the outer safe signature.",
             "That makes payments, listings, approvals, and delegated execution possible without directly moving the owner context each time."
           ]
@@ -2250,14 +2202,14 @@ factory.getAddress(owners, registry, nonce);`
       title: "Onboarding Flow",
       summary: "Turn the current Runtime onboarding into a standard flow for demos, sales, and internal testing.",
       eyebrow: "Flow",
-      hero: "The goal of this flow is not to show one isolated feature. It is to let users understand the Moss product loop in under five minutes.",
+      hero: "The goal of this flow is not to show one isolated feature. It is to let users understand the 1do product loop in under five minutes.",
       sections: [
         {
           id: "steps",
           title: "Standard Demo Path",
           steps: [
-            { title: "Enter Runtime and connect a wallet", description: "Users enter with an EOA first, but the destination is a Moss Wallet." },
-            { title: "Create a Moss Wallet", description: "Make the user understand that the wallet is the container for all later capabilities." },
+            { title: "Enter Runtime and connect a wallet", description: "Users enter with an EOA first, but the destination is a 1do Wallet." },
+            { title: "Create a 1do Wallet", description: "Make the user understand that the wallet is the container for all later capabilities." },
             { title: "Claim test assets", description: "Prepare for later payments, approvals, trading, and app installation." },
             { title: "Install one app in Store", description: "PeerDex is usually the clearest first example." },
             { title: "Return to Runtime and open the app", description: "Show that installation changes the Runtime, not just a web menu." }
@@ -2266,7 +2218,7 @@ factory.getAddress(owners, registry, nonce);`
             {
               src: "/diagrams/onboarding-flow.svg",
               alt: "Onboarding flow diagram",
-              caption: "This is the fastest way to demonstrate the account-centered Moss loop to a new user.",
+              caption: "This is the fastest way to demonstrate the account-centered 1do loop to a new user.",
             }
           ]
         },
@@ -2274,8 +2226,8 @@ factory.getAddress(owners, registry, nonce);`
           id: "demo-goal",
           title: "What This Flow Must Explain",
           bullets: [
-            "Moss is not a single dApp.",
-            "Moss delivers the account layer before the app layer.",
+            "1do is not a single dApp.",
+            "1do delivers the account layer before the app layer.",
             "Installation is on-chain state, not frontend-only state.",
             "Wallet-native capabilities let apps avoid building separate asset layers."
           ]

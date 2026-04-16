@@ -1,6 +1,6 @@
-# Moss Book
+# 1do Book
 
-Moss Book 是 Moss 的独立文档站仓库，目标首先是帮助普通用户理解 Moss 是什么、怎么开始、应用如何安装以及为什么应用会回到账户里使用。站点基于 `Next.js App Router` 构建，当前采用 `TypeScript` 内容源直接驱动页面，而不是 MDX 或 CMS。
+1do Book 是 1do 的独立文档站仓库，目标首先是帮助普通用户理解 1do 是什么、怎么开始、应用如何安装以及为什么应用会回到账户里使用。站点基于 `Next.js App Router` 构建，当前采用 `TypeScript` 内容源直接驱动页面，而不是 MDX 或 CMS。
 
 ## Current Model
 
@@ -92,4 +92,4 @@ npm run start
 - 语言切换依赖相同 `slug`，因此中英文页面必须保持 slug 对齐
 - 当前内容模型仍在快速迭代，继续使用 `TS 数据驱动` 比引入 MDX 更稳妥
 
-更多维护细节见 [docs/DEVELOPER_GUIDE.md](/home/xiang/moss/moss-book/docs/DEVELOPER_GUIDE.md) 和 [docs/PROJECT_STRUCTURE.md](/home/xiang/moss/moss-book/docs/PROJECT_STRUCTURE.md)。
+更多维护细节见 [docs/DEVELOPER_GUIDE.md](/home/xiang/1do/1do-book/docs/DEVELOPER_GUIDE.md) 和 [docs/PROJECT_STRUCTURE.md](/home/xiang/1do/1do-book/docs/PROJECT_STRUCTURE.md)。

@@ -9,7 +9,7 @@
   <circle cx="148" cy="132" r="112" fill="#FCE7F3"/>
   <circle cx="1458" cy="744" r="180" fill="#E0E7FF"/>
 
-  <text x="96" y="96" fill="#171217" font-family="Space Grotesk, sans-serif" font-size="56" font-weight="700">Moss Product Map</text>
+  <text x="96" y="96" fill="#171217" font-family="Space Grotesk, sans-serif" font-size="56" font-weight="700">1do Product Map</text>
   <text x="96" y="142" fill="#6F6570" font-family="Space Grotesk, sans-serif" font-size="24">A minimal view of the account layer, distribution layer, and execution layer</text>
 
   <rect x="184" y="220" rx="36" width="430" height="206" fill="#FFFFFF" stroke="#CDD7FF" stroke-width="2"/>
